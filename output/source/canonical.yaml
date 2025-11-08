@@ -1,0 +1,249 @@
+meta:
+    engine: 4.1.0
+    name: travis-ergogen-2026
+    version: 2025.11.06
+    date: '2025-11-06'
+    author: Travis Hardiman
+    url: 'https://github.com/dieseltravis/travis-ergogen-2026'
+    tags:
+        - ergogen
+        - keyboard
+        - cherrymx
+        - hotswap
+units:
+    kp: U + 2
+    kspr: U + 1
+    bp: kp/2 + 4
+    sp: 1
+    st: 1
+points:
+    zones:
+        matrix:
+            anchor:
+                shift:
+                    - 40
+                    - -200
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+outlines:
+    raw:
+        -
+            what: rectangle
+            where: true
+            size:
+                - kp + 2
+                - kp + 2
+    keys:
+        -
+            what: rectangle
+            where: key
+            size:
+                - kp - 2
+                - kp - 2
+    board:
+        -
+            what: polygon
+            operation: stack
+            fillet: 3
+            points:
+                -
+                    ref: matrix_outer2_mod
+                    shift:
+                        - '-bp'
+                        - '-bp'
+                -
+                    ref: matrix_ring_mod
+                    shift:
+                        - '-bp/3'
+                        - '-bp'
+                -
+                    ref: matrix_ring_mod
+                    shift:
+                        - bp/3
+                        - '-bp'
+                -
+                    ref: matrix_inner_mod
+                    shift:
+                        - bp
+                        - '-bp'
+                -
+                    ref: matrix_inner_func
+                    shift:
+                        - bp
+                        - bp
+                -
+                    ref: matrix_ring_func
+                    shift:
+                        - bp/3
+                        - bp
+                -
+                    ref: matrix_ring_func
+                    shift:
+                        - '-bp/3'
+                        - bp
+                -
+                    ref: matrix_outer2_func
+                    shift:
+                        - '-bp'
+                        - bp
+    combo:
+        -
+            name: board
+        -
+            operation: subtract
+            name: keys
+    row_odd:
+        -
+            what: rectangle
+            where: row_odd
+            size:
+                - kp + 2
+                - kp + 2
+    row_even:
+        -
+            what: rectangle
+            where: row_even
+            size:
+                - kp + 2
+                - kp + 2
+    col_odd:
+        -
+            what: rectangle
+            where: col_odd
+            size:
+                - kp + 2
+                - kp + 2
+    col_even:
+        -
+            what: rectangle
+            where: col_even
+            size:
+                - kp + 2
+                - kp + 2
+pcbs:
+    travis_erg2026:
+        template: kicad8
+        outlines:
+            main:
+                outline: board
+        footprints:
+            mx_hotswap_key:
+                what: travis/mx
+                where: meta.tags ~ /key/
+                params:
+                    keycaps: true
+                    reverse: false
+                    hotswap: true
+                    refpos:
+                        - 3.5
+                        - -2
+                        - 0
+                    from: '{{column_net}}'
+                    to: '{{colrow}}'
+                    value: Kailh MX Switch Sockets
+                adjust:
+                    rotate: 180
+            diode:
+                what: travis/DSMD_1206_3216Metric
+                where: meta.tags ~ /key/
+                params:
+                    side: B
+                    from: '{{name}}'
+                    to: '{{row_net}}'
+                    refpos:
+                        - 3
+                        - 0
+                        - 0
+                adjust:
+                    shift:
+                        - '-(U / 2 - 1.1)'
+                        - '-(U / 2 - 1.5 - 1.9)'
+                    rotate: 90
+            promicro:
+                what: promicro
+                params:
+                    orientation: down
+                where:
+                    ref: matrix_ring_func
+                    shift:
+                        - 0
+                        - 0
+                    rotate: -90
+cases: null

@@ -1,0 +1,5838 @@
+matrix_outer2_mod:
+    x: 40
+    'y': -200
+    r: 3
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 3
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer2_mod
+        name: matrix_outer2_mod
+        tags:
+            - key
+            - row_odd
+        column_net: col0
+        row_net: row5
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: 3sp
+                stagger: 0st
+                column_net: col0
+            rows: {}
+            name: outer2
+        row: mod
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_outer2_bottom:
+    x: 38.8983281
+    'y': -178.9788483
+    r: 3
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 3
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer2_bottom
+        name: matrix_outer2_bottom
+        tags:
+            - key
+            - row_even
+        column_net: col0
+        row_net: row4
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: 3sp
+                stagger: 0st
+                column_net: col0
+            rows: {}
+            name: outer2
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_outer2_home:
+    x: 37.7966562
+    'y': -157.95769660000002
+    r: 3
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 3
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer2_home
+        name: matrix_outer2_home
+        tags:
+            - key
+            - row_odd
+        column_net: col0
+        row_net: row3
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: 3sp
+                stagger: 0st
+                column_net: col0
+            rows: {}
+            name: outer2
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_outer2_top:
+    x: 36.6949843
+    'y': -136.93654490000003
+    r: 3
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 3
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer2_top
+        name: matrix_outer2_top
+        tags:
+            - key
+            - row_even
+        column_net: col0
+        row_net: row2
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: 3sp
+                stagger: 0st
+                column_net: col0
+            rows: {}
+            name: outer2
+        row: top
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_outer2_num:
+    x: 35.5933124
+    'y': -115.91539320000003
+    r: 3
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 3
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer2_num
+        name: matrix_outer2_num
+        tags:
+            - key
+            - row_odd
+        column_net: col0
+        row_net: row1
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: 3sp
+                stagger: 0st
+                column_net: col0
+            rows: {}
+            name: outer2
+        row: num
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_outer2_func:
+    x: 34.4916405
+    'y': -94.89424150000002
+    r: 3
+    meta:
+        stagger: 0
+        spread: 20.05
+        splay: 3
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer2_func
+        name: matrix_outer2_func
+        tags:
+            - key
+            - row_even
+        column_net: col0
+        row_net: row0
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: 3sp
+                stagger: 0st
+                column_net: col0
+            rows: {}
+            name: outer2
+        row: func
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_outer1_mod:
+    x: 59.9701862
+    'y': -197.9520345
+    r: 2
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer1_mod
+        name: matrix_outer1_mod
+        tags:
+            - key
+            - row_odd
+        column_net: col1
+        row_net: row5
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col1
+            rows: {}
+            name: outer1
+        row: mod
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+matrix_outer1_bottom:
+    x: 59.2355518
+    'y': -176.9148576
+    r: 2
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer1_bottom
+        name: matrix_outer1_bottom
+        tags:
+            - key
+            - row_even
+        column_net: col1
+        row_net: row4
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col1
+            rows: {}
+            name: outer1
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_outer1_home:
+    x: 58.500917400000006
+    'y': -155.8776807
+    r: 2
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer1_home
+        name: matrix_outer1_home
+        tags:
+            - key
+            - row_odd
+        column_net: col1
+        row_net: row3
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col1
+            rows: {}
+            name: outer1
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_outer1_top:
+    x: 57.76628300000001
+    'y': -134.84050380000002
+    r: 2
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer1_top
+        name: matrix_outer1_top
+        tags:
+            - key
+            - row_even
+        column_net: col1
+        row_net: row2
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col1
+            rows: {}
+            name: outer1
+        row: top
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_outer1_num:
+    x: 57.03164860000001
+    'y': -113.80332690000003
+    r: 2
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer1_num
+        name: matrix_outer1_num
+        tags:
+            - key
+            - row_odd
+        column_net: col1
+        row_net: row1
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col1
+            rows: {}
+            name: outer1
+        row: num
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_outer1_func:
+    x: 56.297014200000014
+    'y': -92.76615000000004
+    r: 2
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer1_func
+        name: matrix_outer1_func
+        tags:
+            - key
+            - row_even
+        column_net: col1
+        row_net: row0
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col1
+            rows: {}
+            name: outer1
+        row: func
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_pinky_mod:
+    x: 79.9730728
+    'y': -196.2529088
+    r: 1
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_mod
+        name: matrix_pinky_mod
+        tags:
+            - key
+            - row_odd
+        column_net: col2
+        row_net: row5
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: st
+                column_net: col2
+            rows: {}
+            name: pinky
+        row: mod
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+matrix_pinky_bottom:
+    x: 79.6056996
+    'y': -175.2061148
+    r: 1
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_bottom
+        name: matrix_pinky_bottom
+        tags:
+            - key
+            - row_even
+        column_net: col2
+        row_net: row4
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: st
+                column_net: col2
+            rows: {}
+            name: pinky
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_pinky_home:
+    x: 79.23832639999999
+    'y': -154.1593208
+    r: 1
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_home
+        name: matrix_pinky_home
+        tags:
+            - key
+            - row_odd
+        column_net: col2
+        row_net: row3
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: st
+                column_net: col2
+            rows: {}
+            name: pinky
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_pinky_top:
+    x: 78.87095319999999
+    'y': -133.11252679999998
+    r: 1
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_top
+        name: matrix_pinky_top
+        tags:
+            - key
+            - row_even
+        column_net: col2
+        row_net: row2
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: st
+                column_net: col2
+            rows: {}
+            name: pinky
+        row: top
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_pinky_num:
+    x: 78.50357999999999
+    'y': -112.06573279999998
+    r: 1
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_num
+        name: matrix_pinky_num
+        tags:
+            - key
+            - row_odd
+        column_net: col2
+        row_net: row1
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: st
+                column_net: col2
+            rows: {}
+            name: pinky
+        row: num
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_pinky_func:
+    x: 78.13620679999998
+    'y': -91.01893879999997
+    r: 1
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_func
+        name: matrix_pinky_func
+        tags:
+            - key
+            - row_even
+        column_net: col2
+        row_net: row0
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: st
+                column_net: col2
+            rows: {}
+            name: pinky
+        row: func
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_ring_mod:
+    x: 100.0025666
+    'y': -194.9031403
+    r: 0
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_mod
+        name: matrix_ring_mod
+        tags:
+            - key
+            - row_odd
+        column_net: col3
+        row_net: row5
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col3
+            rows: {}
+            name: ring
+        row: mod
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+matrix_ring_bottom:
+    x: 100.0025666
+    'y': -173.85314029999998
+    r: 0
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_bottom
+        name: matrix_ring_bottom
+        tags:
+            - key
+            - row_even
+        column_net: col3
+        row_net: row4
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col3
+            rows: {}
+            name: ring
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_ring_home:
+    x: 100.0025666
+    'y': -152.80314029999997
+    r: 0
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_home
+        name: matrix_ring_home
+        tags:
+            - key
+            - row_odd
+        column_net: col3
+        row_net: row3
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col3
+            rows: {}
+            name: ring
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_ring_top:
+    x: 100.0025666
+    'y': -131.75314029999996
+    r: 0
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_top
+        name: matrix_ring_top
+        tags:
+            - key
+            - row_even
+        column_net: col3
+        row_net: row2
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col3
+            rows: {}
+            name: ring
+        row: top
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_ring_num:
+    x: 100.0025666
+    'y': -110.70314029999996
+    r: 0
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_num
+        name: matrix_ring_num
+        tags:
+            - key
+            - row_odd
+        column_net: col3
+        row_net: row1
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col3
+            rows: {}
+            name: ring
+        row: num
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_ring_func:
+    x: 100.0025666
+    'y': -89.65314029999996
+    r: 0
+    meta:
+        stagger: 1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_func
+        name: matrix_ring_func
+        tags:
+            - key
+            - row_even
+        column_net: col3
+        row_net: row0
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: st
+                column_net: col3
+            rows: {}
+            name: ring
+        row: func
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+matrix_middle_mod:
+    x: 120.0525667
+    'y': -195.9031403
+    r: -1
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_mod
+        name: matrix_middle_mod
+        tags:
+            - key
+            - row_odd
+        column_net: col4
+        row_net: row5
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col4
+            rows: {}
+            name: middle
+        row: mod
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_middle_bottom:
+    x: 120.4199399
+    'y': -174.85634629999998
+    r: -1
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_bottom
+        name: matrix_middle_bottom
+        tags:
+            - key
+            - row_even
+        column_net: col4
+        row_net: row4
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col4
+            rows: {}
+            name: middle
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_middle_home:
+    x: 120.7873131
+    'y': -153.80955229999998
+    r: -1
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_home
+        name: matrix_middle_home
+        tags:
+            - key
+            - row_odd
+        column_net: col4
+        row_net: row3
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col4
+            rows: {}
+            name: middle
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_middle_top:
+    x: 121.15468630000001
+    'y': -132.76275829999997
+    r: -1
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_top
+        name: matrix_middle_top
+        tags:
+            - key
+            - row_even
+        column_net: col4
+        row_net: row2
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col4
+            rows: {}
+            name: middle
+        row: top
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_middle_num:
+    x: 121.52205950000001
+    'y': -111.71596429999997
+    r: -1
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_num
+        name: matrix_middle_num
+        tags:
+            - key
+            - row_odd
+        column_net: col4
+        row_net: row1
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col4
+            rows: {}
+            name: middle
+        row: num
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_middle_func:
+    x: 121.88943270000001
+    'y': -90.66917029999996
+    r: -1
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_func
+        name: matrix_middle_func
+        tags:
+            - key
+            - row_even
+        column_net: col4
+        row_net: row0
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col4
+            rows: {}
+            name: middle
+        row: func
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+matrix_index_mod:
+    x: 140.0820605
+    'y': -197.2529088
+    r: -2
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_mod
+        name: matrix_index_mod
+        tags:
+            - key
+            - row_odd
+        column_net: col5
+        row_net: row5
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col5
+            rows: {}
+            name: index
+        row: mod
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_index_bottom:
+    x: 140.81669490000002
+    'y': -176.2157319
+    r: -2
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_bottom
+        name: matrix_index_bottom
+        tags:
+            - key
+            - row_even
+        column_net: col5
+        row_net: row4
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col5
+            rows: {}
+            name: index
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_index_home:
+    x: 141.55132930000002
+    'y': -155.17855500000002
+    r: -2
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_home
+        name: matrix_index_home
+        tags:
+            - key
+            - row_odd
+        column_net: col5
+        row_net: row3
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col5
+            rows: {}
+            name: index
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_index_top:
+    x: 142.28596370000002
+    'y': -134.14137810000003
+    r: -2
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_top
+        name: matrix_index_top
+        tags:
+            - key
+            - row_even
+        column_net: col5
+        row_net: row2
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col5
+            rows: {}
+            name: index
+        row: top
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_index_num:
+    x: 143.02059810000003
+    'y': -113.10420120000003
+    r: -2
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_num
+        name: matrix_index_num
+        tags:
+            - key
+            - row_odd
+        column_net: col5
+        row_net: row1
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col5
+            rows: {}
+            name: index
+        row: num
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_index_func:
+    x: 143.75523250000003
+    'y': -92.06702430000004
+    r: -2
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_func
+        name: matrix_index_func
+        tags:
+            - key
+            - row_even
+        column_net: col5
+        row_net: row0
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_even
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col5
+            rows: {}
+            name: index
+        row: func
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+matrix_inner_mod:
+    x: 160.08494710000002
+    'y': -198.9520347
+    r: -3
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_mod
+        name: matrix_inner_mod
+        tags:
+            - key
+            - row_odd
+        column_net: col6
+        row_net: row5
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col6
+            rows: {}
+            name: inner
+        row: mod
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_inner_bottom:
+    x: 161.18661900000004
+    'y': -177.93088300000002
+    r: -3
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_bottom
+        name: matrix_inner_bottom
+        tags:
+            - key
+            - row_even
+        column_net: col6
+        row_net: row4
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col6
+            rows: {}
+            name: inner
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_inner_home:
+    x: 162.28829090000005
+    'y': -156.90973130000003
+    r: -3
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_home
+        name: matrix_inner_home
+        tags:
+            - key
+            - row_odd
+        column_net: col6
+        row_net: row3
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col6
+            rows: {}
+            name: inner
+        row: home
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_inner_top:
+    x: 163.38996280000006
+    'y': -135.88857960000004
+    r: -3
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_top
+        name: matrix_inner_top
+        tags:
+            - key
+            - row_even
+        column_net: col6
+        row_net: row2
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col6
+            rows: {}
+            name: inner
+        row: top
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_inner_num:
+    x: 164.49163470000008
+    'y': -114.86742790000004
+    r: -3
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_num
+        name: matrix_inner_num
+        tags:
+            - key
+            - row_odd
+        column_net: col6
+        row_net: row1
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col6
+            rows: {}
+            name: inner
+        row: num
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_inner_func:
+    x: 165.5933066000001
+    'y': -93.84627620000003
+    r: -3
+    meta:
+        stagger: -1
+        spread: 20.05
+        splay: -1
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 21.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_func
+        name: matrix_inner_func
+        tags:
+            - key
+            - row_even
+        column_net: col6
+        row_net: row0
+        zone:
+            key:
+                padding: kp
+                spread: kspr
+                tags:
+                    - key
+            columns:
+                outer2:
+                    key:
+                        tags: col_odd
+                        splay: 3sp
+                        stagger: 0st
+                        column_net: col0
+                    rows: {}
+                    name: outer2
+                outer1:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col1
+                    rows: {}
+                    name: outer1
+                pinky:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col2
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: st
+                        column_net: col3
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col4
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col5
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        tags: col_odd
+                        splay: '-sp'
+                        stagger: '-st'
+                        column_net: col6
+                    rows: {}
+                    name: inner
+            rows:
+                mod:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
+                bottom:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                home:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                top:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                num:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                func:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row0
+            name: matrix
+        col:
+            key:
+                tags: col_odd
+                splay: '-sp'
+                stagger: '-st'
+                column_net: col6
+            rows: {}
+            name: inner
+        row: func
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
