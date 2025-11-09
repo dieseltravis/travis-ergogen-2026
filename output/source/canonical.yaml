@@ -10,6 +10,7 @@ meta:
         - keyboard
         - cherrymx
         - hotswap
+    cool_font: 3270 Nerd Font
 units:
     kp: U + 2
     kspr: U + 1
@@ -21,7 +22,7 @@ points:
         matrix:
             anchor:
                 shift:
-                    - 40
+                    - 50
                     - -200
             key:
                 padding: kp
@@ -29,79 +30,254 @@ points:
                 tags:
                     - key
             columns:
-                outer2:
+                col0:
                     key:
-                        tags: col_odd
+                        tags: col_even
                         splay: 3sp
                         stagger: 0st
                         column_net: col0
-                outer1:
+                    rows:
+                        row0:
+                            key:
+                                led_next: LED_37
+                                led_this: LED_36
+                        row1:
+                            key:
+                                led_next: LED_36
+                                led_this: LED_35
+                        row2:
+                            key:
+                                led_next: LED_23
+                                led_this: LED_22
+                        row3:
+                            key:
+                                led_next: LED_22
+                                led_this: LED_21
+                        row4:
+                            key:
+                                led_next: LED_9
+                                led_this: LED_8
+                        row5:
+                            key:
+                                led_next: LED_8
+                                led_this: LED_7
+                col1:
                     key:
-                        tags: col_even
+                        tags: col_odd
                         splay: '-sp'
                         stagger: st
                         column_net: col1
-                pinky:
+                    rows:
+                        row0:
+                            key:
+                                led_next: LED_38
+                                led_this: LED_37
+                        row1:
+                            key:
+                                led_next: LED_35
+                                led_this: LED_34
+                        row2:
+                            key:
+                                led_next: LED_24
+                                led_this: LED_23
+                        row3:
+                            key:
+                                led_next: LED_21
+                                led_this: LED_20
+                        row4:
+                            key:
+                                led_next: LED_10
+                                led_this: LED_9
+                        row5:
+                            key:
+                                led_next: LED_7
+                                led_this: LED_6
+                col2:
                     key:
-                        tags: col_odd
+                        tags: col_even
                         splay: '-sp'
                         stagger: st
                         column_net: col2
-                ring:
+                    rows:
+                        row0:
+                            key:
+                                led_next: LED_39
+                                led_this: LED_38
+                        row1:
+                            key:
+                                led_next: LED_34
+                                led_this: LED_33
+                        row2:
+                            key:
+                                led_next: LED_25
+                                led_this: LED_24
+                        row3:
+                            key:
+                                led_next: LED_20
+                                led_this: LED_19
+                        row4:
+                            key:
+                                led_next: LED_11
+                                led_this: LED_10
+                        row5:
+                            key:
+                                led_next: LED_6
+                                led_this: LED_5
+                col3:
                     key:
-                        tags: col_even
+                        tags: col_odd
                         splay: '-sp'
                         stagger: st
                         column_net: col3
-                middle:
-                    key:
-                        tags: col_odd
-                        splay: '-sp'
-                        stagger: '-st'
-                        column_net: col4
-                index:
+                    rows:
+                        row0:
+                            key:
+                                led_next: LED_40
+                                led_this: LED_39
+                        row1:
+                            key:
+                                led_next: LED_33
+                                led_this: LED_32
+                        row2:
+                            key:
+                                led_next: LED_26
+                                led_this: LED_25
+                        row3:
+                            key:
+                                led_next: LED_19
+                                led_this: LED_18
+                        row4:
+                            key:
+                                led_next: LED_12
+                                led_this: LED_11
+                        row5:
+                            key:
+                                led_next: LED_5
+                                led_this: LED_4
+                col4:
                     key:
                         tags: col_even
                         splay: '-sp'
                         stagger: '-st'
-                        column_net: col5
-                inner:
+                        column_net: col4
+                    rows:
+                        row0:
+                            key:
+                                led_next: LED_41
+                                led_this: LED_40
+                        row1:
+                            key:
+                                led_next: LED_32
+                                led_this: LED_31
+                        row2:
+                            key:
+                                led_next: LED_27
+                                led_this: LED_26
+                        row3:
+                            key:
+                                led_next: LED_18
+                                led_this: LED_17
+                        row4:
+                            key:
+                                led_next: LED_13
+                                led_this: LED_12
+                        row5:
+                            key:
+                                led_next: LED_4
+                                led_this: LED_3
+                col5:
                     key:
                         tags: col_odd
                         splay: '-sp'
                         stagger: '-st'
+                        column_net: col5
+                    rows:
+                        row0:
+                            key:
+                                led_next: LED_42
+                                led_this: LED_41
+                        row1:
+                            key:
+                                led_next: LED_31
+                                led_this: LED_30
+                        row2:
+                            key:
+                                led_next: LED_28
+                                led_this: LED_27
+                        row3:
+                            key:
+                                led_next: LED_17
+                                led_this: LED_16
+                        row4:
+                            key:
+                                led_next: LED_14
+                                led_this: LED_13
+                        row5:
+                            key:
+                                led_next: LED_3
+                                led_this: LED_2
+                col6:
+                    key:
+                        tags: col_even
+                        splay: '-sp'
+                        stagger: '-st'
                         column_net: col6
+                    rows:
+                        row0:
+                            key:
+                                led_next: ''
+                                led_this: LED_42
+                        row1:
+                            key:
+                                led_next: LED_30
+                                led_this: LED_29
+                        row2:
+                            key:
+                                led_next: LED_29
+                                led_this: LED_28
+                        row3:
+                            key:
+                                led_next: LED_16
+                                led_this: LED_15
+                        row4:
+                            key:
+                                led_next: LED_13
+                                led_this: LED_14
+                        row5:
+                            key:
+                                led_next: LED_2
+                                led_this: LED_1
             rows:
-                mod:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row5
-                bottom:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row4
-                home:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row3
-                top:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row2
-                num:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row1
-                func:
+                row0:
                     tags:
                         - key
                         - row_even
                     row_net: row0
+                row1:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row1
+                row2:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row2
+                row3:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row3
+                row4:
+                    tags:
+                        - key
+                        - row_even
+                    row_net: row4
+                row5:
+                    tags:
+                        - key
+                        - row_odd
+                    row_net: row5
 outlines:
     raw:
         -
@@ -124,45 +300,45 @@ outlines:
             fillet: 3
             points:
                 -
-                    ref: matrix_outer2_mod
+                    ref: matrix_col0_row0
                     shift:
                         - '-bp'
                         - '-bp'
                 -
-                    ref: matrix_ring_mod
+                    ref: matrix_col3_row0
                     shift:
                         - '-bp/3'
                         - '-bp'
                 -
-                    ref: matrix_ring_mod
+                    ref: matrix_col3_row0
                     shift:
                         - bp/3
                         - '-bp'
                 -
-                    ref: matrix_inner_mod
+                    ref: matrix_col6_row0
                     shift:
                         - bp
                         - '-bp'
                 -
-                    ref: matrix_inner_func
+                    ref: matrix_col6_row5
                     shift:
                         - bp
-                        - bp
+                        - bp + 20
                 -
-                    ref: matrix_ring_func
+                    ref: matrix_col3_row5
                     shift:
                         - bp/3
-                        - bp
+                        - bp + 20
                 -
-                    ref: matrix_ring_func
+                    ref: matrix_col3_row5
                     shift:
                         - '-bp/3'
-                        - bp
+                        - bp + 20
                 -
-                    ref: matrix_outer2_func
+                    ref: matrix_col0_row5
                     shift:
                         - '-bp'
-                        - bp
+                        - bp + 20
     combo:
         -
             name: board
@@ -239,27 +415,30 @@ pcbs:
             mcu:
                 what: travis/ScottoKeebs-Arduino_Pro_Micro
                 where:
-                    ref: matrix_inner_func
+                    ref: matrix_col6_row5
                     shift:
-                        - -3
-                        - -2
+                        - -3.5
+                        - kp
                     rotate: -90
                 params:
                     value: Arduino Pro Micro
-                    P5: sda
-                    P6: scl
-                    P7: row0
-                    P8: row1
-                    P9: row2
-                    P10: row3
-                    P11: row4
-                    P12: LED_0
-                    P20: col0
-                    P19: col1
-                    P18: col2
-                    P17: col3
-                    P14: encA
-                    P13: encC
+                    P3: GND
+                    P4: GND
+                    P6: row0
+                    P7: row1
+                    P8: row2
+                    P9: row3
+                    P10: row4
+                    P11: row5
+                    P23: GND
+                    P20: LED_1
+                    P19: col6
+                    P18: col5
+                    P17: col4
+                    P16: col3
+                    P15: col2
+                    P14: col1
+                    P13: col0
                     offset3d:
                         - 0
                         - 0
@@ -269,15 +448,15 @@ pcbs:
                 params:
                     P1: VCC
                     P2: GND
-                    side: B
+                    side: F
                     bend: 90
                     value: 10V 1000uF
                 where:
-                    ref: matrix_inner_func
+                    ref: matrix_col5_row5
                     shift:
-                        - -3
-                        - 0.65U + 1.25
-                    rotate: 270
+                        - 0
+                        - kp
+                    rotate: 90
             led_odd:
                 what: travis/led_sk6812mini-e
                 where: meta.tags ~ /row_odd/
@@ -294,7 +473,7 @@ pcbs:
                     shift:
                         - 0
                         - '-(-4.96)'
-                    rotate: 0
+                    rotate: 180
             ledlabel_odd:
                 what: ceoloide/utility_text
                 where: meta.tags ~ /row_odd/
@@ -323,7 +502,7 @@ pcbs:
                     shift:
                         - 4.35
                         - '-(-4.96 + 2.4)'
-                    rotate: 0
+                    rotate: 180
             led_even:
                 what: travis/led_sk6812mini-e
                 where: meta.tags ~ /row_even/
@@ -340,7 +519,7 @@ pcbs:
                     shift:
                         - 0
                         - '-(-4.96)'
-                    rotate: 180
+                    rotate: 0
             ledlabel_even:
                 what: ceoloide/utility_text
                 where: meta.tags ~ /row_even/
@@ -370,5 +549,146 @@ pcbs:
                     shift:
                         - -4.35
                         - '-(-4.96 - 2.4)'
-                    rotate: 180
+                    rotate: 0
+            ergologo:
+                what: ceoloide/utility_ergogen_logo
+                where:
+                    ref: matrix_col2_row5
+                params:
+                    scale: 2
+                adjust:
+                    shift:
+                        - 0
+                        - kp
+            travis:
+                what: travis/travis
+                where:
+                    ref: matrix_col4_row5
+                params:
+                    scale: 3
+                adjust:
+                    shift:
+                        - 0
+                        - kp
+            roc:
+                what: travis/roc
+                where:
+                    ref: matrix_col0_row5
+                params:
+                    side: B
+                    scale: 0.15
+                adjust:
+                    shift:
+                        - 0
+                        - kp
+            roclove:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col0_row5
+                params:
+                    face: 3270 Nerd Font
+                    text: 'made with ♥ in #ROC'
+                    mirrored: true
+                    side: B
+                    height: 1.1
+                    width: 1.1
+                adjust:
+                    shift:
+                        - 0
+                        - kp/2
+            name:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col3_row5
+                params:
+                    face: 3270 Nerd Font
+                    text: travis-ergogen-2026
+                    height: 2.5
+                    width: 2.5
+                    bold: true
+                adjust:
+                    shift:
+                        - 0
+                        - kp
+            url:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col3_row5
+                params:
+                    text: 'https://github.com/dieseltravis/travis-ergogen-2026'
+                    side: B
+                    mirrored: true
+                adjust:
+                    shift:
+                        - 0
+                        - kp
+            version:
+                what: ceoloide/utility_text
+                where:
+                    ref: matrix_col3_row5
+                params:
+                    face: 3270 Nerd Font
+                    text: 2025.11.06
+                    height: 1
+                    width: 1
+                adjust:
+                    shift:
+                        - 0
+                        - kp - 2
+            pcbnumber:
+                what: ceoloide/utility_text
+                where:
+                    ref:
+                        aggregate:
+                            parts:
+                                - matrix_col3_row0
+                                - matrix_col3_row1
+                params:
+                    text: JLCJLCJLCJLC
+                    reversible: true
+                adjust:
+                    shift:
+                        - 0
+                        - 0
+                    rotate: 0
+            background:
+                what: ceoloide/utility_filled_zone
+                params:
+                    side: B
+                    name: back ground
+                    connect_pads: 'yes'
+                    points:
+                        -
+                            - 15
+                            - 45
+                        -
+                            - 195
+                            - 45
+                        -
+                            - 195
+                            - 220
+                        -
+                            - 15
+                            - 220
+            foreground:
+                what: ceoloide/utility_filled_zone
+                params:
+                    side: F
+                    name: fore ground
+                    connect_pads: 'yes'
+                    fill_type: hatch
+                    hatch_orientation: 45
+                    points:
+                        -
+                            - 20
+                            - 50
+                        -
+                            - 200
+                            - 50
+                        -
+                            - 200
+                            - 225
+                        -
+                            - 20
+                            - 225
 cases: null
