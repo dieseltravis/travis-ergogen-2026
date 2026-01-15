@@ -1,8 +1,8 @@
 meta:
-  engine: 4.1.0
+  engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2025.11.06"
-  date: "2025-11-06"
+  version: &meta_version "2026.01.14"
+  date: "2026-01-14"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
   tags: [ "ergogen", "keyboard", "cherrymx", "hotswap" ]
@@ -34,10 +34,18 @@ points:
             column_net: col0
           rows:
             row0:
+              shift: [0.5kspr, 0.0kp]
+              width: 2U
+              rotate: 1
+              tags:
+                - key
+                - 2u_stabilizers
               key:
                 led_next: LED_37
                 led_this: LED_36
             row1:
+              shift: [-0.5kspr, 0.0kp]
+              rotate: -1
               key:
                 led_next: LED_36
                 led_this: LED_35
@@ -65,6 +73,7 @@ points:
             column_net: col1
           rows:
             row0:
+              skip: true
               key:
                 led_next: LED_38
                 led_this: LED_37
@@ -189,6 +198,7 @@ points:
             column_net: col5
           rows:
             row0:
+              skip: true
               key:
                 led_next: LED_42
                 led_this: LED_41
@@ -220,10 +230,18 @@ points:
             column_net: col6
           rows:
             row0:
+              shift: [-0.5kspr, 0.0kp]
+              width: 2U
+              rotate: -1
+              tags:
+                - key
+                - 2u_stabilizers
               key:
                 led_next: ""
                 led_this: LED_42
             row1:
+              shift: [0.5kspr, 0.0kp]
+              rotate: 1
               key:
                 led_next: LED_30
                 led_this: LED_29
@@ -328,6 +346,7 @@ outlines:
   - what: rectangle
     where: col_even
     size: [kp + 2, kp + 2]
+
 pcbs:
   travis_erg2026:
     template: kicad8
@@ -478,7 +497,7 @@ pcbs:
           refpos: [3.65, 0, 0]
           valpos: [-2.5, 0]
         adjust:
-          shift: [-4.35, -(-4.96 - 2.4)]
+          shift: [4.35, -(-4.96 + 2.4)]
           rotate: 0
 
       # logos

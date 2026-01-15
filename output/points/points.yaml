@@ -1,7 +1,7 @@
 matrix_col0_row0:
-    x: 50
-    'y': -200
-    r: 3
+    x: 60.0112611
+    'y': -199.475332
+    r: 4
     meta:
         stagger: 0
         spread: 20.05
@@ -11,11 +11,11 @@ matrix_col0_row0:
             - 0
         orient: 0
         shift:
+            - 10.025
             - 0
-            - 0
-        rotate: 0
+        rotate: 1
         adjust: {}
-        width: 18
+        width: 38.1
         height: 18
         padding: 21.05
         autobind: 10
@@ -25,7 +25,7 @@ matrix_col0_row0:
         name: matrix_col0_row0
         tags:
             - key
-            - row_even
+            - 2u_stabilizers
         column_net: col0
         row_net: row0
         key:
@@ -46,10 +46,22 @@ matrix_col0_row0:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -78,6 +90,7 @@ matrix_col0_row0:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -206,6 +219,7 @@ matrix_col0_row0:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -238,10 +252,22 @@ matrix_col0_row0:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -302,10 +328,22 @@ matrix_col0_row0:
                 column_net: col0
             rows:
                 row0:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    width: 2U
+                    rotate: 1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_37
                         led_this: LED_36
                 row1:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    rotate: -1
                     key:
                         led_next: LED_36
                         led_this: LED_35
@@ -333,8 +371,8 @@ matrix_col0_row0:
             - 0
             - 0
 matrix_col0_row1:
-    x: 48.8983281
-    'y': -178.9788483
+    x: 48.542307699999995
+    'y': -179.1759173
     r: 3
     meta:
         stagger: 0
@@ -345,9 +383,9 @@ matrix_col0_row1:
             - 0
         orient: 0
         shift:
+            - -10.025
             - 0
-            - 0
-        rotate: 0
+        rotate: -1
         adjust: {}
         width: 18
         height: 18
@@ -380,10 +418,22 @@ matrix_col0_row1:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -412,6 +462,7 @@ matrix_col0_row1:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -540,6 +591,7 @@ matrix_col0_row1:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -572,10 +624,22 @@ matrix_col0_row1:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -636,10 +700,22 @@ matrix_col0_row1:
                 column_net: col0
             rows:
                 row0:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    width: 2U
+                    rotate: 1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_37
                         led_this: LED_36
                 row1:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    rotate: -1
                     key:
                         led_next: LED_36
                         led_this: LED_35
@@ -663,12 +739,12 @@ matrix_col0_row1:
         row: row1
         bind:
             - 10
-            - 10
+            - 0
             - 10
             - 0
 matrix_col0_row2:
-    x: 47.7966562
-    'y': -157.95769660000002
+    x: 47.440635799999995
+    'y': -158.15476560000002
     r: 3
     meta:
         stagger: 0
@@ -714,10 +790,22 @@ matrix_col0_row2:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -746,6 +834,7 @@ matrix_col0_row2:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -874,6 +963,7 @@ matrix_col0_row2:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -906,10 +996,22 @@ matrix_col0_row2:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -970,10 +1072,22 @@ matrix_col0_row2:
                 column_net: col0
             rows:
                 row0:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    width: 2U
+                    rotate: 1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_37
                         led_this: LED_36
                 row1:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    rotate: -1
                     key:
                         led_next: LED_36
                         led_this: LED_35
@@ -1001,8 +1115,8 @@ matrix_col0_row2:
             - 10
             - 0
 matrix_col0_row3:
-    x: 46.6949843
-    'y': -136.93654490000003
+    x: 46.338963899999996
+    'y': -137.13361390000003
     r: 3
     meta:
         stagger: 0
@@ -1048,10 +1162,22 @@ matrix_col0_row3:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -1080,6 +1206,7 @@ matrix_col0_row3:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -1208,6 +1335,7 @@ matrix_col0_row3:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -1240,10 +1368,22 @@ matrix_col0_row3:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -1304,10 +1444,22 @@ matrix_col0_row3:
                 column_net: col0
             rows:
                 row0:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    width: 2U
+                    rotate: 1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_37
                         led_this: LED_36
                 row1:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    rotate: -1
                     key:
                         led_next: LED_36
                         led_this: LED_35
@@ -1335,8 +1487,8 @@ matrix_col0_row3:
             - 10
             - 0
 matrix_col0_row4:
-    x: 45.5933124
-    'y': -115.91539320000003
+    x: 45.237292
+    'y': -116.11246220000002
     r: 3
     meta:
         stagger: 0
@@ -1382,10 +1534,22 @@ matrix_col0_row4:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -1414,6 +1578,7 @@ matrix_col0_row4:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -1542,6 +1707,7 @@ matrix_col0_row4:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -1574,10 +1740,22 @@ matrix_col0_row4:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -1638,10 +1816,22 @@ matrix_col0_row4:
                 column_net: col0
             rows:
                 row0:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    width: 2U
+                    rotate: 1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_37
                         led_this: LED_36
                 row1:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    rotate: -1
                     key:
                         led_next: LED_36
                         led_this: LED_35
@@ -1669,8 +1859,8 @@ matrix_col0_row4:
             - 10
             - 0
 matrix_col0_row5:
-    x: 44.4916405
-    'y': -94.89424150000002
+    x: 44.1356201
+    'y': -95.09131050000002
     r: 3
     meta:
         stagger: 0
@@ -1716,10 +1906,22 @@ matrix_col0_row5:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -1748,6 +1950,7 @@ matrix_col0_row5:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -1876,6 +2079,7 @@ matrix_col0_row5:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -1908,10 +2112,22 @@ matrix_col0_row5:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -1972,10 +2188,22 @@ matrix_col0_row5:
                 column_net: col0
             rows:
                 row0:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    width: 2U
+                    rotate: 1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: LED_37
                         led_this: LED_36
                 row1:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    rotate: -1
                     key:
                         led_next: LED_36
                         led_this: LED_35
@@ -2002,340 +2230,6 @@ matrix_col0_row5:
             - 10
             - 10
             - 0
-matrix_col1_row0:
-    x: 69.9701862
-    'y': -197.9520345
-    r: 2
-    meta:
-        stagger: 1
-        spread: 20.05
-        splay: -1
-        origin:
-            - 0
-            - 0
-        orient: 0
-        shift:
-            - 0
-            - 0
-        rotate: 0
-        adjust: {}
-        width: 18
-        height: 18
-        padding: 21.05
-        autobind: 10
-        skip: false
-        asym: both
-        colrow: col1_row0
-        name: matrix_col1_row0
-        tags:
-            - key
-            - row_even
-        column_net: col1
-        row_net: row0
-        key:
-            led_next: LED_38
-            led_this: LED_37
-        zone:
-            key:
-                padding: kp
-                spread: kspr
-                tags:
-                    - key
-            columns:
-                col0:
-                    key:
-                        tags: col_even
-                        splay: 3sp
-                        stagger: 0st
-                        column_net: col0
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_37
-                                led_this: LED_36
-                        row1:
-                            key:
-                                led_next: LED_36
-                                led_this: LED_35
-                        row2:
-                            key:
-                                led_next: LED_23
-                                led_this: LED_22
-                        row3:
-                            key:
-                                led_next: LED_22
-                                led_this: LED_21
-                        row4:
-                            key:
-                                led_next: LED_9
-                                led_this: LED_8
-                        row5:
-                            key:
-                                led_next: LED_8
-                                led_this: LED_7
-                    name: col0
-                col1:
-                    key:
-                        tags: col_odd
-                        splay: '-sp'
-                        stagger: st
-                        column_net: col1
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
-                        row1:
-                            key:
-                                led_next: LED_35
-                                led_this: LED_34
-                        row2:
-                            key:
-                                led_next: LED_24
-                                led_this: LED_23
-                        row3:
-                            key:
-                                led_next: LED_21
-                                led_this: LED_20
-                        row4:
-                            key:
-                                led_next: LED_10
-                                led_this: LED_9
-                        row5:
-                            key:
-                                led_next: LED_7
-                                led_this: LED_6
-                    name: col1
-                col2:
-                    key:
-                        tags: col_even
-                        splay: '-sp'
-                        stagger: st
-                        column_net: col2
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_39
-                                led_this: LED_38
-                        row1:
-                            key:
-                                led_next: LED_34
-                                led_this: LED_33
-                        row2:
-                            key:
-                                led_next: LED_25
-                                led_this: LED_24
-                        row3:
-                            key:
-                                led_next: LED_20
-                                led_this: LED_19
-                        row4:
-                            key:
-                                led_next: LED_11
-                                led_this: LED_10
-                        row5:
-                            key:
-                                led_next: LED_6
-                                led_this: LED_5
-                    name: col2
-                col3:
-                    key:
-                        tags: col_odd
-                        splay: '-sp'
-                        stagger: st
-                        column_net: col3
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_40
-                                led_this: LED_39
-                        row1:
-                            key:
-                                led_next: LED_33
-                                led_this: LED_32
-                        row2:
-                            key:
-                                led_next: LED_26
-                                led_this: LED_25
-                        row3:
-                            key:
-                                led_next: LED_19
-                                led_this: LED_18
-                        row4:
-                            key:
-                                led_next: LED_12
-                                led_this: LED_11
-                        row5:
-                            key:
-                                led_next: LED_5
-                                led_this: LED_4
-                    name: col3
-                col4:
-                    key:
-                        tags: col_even
-                        splay: '-sp'
-                        stagger: '-st'
-                        column_net: col4
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_41
-                                led_this: LED_40
-                        row1:
-                            key:
-                                led_next: LED_32
-                                led_this: LED_31
-                        row2:
-                            key:
-                                led_next: LED_27
-                                led_this: LED_26
-                        row3:
-                            key:
-                                led_next: LED_18
-                                led_this: LED_17
-                        row4:
-                            key:
-                                led_next: LED_13
-                                led_this: LED_12
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                    name: col4
-                col5:
-                    key:
-                        tags: col_odd
-                        splay: '-sp'
-                        stagger: '-st'
-                        column_net: col5
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
-                        row1:
-                            key:
-                                led_next: LED_31
-                                led_this: LED_30
-                        row2:
-                            key:
-                                led_next: LED_28
-                                led_this: LED_27
-                        row3:
-                            key:
-                                led_next: LED_17
-                                led_this: LED_16
-                        row4:
-                            key:
-                                led_next: LED_14
-                                led_this: LED_13
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                    name: col5
-                col6:
-                    key:
-                        tags: col_even
-                        splay: '-sp'
-                        stagger: '-st'
-                        column_net: col6
-                    rows:
-                        row0:
-                            key:
-                                led_next: ''
-                                led_this: LED_42
-                        row1:
-                            key:
-                                led_next: LED_30
-                                led_this: LED_29
-                        row2:
-                            key:
-                                led_next: LED_29
-                                led_this: LED_28
-                        row3:
-                            key:
-                                led_next: LED_16
-                                led_this: LED_15
-                        row4:
-                            key:
-                                led_next: LED_13
-                                led_this: LED_14
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                    name: col6
-            rows:
-                row0:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row0
-                row1:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row1
-                row2:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row2
-                row3:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row3
-                row4:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row4
-                row5:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row5
-            name: matrix
-        col:
-            key:
-                tags: col_odd
-                splay: '-sp'
-                stagger: st
-                column_net: col1
-            rows:
-                row0:
-                    key:
-                        led_next: LED_38
-                        led_this: LED_37
-                row1:
-                    key:
-                        led_next: LED_35
-                        led_this: LED_34
-                row2:
-                    key:
-                        led_next: LED_24
-                        led_this: LED_23
-                row3:
-                    key:
-                        led_next: LED_21
-                        led_this: LED_20
-                row4:
-                    key:
-                        led_next: LED_10
-                        led_this: LED_9
-                row5:
-                    key:
-                        led_next: LED_7
-                        led_this: LED_6
-            name: col1
-        row: row0
-        bind:
-            - 10
-            - 0
-            - 0
-            - 10
 matrix_col1_row1:
     x: 69.2355518
     'y': -176.9148576
@@ -2384,10 +2278,22 @@ matrix_col1_row1:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -2416,6 +2322,7 @@ matrix_col1_row1:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -2544,6 +2451,7 @@ matrix_col1_row1:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -2576,10 +2484,22 @@ matrix_col1_row1:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -2640,6 +2560,7 @@ matrix_col1_row1:
                 column_net: col1
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_38
                         led_this: LED_37
@@ -2668,7 +2589,7 @@ matrix_col1_row1:
         bind:
             - 10
             - 10
-            - 10
+            - 0
             - 10
 matrix_col1_row2:
     x: 68.50091739999999
@@ -2718,10 +2639,22 @@ matrix_col1_row2:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -2750,6 +2683,7 @@ matrix_col1_row2:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -2878,6 +2812,7 @@ matrix_col1_row2:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -2910,10 +2845,22 @@ matrix_col1_row2:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -2974,6 +2921,7 @@ matrix_col1_row2:
                 column_net: col1
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_38
                         led_this: LED_37
@@ -3052,10 +3000,22 @@ matrix_col1_row3:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -3084,6 +3044,7 @@ matrix_col1_row3:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -3212,6 +3173,7 @@ matrix_col1_row3:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -3244,10 +3206,22 @@ matrix_col1_row3:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -3308,6 +3282,7 @@ matrix_col1_row3:
                 column_net: col1
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_38
                         led_this: LED_37
@@ -3386,10 +3361,22 @@ matrix_col1_row4:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -3418,6 +3405,7 @@ matrix_col1_row4:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -3546,6 +3534,7 @@ matrix_col1_row4:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -3578,10 +3567,22 @@ matrix_col1_row4:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -3642,6 +3643,7 @@ matrix_col1_row4:
                 column_net: col1
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_38
                         led_this: LED_37
@@ -3720,10 +3722,22 @@ matrix_col1_row5:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -3752,6 +3766,7 @@ matrix_col1_row5:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -3880,6 +3895,7 @@ matrix_col1_row5:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -3912,10 +3928,22 @@ matrix_col1_row5:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -3976,6 +4004,7 @@ matrix_col1_row5:
                 column_net: col1
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_38
                         led_this: LED_37
@@ -4054,10 +4083,22 @@ matrix_col2_row0:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -4086,6 +4127,7 @@ matrix_col2_row0:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -4214,6 +4256,7 @@ matrix_col2_row0:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -4246,10 +4289,22 @@ matrix_col2_row0:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -4339,7 +4394,7 @@ matrix_col2_row0:
             - 10
             - 0
             - 0
-            - 10
+            - 0
 matrix_col2_row1:
     x: 89.6056996
     'y': -175.2061148
@@ -4388,10 +4443,22 @@ matrix_col2_row1:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -4420,6 +4487,7 @@ matrix_col2_row1:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -4548,6 +4616,7 @@ matrix_col2_row1:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -4580,10 +4649,22 @@ matrix_col2_row1:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -4722,10 +4803,22 @@ matrix_col2_row2:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -4754,6 +4847,7 @@ matrix_col2_row2:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -4882,6 +4976,7 @@ matrix_col2_row2:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -4914,10 +5009,22 @@ matrix_col2_row2:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -5056,10 +5163,22 @@ matrix_col2_row3:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -5088,6 +5207,7 @@ matrix_col2_row3:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -5216,6 +5336,7 @@ matrix_col2_row3:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -5248,10 +5369,22 @@ matrix_col2_row3:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -5390,10 +5523,22 @@ matrix_col2_row4:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -5422,6 +5567,7 @@ matrix_col2_row4:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -5550,6 +5696,7 @@ matrix_col2_row4:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -5582,10 +5729,22 @@ matrix_col2_row4:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -5724,10 +5883,22 @@ matrix_col2_row5:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -5756,6 +5927,7 @@ matrix_col2_row5:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -5884,6 +6056,7 @@ matrix_col2_row5:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -5916,10 +6089,22 @@ matrix_col2_row5:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -6058,10 +6243,22 @@ matrix_col3_row0:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -6090,6 +6287,7 @@ matrix_col3_row0:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -6218,6 +6416,7 @@ matrix_col3_row0:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -6250,10 +6449,22 @@ matrix_col3_row0:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -6392,10 +6603,22 @@ matrix_col3_row1:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -6424,6 +6647,7 @@ matrix_col3_row1:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -6552,6 +6776,7 @@ matrix_col3_row1:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -6584,10 +6809,22 @@ matrix_col3_row1:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -6726,10 +6963,22 @@ matrix_col3_row2:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -6758,6 +7007,7 @@ matrix_col3_row2:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -6886,6 +7136,7 @@ matrix_col3_row2:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -6918,10 +7169,22 @@ matrix_col3_row2:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -7060,10 +7323,22 @@ matrix_col3_row3:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -7092,6 +7367,7 @@ matrix_col3_row3:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -7220,6 +7496,7 @@ matrix_col3_row3:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -7252,10 +7529,22 @@ matrix_col3_row3:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -7394,10 +7683,22 @@ matrix_col3_row4:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -7426,6 +7727,7 @@ matrix_col3_row4:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -7554,6 +7856,7 @@ matrix_col3_row4:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -7586,10 +7889,22 @@ matrix_col3_row4:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -7728,10 +8043,22 @@ matrix_col3_row5:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -7760,6 +8087,7 @@ matrix_col3_row5:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -7888,6 +8216,7 @@ matrix_col3_row5:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -7920,10 +8249,22 @@ matrix_col3_row5:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -8062,10 +8403,22 @@ matrix_col4_row0:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -8094,6 +8447,7 @@ matrix_col4_row0:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -8222,6 +8576,7 @@ matrix_col4_row0:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -8254,10 +8609,22 @@ matrix_col4_row0:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -8345,7 +8712,7 @@ matrix_col4_row0:
         row: row0
         bind:
             - 10
-            - 10
+            - 0
             - 0
             - 0
 matrix_col4_row1:
@@ -8396,10 +8763,22 @@ matrix_col4_row1:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -8428,6 +8807,7 @@ matrix_col4_row1:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -8556,6 +8936,7 @@ matrix_col4_row1:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -8588,10 +8969,22 @@ matrix_col4_row1:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -8730,10 +9123,22 @@ matrix_col4_row2:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -8762,6 +9167,7 @@ matrix_col4_row2:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -8890,6 +9296,7 @@ matrix_col4_row2:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -8922,10 +9329,22 @@ matrix_col4_row2:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -9064,10 +9483,22 @@ matrix_col4_row3:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -9096,6 +9527,7 @@ matrix_col4_row3:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -9224,6 +9656,7 @@ matrix_col4_row3:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -9256,10 +9689,22 @@ matrix_col4_row3:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -9398,10 +9843,22 @@ matrix_col4_row4:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -9430,6 +9887,7 @@ matrix_col4_row4:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -9558,6 +10016,7 @@ matrix_col4_row4:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -9590,10 +10049,22 @@ matrix_col4_row4:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -9732,10 +10203,22 @@ matrix_col4_row5:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -9764,6 +10247,7 @@ matrix_col4_row5:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -9892,6 +10376,7 @@ matrix_col4_row5:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -9924,10 +10409,22 @@ matrix_col4_row5:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -10018,340 +10515,6 @@ matrix_col4_row5:
             - 0
             - 10
             - 10
-matrix_col5_row0:
-    x: 150.0820605
-    'y': -197.2529088
-    r: -2
-    meta:
-        stagger: -1
-        spread: 20.05
-        splay: -1
-        origin:
-            - 0
-            - 0
-        orient: 0
-        shift:
-            - 0
-            - 0
-        rotate: 0
-        adjust: {}
-        width: 18
-        height: 18
-        padding: 21.05
-        autobind: 10
-        skip: false
-        asym: both
-        colrow: col5_row0
-        name: matrix_col5_row0
-        tags:
-            - key
-            - row_even
-        column_net: col5
-        row_net: row0
-        key:
-            led_next: LED_42
-            led_this: LED_41
-        zone:
-            key:
-                padding: kp
-                spread: kspr
-                tags:
-                    - key
-            columns:
-                col0:
-                    key:
-                        tags: col_even
-                        splay: 3sp
-                        stagger: 0st
-                        column_net: col0
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_37
-                                led_this: LED_36
-                        row1:
-                            key:
-                                led_next: LED_36
-                                led_this: LED_35
-                        row2:
-                            key:
-                                led_next: LED_23
-                                led_this: LED_22
-                        row3:
-                            key:
-                                led_next: LED_22
-                                led_this: LED_21
-                        row4:
-                            key:
-                                led_next: LED_9
-                                led_this: LED_8
-                        row5:
-                            key:
-                                led_next: LED_8
-                                led_this: LED_7
-                    name: col0
-                col1:
-                    key:
-                        tags: col_odd
-                        splay: '-sp'
-                        stagger: st
-                        column_net: col1
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
-                        row1:
-                            key:
-                                led_next: LED_35
-                                led_this: LED_34
-                        row2:
-                            key:
-                                led_next: LED_24
-                                led_this: LED_23
-                        row3:
-                            key:
-                                led_next: LED_21
-                                led_this: LED_20
-                        row4:
-                            key:
-                                led_next: LED_10
-                                led_this: LED_9
-                        row5:
-                            key:
-                                led_next: LED_7
-                                led_this: LED_6
-                    name: col1
-                col2:
-                    key:
-                        tags: col_even
-                        splay: '-sp'
-                        stagger: st
-                        column_net: col2
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_39
-                                led_this: LED_38
-                        row1:
-                            key:
-                                led_next: LED_34
-                                led_this: LED_33
-                        row2:
-                            key:
-                                led_next: LED_25
-                                led_this: LED_24
-                        row3:
-                            key:
-                                led_next: LED_20
-                                led_this: LED_19
-                        row4:
-                            key:
-                                led_next: LED_11
-                                led_this: LED_10
-                        row5:
-                            key:
-                                led_next: LED_6
-                                led_this: LED_5
-                    name: col2
-                col3:
-                    key:
-                        tags: col_odd
-                        splay: '-sp'
-                        stagger: st
-                        column_net: col3
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_40
-                                led_this: LED_39
-                        row1:
-                            key:
-                                led_next: LED_33
-                                led_this: LED_32
-                        row2:
-                            key:
-                                led_next: LED_26
-                                led_this: LED_25
-                        row3:
-                            key:
-                                led_next: LED_19
-                                led_this: LED_18
-                        row4:
-                            key:
-                                led_next: LED_12
-                                led_this: LED_11
-                        row5:
-                            key:
-                                led_next: LED_5
-                                led_this: LED_4
-                    name: col3
-                col4:
-                    key:
-                        tags: col_even
-                        splay: '-sp'
-                        stagger: '-st'
-                        column_net: col4
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_41
-                                led_this: LED_40
-                        row1:
-                            key:
-                                led_next: LED_32
-                                led_this: LED_31
-                        row2:
-                            key:
-                                led_next: LED_27
-                                led_this: LED_26
-                        row3:
-                            key:
-                                led_next: LED_18
-                                led_this: LED_17
-                        row4:
-                            key:
-                                led_next: LED_13
-                                led_this: LED_12
-                        row5:
-                            key:
-                                led_next: LED_4
-                                led_this: LED_3
-                    name: col4
-                col5:
-                    key:
-                        tags: col_odd
-                        splay: '-sp'
-                        stagger: '-st'
-                        column_net: col5
-                    rows:
-                        row0:
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
-                        row1:
-                            key:
-                                led_next: LED_31
-                                led_this: LED_30
-                        row2:
-                            key:
-                                led_next: LED_28
-                                led_this: LED_27
-                        row3:
-                            key:
-                                led_next: LED_17
-                                led_this: LED_16
-                        row4:
-                            key:
-                                led_next: LED_14
-                                led_this: LED_13
-                        row5:
-                            key:
-                                led_next: LED_3
-                                led_this: LED_2
-                    name: col5
-                col6:
-                    key:
-                        tags: col_even
-                        splay: '-sp'
-                        stagger: '-st'
-                        column_net: col6
-                    rows:
-                        row0:
-                            key:
-                                led_next: ''
-                                led_this: LED_42
-                        row1:
-                            key:
-                                led_next: LED_30
-                                led_this: LED_29
-                        row2:
-                            key:
-                                led_next: LED_29
-                                led_this: LED_28
-                        row3:
-                            key:
-                                led_next: LED_16
-                                led_this: LED_15
-                        row4:
-                            key:
-                                led_next: LED_13
-                                led_this: LED_14
-                        row5:
-                            key:
-                                led_next: LED_2
-                                led_this: LED_1
-                    name: col6
-            rows:
-                row0:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row0
-                row1:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row1
-                row2:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row2
-                row3:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row3
-                row4:
-                    tags:
-                        - key
-                        - row_even
-                    row_net: row4
-                row5:
-                    tags:
-                        - key
-                        - row_odd
-                    row_net: row5
-            name: matrix
-        col:
-            key:
-                tags: col_odd
-                splay: '-sp'
-                stagger: '-st'
-                column_net: col5
-            rows:
-                row0:
-                    key:
-                        led_next: LED_42
-                        led_this: LED_41
-                row1:
-                    key:
-                        led_next: LED_31
-                        led_this: LED_30
-                row2:
-                    key:
-                        led_next: LED_28
-                        led_this: LED_27
-                row3:
-                    key:
-                        led_next: LED_17
-                        led_this: LED_16
-                row4:
-                    key:
-                        led_next: LED_14
-                        led_this: LED_13
-                row5:
-                    key:
-                        led_next: LED_3
-                        led_this: LED_2
-            name: col5
-        row: row0
-        bind:
-            - 10
-            - 10
-            - 0
-            - 0
 matrix_col5_row1:
     x: 150.81669490000002
     'y': -176.2157319
@@ -10400,10 +10563,22 @@ matrix_col5_row1:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -10432,6 +10607,7 @@ matrix_col5_row1:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -10560,6 +10736,7 @@ matrix_col5_row1:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -10592,10 +10769,22 @@ matrix_col5_row1:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -10656,6 +10845,7 @@ matrix_col5_row1:
                 column_net: col5
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_42
                         led_this: LED_41
@@ -10684,7 +10874,7 @@ matrix_col5_row1:
         bind:
             - 10
             - 10
-            - 10
+            - 0
             - 10
 matrix_col5_row2:
     x: 151.55132930000002
@@ -10734,10 +10924,22 @@ matrix_col5_row2:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -10766,6 +10968,7 @@ matrix_col5_row2:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -10894,6 +11097,7 @@ matrix_col5_row2:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -10926,10 +11130,22 @@ matrix_col5_row2:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -10990,6 +11206,7 @@ matrix_col5_row2:
                 column_net: col5
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_42
                         led_this: LED_41
@@ -11068,10 +11285,22 @@ matrix_col5_row3:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -11100,6 +11329,7 @@ matrix_col5_row3:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -11228,6 +11458,7 @@ matrix_col5_row3:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -11260,10 +11491,22 @@ matrix_col5_row3:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -11324,6 +11567,7 @@ matrix_col5_row3:
                 column_net: col5
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_42
                         led_this: LED_41
@@ -11402,10 +11646,22 @@ matrix_col5_row4:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -11434,6 +11690,7 @@ matrix_col5_row4:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -11562,6 +11819,7 @@ matrix_col5_row4:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -11594,10 +11852,22 @@ matrix_col5_row4:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -11658,6 +11928,7 @@ matrix_col5_row4:
                 column_net: col5
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_42
                         led_this: LED_41
@@ -11736,10 +12007,22 @@ matrix_col5_row5:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -11768,6 +12051,7 @@ matrix_col5_row5:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -11896,6 +12180,7 @@ matrix_col5_row5:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -11928,10 +12213,22 @@ matrix_col5_row5:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -11992,6 +12289,7 @@ matrix_col5_row5:
                 column_net: col5
             rows:
                 row0:
+                    skip: true
                     key:
                         led_next: LED_42
                         led_this: LED_41
@@ -12023,9 +12321,9 @@ matrix_col5_row5:
             - 10
             - 10
 matrix_col6_row0:
-    x: 170.08494710000002
-    'y': -198.9520347
-    r: -3
+    x: 160.073686
+    'y': -198.42736670000002
+    r: -4
     meta:
         stagger: -1
         spread: 20.05
@@ -12035,11 +12333,11 @@ matrix_col6_row0:
             - 0
         orient: 0
         shift:
+            - -10.025
             - 0
-            - 0
-        rotate: 0
+        rotate: -1
         adjust: {}
-        width: 18
+        width: 38.1
         height: 18
         padding: 21.05
         autobind: 10
@@ -12049,7 +12347,7 @@ matrix_col6_row0:
         name: matrix_col6_row0
         tags:
             - key
-            - row_even
+            - 2u_stabilizers
         column_net: col6
         row_net: row0
         key:
@@ -12070,10 +12368,22 @@ matrix_col6_row0:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -12102,6 +12412,7 @@ matrix_col6_row0:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -12230,6 +12541,7 @@ matrix_col6_row0:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -12262,10 +12574,22 @@ matrix_col6_row0:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -12326,10 +12650,22 @@ matrix_col6_row0:
                 column_net: col6
             rows:
                 row0:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    width: 2U
+                    rotate: -1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_42
                 row1:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    rotate: 1
                     key:
                         led_next: LED_30
                         led_this: LED_29
@@ -12357,8 +12693,8 @@ matrix_col6_row0:
             - 0
             - 0
 matrix_col6_row1:
-    x: 171.18661900000004
-    'y': -177.93088300000002
+    x: 171.5426394
+    'y': -178.12795200000002
     r: -3
     meta:
         stagger: -1
@@ -12369,9 +12705,9 @@ matrix_col6_row1:
             - 0
         orient: 0
         shift:
+            - 10.025
             - 0
-            - 0
-        rotate: 0
+        rotate: 1
         adjust: {}
         width: 18
         height: 18
@@ -12404,10 +12740,22 @@ matrix_col6_row1:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -12436,6 +12784,7 @@ matrix_col6_row1:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -12564,6 +12913,7 @@ matrix_col6_row1:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -12596,10 +12946,22 @@ matrix_col6_row1:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -12660,10 +13022,22 @@ matrix_col6_row1:
                 column_net: col6
             rows:
                 row0:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    width: 2U
+                    rotate: -1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_42
                 row1:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    rotate: 1
                     key:
                         led_next: LED_30
                         led_this: LED_29
@@ -12689,10 +13063,10 @@ matrix_col6_row1:
             - 10
             - 0
             - 10
-            - 10
+            - 0
 matrix_col6_row2:
-    x: 172.28829090000005
-    'y': -156.90973130000003
+    x: 172.64431130000003
+    'y': -157.10680030000003
     r: -3
     meta:
         stagger: -1
@@ -12738,10 +13112,22 @@ matrix_col6_row2:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -12770,6 +13156,7 @@ matrix_col6_row2:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -12898,6 +13285,7 @@ matrix_col6_row2:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -12930,10 +13318,22 @@ matrix_col6_row2:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -12994,10 +13394,22 @@ matrix_col6_row2:
                 column_net: col6
             rows:
                 row0:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    width: 2U
+                    rotate: -1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_42
                 row1:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    rotate: 1
                     key:
                         led_next: LED_30
                         led_this: LED_29
@@ -13025,8 +13437,8 @@ matrix_col6_row2:
             - 10
             - 10
 matrix_col6_row3:
-    x: 173.38996280000006
-    'y': -135.88857960000004
+    x: 173.74598320000004
+    'y': -136.08564860000004
     r: -3
     meta:
         stagger: -1
@@ -13072,10 +13484,22 @@ matrix_col6_row3:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -13104,6 +13528,7 @@ matrix_col6_row3:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -13232,6 +13657,7 @@ matrix_col6_row3:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -13264,10 +13690,22 @@ matrix_col6_row3:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -13328,10 +13766,22 @@ matrix_col6_row3:
                 column_net: col6
             rows:
                 row0:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    width: 2U
+                    rotate: -1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_42
                 row1:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    rotate: 1
                     key:
                         led_next: LED_30
                         led_this: LED_29
@@ -13359,8 +13809,8 @@ matrix_col6_row3:
             - 10
             - 10
 matrix_col6_row4:
-    x: 174.49163470000008
-    'y': -114.86742790000004
+    x: 174.84765510000005
+    'y': -115.06449690000004
     r: -3
     meta:
         stagger: -1
@@ -13406,10 +13856,22 @@ matrix_col6_row4:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -13438,6 +13900,7 @@ matrix_col6_row4:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -13566,6 +14029,7 @@ matrix_col6_row4:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -13598,10 +14062,22 @@ matrix_col6_row4:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -13662,10 +14138,22 @@ matrix_col6_row4:
                 column_net: col6
             rows:
                 row0:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    width: 2U
+                    rotate: -1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_42
                 row1:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    rotate: 1
                     key:
                         led_next: LED_30
                         led_this: LED_29
@@ -13693,8 +14181,8 @@ matrix_col6_row4:
             - 10
             - 10
 matrix_col6_row5:
-    x: 175.5933066000001
-    'y': -93.84627620000003
+    x: 175.94932700000007
+    'y': -94.04334520000003
     r: -3
     meta:
         stagger: -1
@@ -13740,10 +14228,22 @@ matrix_col6_row5:
                         column_net: col0
                     rows:
                         row0:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            width: 2U
+                            rotate: 1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: LED_37
                                 led_this: LED_36
                         row1:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            rotate: -1
                             key:
                                 led_next: LED_36
                                 led_this: LED_35
@@ -13772,6 +14272,7 @@ matrix_col6_row5:
                         column_net: col1
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_38
                                 led_this: LED_37
@@ -13900,6 +14401,7 @@ matrix_col6_row5:
                         column_net: col5
                     rows:
                         row0:
+                            skip: true
                             key:
                                 led_next: LED_42
                                 led_this: LED_41
@@ -13932,10 +14434,22 @@ matrix_col6_row5:
                         column_net: col6
                     rows:
                         row0:
+                            shift:
+                                - '-0.5kspr'
+                                - 0.0kp
+                            width: 2U
+                            rotate: -1
+                            tags:
+                                - key
+                                - 2u_stabilizers
                             key:
                                 led_next: ''
                                 led_this: LED_42
                         row1:
+                            shift:
+                                - 0.5kspr
+                                - 0.0kp
+                            rotate: 1
                             key:
                                 led_next: LED_30
                                 led_this: LED_29
@@ -13996,10 +14510,22 @@ matrix_col6_row5:
                 column_net: col6
             rows:
                 row0:
+                    shift:
+                        - '-0.5kspr'
+                        - 0.0kp
+                    width: 2U
+                    rotate: -1
+                    tags:
+                        - key
+                        - 2u_stabilizers
                     key:
                         led_next: ''
                         led_this: LED_42
                 row1:
+                    shift:
+                        - 0.5kspr
+                        - 0.0kp
+                    rotate: 1
                     key:
                         led_next: LED_30
                         led_this: LED_29
