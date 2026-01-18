@@ -24,6 +24,7 @@ matrix_col0_row0:
         colrow: col0_row0
         name: matrix_col0_row0
         tags:
+            - row_even
             - key
             - 2u_stabilizers
         column_net: col0
@@ -52,6 +53,7 @@ matrix_col0_row0:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -258,6 +260,7 @@ matrix_col0_row0:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -334,6 +337,7 @@ matrix_col0_row0:
                     width: 2U
                     rotate: 1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -424,6 +428,7 @@ matrix_col0_row1:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -630,6 +635,7 @@ matrix_col0_row1:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -706,6 +712,7 @@ matrix_col0_row1:
                     width: 2U
                     rotate: 1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -796,6 +803,7 @@ matrix_col0_row2:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -1002,6 +1010,7 @@ matrix_col0_row2:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -1078,6 +1087,7 @@ matrix_col0_row2:
                     width: 2U
                     rotate: 1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -1168,6 +1178,7 @@ matrix_col0_row3:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -1374,6 +1385,7 @@ matrix_col0_row3:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -1450,6 +1462,7 @@ matrix_col0_row3:
                     width: 2U
                     rotate: 1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -1540,6 +1553,7 @@ matrix_col0_row4:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -1746,6 +1760,7 @@ matrix_col0_row4:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -1822,6 +1837,7 @@ matrix_col0_row4:
                     width: 2U
                     rotate: 1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -1912,6 +1928,7 @@ matrix_col0_row5:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -2118,6 +2135,7 @@ matrix_col0_row5:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -2194,6 +2212,7 @@ matrix_col0_row5:
                     width: 2U
                     rotate: 1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -2284,6 +2303,7 @@ matrix_col1_row1:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -2490,6 +2510,7 @@ matrix_col1_row1:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -2645,6 +2666,7 @@ matrix_col1_row2:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -2851,6 +2873,7 @@ matrix_col1_row2:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -3006,6 +3029,7 @@ matrix_col1_row3:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -3212,6 +3236,7 @@ matrix_col1_row3:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -3367,6 +3392,7 @@ matrix_col1_row4:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -3573,6 +3599,7 @@ matrix_col1_row4:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -3728,6 +3755,7 @@ matrix_col1_row5:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -3934,6 +3962,7 @@ matrix_col1_row5:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -4089,6 +4118,7 @@ matrix_col2_row0:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -4295,6 +4325,7 @@ matrix_col2_row0:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -4449,6 +4480,7 @@ matrix_col2_row1:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -4655,6 +4687,7 @@ matrix_col2_row1:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -4809,6 +4842,7 @@ matrix_col2_row2:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -5015,6 +5049,7 @@ matrix_col2_row2:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -5169,6 +5204,7 @@ matrix_col2_row3:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -5375,6 +5411,7 @@ matrix_col2_row3:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -5529,6 +5566,7 @@ matrix_col2_row4:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -5735,6 +5773,7 @@ matrix_col2_row4:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -5889,6 +5928,7 @@ matrix_col2_row5:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -6095,6 +6135,7 @@ matrix_col2_row5:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -6249,6 +6290,7 @@ matrix_col3_row0:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -6455,6 +6497,7 @@ matrix_col3_row0:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -6609,6 +6652,7 @@ matrix_col3_row1:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -6815,6 +6859,7 @@ matrix_col3_row1:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -6969,6 +7014,7 @@ matrix_col3_row2:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -7175,6 +7221,7 @@ matrix_col3_row2:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -7329,6 +7376,7 @@ matrix_col3_row3:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -7535,6 +7583,7 @@ matrix_col3_row3:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -7689,6 +7738,7 @@ matrix_col3_row4:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -7895,6 +7945,7 @@ matrix_col3_row4:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -8049,6 +8100,7 @@ matrix_col3_row5:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -8255,6 +8307,7 @@ matrix_col3_row5:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -8409,6 +8462,7 @@ matrix_col4_row0:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -8615,6 +8669,7 @@ matrix_col4_row0:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -8769,6 +8824,7 @@ matrix_col4_row1:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -8975,6 +9031,7 @@ matrix_col4_row1:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -9129,6 +9186,7 @@ matrix_col4_row2:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -9335,6 +9393,7 @@ matrix_col4_row2:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -9489,6 +9548,7 @@ matrix_col4_row3:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -9695,6 +9755,7 @@ matrix_col4_row3:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -9849,6 +9910,7 @@ matrix_col4_row4:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -10055,6 +10117,7 @@ matrix_col4_row4:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -10209,6 +10272,7 @@ matrix_col4_row5:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -10415,6 +10479,7 @@ matrix_col4_row5:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -10569,6 +10634,7 @@ matrix_col5_row1:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -10775,6 +10841,7 @@ matrix_col5_row1:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -10930,6 +10997,7 @@ matrix_col5_row2:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -11136,6 +11204,7 @@ matrix_col5_row2:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -11291,6 +11360,7 @@ matrix_col5_row3:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -11497,6 +11567,7 @@ matrix_col5_row3:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -11652,6 +11723,7 @@ matrix_col5_row4:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -11858,6 +11930,7 @@ matrix_col5_row4:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -12013,6 +12086,7 @@ matrix_col5_row5:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -12219,6 +12293,7 @@ matrix_col5_row5:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -12346,6 +12421,7 @@ matrix_col6_row0:
         colrow: col6_row0
         name: matrix_col6_row0
         tags:
+            - row_even
             - key
             - 2u_stabilizers
         column_net: col6
@@ -12374,6 +12450,7 @@ matrix_col6_row0:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -12580,6 +12657,7 @@ matrix_col6_row0:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -12656,6 +12734,7 @@ matrix_col6_row0:
                     width: 2U
                     rotate: -1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -12746,6 +12825,7 @@ matrix_col6_row1:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -12952,6 +13032,7 @@ matrix_col6_row1:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -13028,6 +13109,7 @@ matrix_col6_row1:
                     width: 2U
                     rotate: -1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -13118,6 +13200,7 @@ matrix_col6_row2:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -13324,6 +13407,7 @@ matrix_col6_row2:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -13400,6 +13484,7 @@ matrix_col6_row2:
                     width: 2U
                     rotate: -1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -13490,6 +13575,7 @@ matrix_col6_row3:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -13696,6 +13782,7 @@ matrix_col6_row3:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -13772,6 +13859,7 @@ matrix_col6_row3:
                     width: 2U
                     rotate: -1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -13862,6 +13950,7 @@ matrix_col6_row4:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -14068,6 +14157,7 @@ matrix_col6_row4:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -14144,6 +14234,7 @@ matrix_col6_row4:
                     width: 2U
                     rotate: -1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
@@ -14234,6 +14325,7 @@ matrix_col6_row5:
                             width: 2U
                             rotate: 1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -14440,6 +14532,7 @@ matrix_col6_row5:
                             width: 2U
                             rotate: -1
                             tags:
+                                - row_even
                                 - key
                                 - 2u_stabilizers
                             key:
@@ -14516,6 +14609,7 @@ matrix_col6_row5:
                     width: 2U
                     rotate: -1
                     tags:
+                        - row_even
                         - key
                         - 2u_stabilizers
                     key:
