@@ -14,3 +14,8 @@ kspr: 20.05
 bp: 14.525
 sp: 1
 st: 1
+stabilizer_width: 7
+stabilizer_height: 16
+stabilizer_offset: 0
+stabilizer_spacing_3u: 19.05
+stabilizer_spacing_2u: 11.93

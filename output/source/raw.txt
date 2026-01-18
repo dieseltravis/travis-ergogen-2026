@@ -13,6 +13,12 @@ units:
   bp: kp/2 + 4
   sp: 1
   st: 1
+  # stabs
+  stabilizer_width: 7
+  stabilizer_height: 16
+  stabilizer_offset: 0 # This means south stabs, use `orient` to rotate them for north facing scenarios
+  stabilizer_spacing_3u: U * ((3 - 1) / 2)
+  stabilizer_spacing_2u: 23.86 / 2 # 0.94in / 2
 points:
   zones:
     matrix:
@@ -299,6 +305,19 @@ outlines:
   - what: rectangle
     where: true
     size: [kp + 2, kp + 2]
+  2u_stabilizer: # This creates the stabilizer, you just need to use its name in a `where` clause of another outline
+  - operation: stack
+    where: 2u_stabilizers # Set this tag on the keys you want
+    what: rectangle
+    size: [stabilizer_width, stabilizer_height]
+    adjust:
+      shift: [stabilizer_spacing_2u, stabilizer_offset]
+  - operation: stack
+    where: 2u_stabilizers
+    what: rectangle
+    size: [stabilizer_width, stabilizer_height]
+    adjust:
+      shift: [-stabilizer_spacing_2u, stabilizer_offset]
   keys:
   - what: rectangle
     where: key
@@ -356,32 +375,6 @@ pcbs:
       main:
         outline: board
     footprints:
-      # keys
-      mx_hotswap_key:
-        what: travis/mx
-        where: meta.tags ~ /key/
-        params:
-          keycaps: true
-          reverse: false
-          hotswap: true
-          refpos: [3.5, -2, 0]
-          from: "{{column_net}}"
-          to: "{{name}}"
-          value: "Kailh MX Switch Sockets"
-        adjust:
-          rotate: 180
-      diode:
-        what: travis/DSMD_1206_3216Metric
-        where: meta.tags ~ /key/
-        params:
-          side: B
-          from: "{{name}}"
-          to: "{{row_net}}"
-          refpos: [3, 0, 0]
-        adjust:
-          # place "to" pin in bottom right
-          shift: [-(U / 2 - 1.1), -(U / 2 - 1.5 - 1.9)]
-          rotate: 90 #+ 180
 
       mcu:
         what: travis/ScottoKeebs-Arduino_Pro_Micro
@@ -425,11 +418,38 @@ pcbs:
           P1: VCC
           P2: GND
           side: F
-          bend: 90
-          value: "10V 1000uF"
+          #bend: 90
+          value: "10V 470uF"
         where:
           ref: matrix_col5_row5
           shift: [0, kp - 2]
+          rotate: 90
+
+      # keys
+      mx_hotswap_key:
+        what: travis/mx
+        where: meta.tags ~ /key/
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          refpos: [3.5, -2, 0]
+          from: "{{column_net}}"
+          to: "{{name}}"
+          value: "Kailh MX Switch Sockets"
+        adjust:
+          rotate: 180
+      diode:
+        what: travis/DSMD_1206_3216Metric
+        where: meta.tags ~ /key/
+        params:
+          side: B
+          from: "{{name}}"
+          to: "{{row_net}}"
+          refpos: [-1.5, 2.75, 0]
+        adjust:
+          #shift: [-(U / 2 - 1.1), -(U / 2 - 1.5 - 1.9)]
+          shift: [-(U / 2 - 3.5), -(U / 2 - 1)]
           rotate: 90
 
       # leds
@@ -461,7 +481,7 @@ pcbs:
         where: meta.tags ~ /row_odd/
         params:
           side: B
-          refpos: [-3.15, 0, 0]
+          refpos: [-1.5, 2.75, 0]
           valpos: [-2.5, 0]
         adjust:
           shift: [-4.75, 4.25]
@@ -496,11 +516,25 @@ pcbs:
         where: meta.tags ~ /row_even/
         params:
           side: B
-          refpos: [3.15, 0, 0]
+          refpos: [-1.5, 2.75, 0]
           valpos: [-2.5, 0]
         adjust:
           shift: [4.75, 5.65]
           rotate: 90
+
+      # stabs
+      left2u:
+        what: travis/ScottoKeebs-Stabilizer_MX_2u
+        where:
+          ref: matrix_col0_row0
+          shift: [0, 0]
+          rotate: 0
+      right2u:
+        what: travis/ScottoKeebs-Stabilizer_MX_2u
+        where:
+          ref: matrix_col6_row0
+          shift: [0, 0]
+          rotate: 0
 
       # logos
       ergologo:
