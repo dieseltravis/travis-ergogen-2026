@@ -1,8 +1,8 @@
 meta:
     engine: 4.2.1
     name: travis-ergogen-2026
-    version: 2026.01.17
-    date: '2026-01-17'
+    version: 2026.01.19
+    date: '2026-01-19'
     author: Travis Hardiman
     url: 'https://github.com/dieseltravis/travis-ergogen-2026'
     tags:
@@ -88,9 +88,6 @@ points:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -120,8 +117,8 @@ points:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -151,8 +148,8 @@ points:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -182,8 +179,8 @@ points:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -213,9 +210,6 @@ points:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -255,7 +249,7 @@ points:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -353,7 +347,7 @@ outlines:
         -
             what: polygon
             operation: stack
-            fillet: 3
+            fillet: 2.75
             points:
                 -
                     ref: matrix_col0_row0
@@ -381,14 +375,39 @@ outlines:
                         - bp
                         - bp + 20
                 -
-                    ref: matrix_col3_row5
+                    ref: matrix_col6_row5
                     shift:
-                        - bp/3
+                        - 0
+                        - bp + 20
+                -
+                    ref: matrix_col5_row5
+                    shift:
+                        - 0
+                        - bp + 20
+                -
+                    ref: matrix_col4_row5
+                    shift:
+                        - 0
                         - bp + 20
                 -
                     ref: matrix_col3_row5
                     shift:
-                        - '-bp/3'
+                        - 0
+                        - bp + 20
+                -
+                    ref: matrix_col2_row5
+                    shift:
+                        - 0
+                        - bp + 20
+                -
+                    ref: matrix_col1_row5
+                    shift:
+                        - 0
+                        - bp + 20
+                -
+                    ref: matrix_col0_row5
+                    shift:
+                        - 0
                         - bp + 20
                 -
                     ref: matrix_col0_row5
@@ -401,34 +420,6 @@ outlines:
         -
             operation: subtract
             name: keys
-    row_odd:
-        -
-            what: rectangle
-            where: row_odd
-            size:
-                - kp + 2
-                - kp + 2
-    row_even:
-        -
-            what: rectangle
-            where: row_even
-            size:
-                - kp + 2
-                - kp + 2
-    col_odd:
-        -
-            what: rectangle
-            where: col_odd
-            size:
-                - kp + 2
-                - kp + 2
-    col_even:
-        -
-            what: rectangle
-            where: col_even
-            size:
-                - kp + 2
-                - kp + 2
 pcbs:
     travis_erg2026:
         template: kicad8
@@ -442,31 +433,93 @@ pcbs:
                     ref: matrix_col6_row5
                     shift:
                         - -3.5
-                        - kp
+                        - kp - 1.0
                     rotate: -90
                 params:
                     value: Arduino Pro Micro
                     P3: GND
                     P4: GND
-                    P6: row0
-                    P7: row1
-                    P8: row2
-                    P9: row3
-                    P10: row4
-                    P11: row5
+                    P5: sda
+                    P6: scl
+                    P7: row0
+                    P8: row1
+                    P9: row2
+                    P10: row3
+                    P11: row4
+                    P12: row5
                     P23: GND
-                    P20: LED_1
-                    P19: col6
-                    P18: col5
-                    P17: col4
-                    P16: col3
-                    P15: col2
-                    P14: col1
-                    P13: col0
+                    P20: col6
+                    P19: col5
+                    P18: col4
+                    P17: col3
+                    P16: col2
+                    P15: col1
+                    P14: col0
+                    P13: LED_1
                     offset3d:
                         - 0
                         - 0
                         - 5
+            oled1:
+                what: oled
+                params:
+                    side: F
+                    SDA: sda
+                    SCL: scl
+                where:
+                    ref: matrix_col0_row5
+                    shift:
+                        - '-kp / 2'
+                        - kp + 7.5
+                    rotate: 0
+            oled2:
+                what: oled
+                params:
+                    side: F
+                    SDA: sda
+                    SCL: scl
+                where:
+                    ref: matrix_col1_row5
+                    shift:
+                        - '-kp / 4 - 0.75'
+                        - kp / 2
+                    rotate: 90
+            oled3:
+                what: oled
+                params:
+                    side: F
+                    SDA: sda
+                    SCL: scl
+                where:
+                    ref: matrix_col1_row5
+                    shift:
+                        - kp / 4 + 0.75
+                        - kp + 13
+                    rotate: 273
+            oled4:
+                what: oled
+                params:
+                    side: F
+                    SDA: sda
+                    SCL: scl
+                where:
+                    ref: matrix_col3_row5
+                    shift:
+                        - '-kp / 4 - 0.75'
+                        - kp / 2
+                    rotate: 90
+            oled5:
+                what: oled
+                params:
+                    side: F
+                    SDA: sda
+                    SCL: scl
+                where:
+                    ref: matrix_col3_row5
+                    shift:
+                        - kp / 4 + 0.75
+                        - kp + 13
+                    rotate: 270
             cap1:
                 what: travis/CRadialD63H11P25
                 params:
@@ -478,7 +531,7 @@ pcbs:
                     ref: matrix_col5_row5
                     shift:
                         - 0
-                        - kp - 2
+                        - kp - 3
                     rotate: 90
             mx_hotswap_key:
                 what: travis/mx
@@ -699,7 +752,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: 3270 Nerd Font
-                    text: 2026.01.17
+                    text: 2026.01.19
                     height: 1
                     width: 1
                 adjust:
@@ -722,6 +775,42 @@ pcbs:
                         - 0
                         - 0
                     rotate: 0
+            holeTopLeft:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col0_row5
+                    shift:
+                        - '-bp + 2.75'
+                        - bp + 20 - 2.75
+                params:
+                    pad: 1
+            holeTopRight:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col6_row5
+                    shift:
+                        - bp - 2.75
+                        - bp + 20 - 2.75
+                params:
+                    pad: 2
+            holeBottomRight:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col6_row0
+                    shift:
+                        - bp + 0.5kspr - 2.75
+                        - '-bp + 2.75'
+                params:
+                    pad: 3
+            holeBottomLeft:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col0_row0
+                    shift:
+                        - '-bp - 0.5kspr + 2.75'
+                        - '-bp + 2.75'
+                params:
+                    pad: 4
             background:
                 what: ceoloide/utility_filled_zone
                 params:

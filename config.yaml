@@ -1,8 +1,8 @@
 meta:
   engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2026.01.17"
-  date: "2026-01-17"
+  version: &meta_version "2026.01.19"
+  date: "2026-01-19"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
   tags: [ "ergogen", "keyboard", "cherrymx", "hotswap" ]
@@ -81,9 +81,9 @@ points:
           rows:
             row0:
               skip: true
-              key:
-                led_next: LED_38
-                led_this: LED_37
+              #key:
+              #  led_next: LED_38
+              #  led_this: LED_37
             row1:
               key:
                 led_next: LED_35
@@ -113,8 +113,10 @@ points:
           rows:
             row0:
               key:
-                led_next: LED_39
-                led_this: LED_38
+                #led_next: LED_39
+                #led_this: LED_38
+                led_next: LED_38
+                led_this: LED_37
             row1:
               key:
                 led_next: LED_34
@@ -144,8 +146,10 @@ points:
           rows:
             row0:
               key:
-                led_next: LED_40
-                led_this: LED_39
+                #led_next: LED_40
+                #led_this: LED_39
+                led_next: LED_39
+                led_this: LED_38
             row1:
               key:
                 led_next: LED_33
@@ -175,8 +179,10 @@ points:
           rows:
             row0:
               key:
-                led_next: LED_41
-                led_this: LED_40
+                #led_next: LED_41
+                #led_this: LED_40
+                led_next: LED_40
+                led_this: LED_39
             row1:
               key:
                 led_next: LED_32
@@ -206,9 +212,9 @@ points:
           rows:
             row0:
               skip: true
-              key:
-                led_next: LED_42
-                led_this: LED_41
+              #key:
+              #  led_next: LED_42
+              #  led_this: LED_41
             row1:
               key:
                 led_next: LED_31
@@ -246,7 +252,8 @@ points:
                 - 2u_stabilizers
               key:
                 led_next: ""
-                led_this: LED_42
+                #led_this: LED_42
+                led_this: LED_40
             row1:
               shift: [0.5kspr, 0.0kp]
               rotate: 1
@@ -325,7 +332,7 @@ outlines:
   board:
     - what: polygon
       operation: stack
-      fillet: 3
+      fillet: 2.75
       points:
         - ref: matrix_col0_row0
           shift: [-bp - 0.5kspr, -bp]
@@ -339,34 +346,30 @@ outlines:
 
         - ref: matrix_col6_row5
           shift: [bp, bp + 20]
+        #- ref: matrix_col3_row5
+        #  shift: [bp/3, bp + 20]
+        - ref: matrix_col6_row5
+          shift: [0, bp + 20]
+        - ref: matrix_col5_row5
+          shift: [0, bp + 20]
+        - ref: matrix_col4_row5
+          shift: [0, bp + 20]
         - ref: matrix_col3_row5
-          shift: [bp/3, bp + 20]
-
-        - ref: matrix_col3_row5
-          shift: [-bp/3, bp + 20]
+          shift: [0, bp + 20]
+        - ref: matrix_col2_row5
+          shift: [0, bp + 20]
+        - ref: matrix_col1_row5
+          shift: [0, bp + 20]
+        - ref: matrix_col0_row5
+          shift: [0, bp + 20]
+        #- ref: matrix_col3_row5
+        #  shift: [-bp/3, bp + 20]
         - ref: matrix_col0_row5
           shift: [-bp, bp + 20]
   combo:
     - name: board
     - operation: subtract
       name: keys
-  row_odd:
-  - what: rectangle
-    where: row_odd
-    size: [kp + 2, kp + 2]
-  row_even:
-  - what: rectangle
-    where: row_even
-    size: [kp + 2, kp + 2]
-  #to fix:
-  col_odd:
-  - what: rectangle
-    where: col_odd
-    size: [kp + 2, kp + 2]
-  col_even:
-  - what: rectangle
-    where: col_even
-    size: [kp + 2, kp + 2]
 
 pcbs:
   travis_erg2026:
@@ -380,7 +383,7 @@ pcbs:
         what: travis/ScottoKeebs-Arduino_Pro_Micro
         where:
           ref: matrix_col6_row5
-          shift: [-3.5, kp]
+          shift: [-3.5, kp - 1.0]
           rotate: -90
         params:
           value: "Arduino Pro Micro"
@@ -389,28 +392,82 @@ pcbs:
           #P2:  # D2 RXI/PD2
           P3: GND
           P4: GND
-          #P5: # D1 SDA
-          P6: row0  # D0 SCL PWM
-          P7: row1  # D4 A6
-          P8: row2  # C6 PWM
-          P9: row3  # D7 A7 PWM
-          P10: row4 # E6
-          P11: row5 # B4 A8
-          #P12:  # B5 A9 PWM
+          P5: sda # D1 SDA
+          P6: scl  # D0 SCL PWM
+          P7: row0  # D4 A6
+          P8: row1  # C6 PWM
+          P9: row2  # D7 A7 PWM
+          P10: row3 # E6
+          P11: row4 # B4 A8
+          P12: row5 # B5 A9 PWM
           # right
           #P24: RAW LEDV
           P23: GND
           #P22: RESET 13
           #P21: 3.3V
-          P20: LED_1 # F4 A3
-          P19: col6 # F5 A2
-          P18: col5 # F6 A1
-          P17: col4 # F7 A0
-          P16: col3 # B1 SCLK
-          P15: col2 # B3 MISO
-          P14: col1 # B2 MOSI
-          P13: col0 # B6 A10 PWM
+          P20: col6 # F4 A3
+          P19: col5 # F5 A2
+          P18: col4 # F6 A1
+          P17: col3 # F7 A0
+          P16: col2 # B1 SCLK
+          P15: col1 # B3 MISO
+          P14: col0 # B2 MOSI
+          P13: LED_1 # B6 A10 PWM
           offset3d: [0, 0, 5]
+
+      # oled mounting options
+      oled1:
+        what: oled
+        params:
+          side: "F"
+          SDA: sda
+          SCL: scl
+        where:
+          ref: matrix_col0_row5
+          shift: [-kp / 2, kp + 7.5]
+          rotate: 0
+      oled2:
+        what: oled
+        params:
+          side: "F"
+          SDA: sda
+          SCL: scl
+        where:
+          #ref.aggregate.parts: [matrix_col1_row5, matrix_col2_row5]
+          ref: matrix_col1_row5
+          shift: [-kp / 4 - 0.75, kp / 2]
+          rotate: 90
+      oled3:
+        what: oled
+        params:
+          side: "F"
+          SDA: sda
+          SCL: scl
+        where:
+          #ref.aggregate.parts: [matrix_col1_row5, matrix_col2_row5]
+          ref: matrix_col1_row5
+          shift: [kp / 4 + 0.75, kp + 13]
+          rotate: 273
+      oled4:
+        what: oled
+        params:
+          side: "F"
+          SDA: sda
+          SCL: scl
+        where:
+          ref: matrix_col3_row5
+          shift: [-kp / 4 - 0.75, kp / 2]
+          rotate: 90
+      oled5:
+        what: oled
+        params:
+          side: "F"
+          SDA: sda
+          SCL: scl
+        where:
+          ref: matrix_col3_row5
+          shift: [kp / 4 + 0.75, kp + 13]
+          rotate: 270
 
       cap1:
         what: travis/CRadialD63H11P25
@@ -422,7 +479,7 @@ pcbs:
           value: "10V 470uF"
         where:
           ref: matrix_col5_row5
-          shift: [0, kp - 2]
+          shift: [0, kp - 3]
           rotate: 90
 
       # keys
@@ -622,6 +679,36 @@ pcbs:
         adjust:
           shift: [0, 0]
           rotate: 0
+
+      # holes:
+      holeTopLeft:
+        what: travis/mountinghole
+        where:
+          ref: matrix_col0_row5
+          shift: [-bp + 2.75, bp + 20 - 2.75]
+        params:
+          pad: 1
+      holeTopRight:
+        what: travis/mountinghole
+        where:
+          ref: matrix_col6_row5
+          shift: [bp - 2.75, bp + 20 - 2.75]
+        params:
+          pad: 2
+      holeBottomRight:
+        what: travis/mountinghole
+        where:
+          ref: matrix_col6_row0
+          shift: [bp + 0.5kspr - 2.75, -bp + 2.75]
+        params:
+          pad: 3
+      holeBottomLeft:
+        what: travis/mountinghole
+        where:
+          ref: matrix_col0_row0
+          shift: [-bp - 0.5kspr + 2.75, -bp + 2.75]
+        params:
+          pad: 4
 
       # grounds
       background:

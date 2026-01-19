@@ -93,9 +93,6 @@ matrix_col0_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -126,8 +123,8 @@ matrix_col0_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -158,8 +155,8 @@ matrix_col0_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -190,8 +187,8 @@ matrix_col0_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -222,9 +219,6 @@ matrix_col0_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -265,7 +259,7 @@ matrix_col0_row0:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -468,9 +462,6 @@ matrix_col0_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -501,8 +492,8 @@ matrix_col0_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -533,8 +524,8 @@ matrix_col0_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -565,8 +556,8 @@ matrix_col0_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -597,9 +588,6 @@ matrix_col0_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -640,7 +628,7 @@ matrix_col0_row1:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -843,9 +831,6 @@ matrix_col0_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -876,8 +861,8 @@ matrix_col0_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -908,8 +893,8 @@ matrix_col0_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -940,8 +925,8 @@ matrix_col0_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -972,9 +957,6 @@ matrix_col0_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -1015,7 +997,7 @@ matrix_col0_row2:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -1218,9 +1200,6 @@ matrix_col0_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -1251,8 +1230,8 @@ matrix_col0_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -1283,8 +1262,8 @@ matrix_col0_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -1315,8 +1294,8 @@ matrix_col0_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -1347,9 +1326,6 @@ matrix_col0_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -1390,7 +1366,7 @@ matrix_col0_row3:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -1593,9 +1569,6 @@ matrix_col0_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -1626,8 +1599,8 @@ matrix_col0_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -1658,8 +1631,8 @@ matrix_col0_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -1690,8 +1663,8 @@ matrix_col0_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -1722,9 +1695,6 @@ matrix_col0_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -1765,7 +1735,7 @@ matrix_col0_row4:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -1968,9 +1938,6 @@ matrix_col0_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -2001,8 +1968,8 @@ matrix_col0_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -2033,8 +2000,8 @@ matrix_col0_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -2065,8 +2032,8 @@ matrix_col0_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -2097,9 +2064,6 @@ matrix_col0_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -2140,7 +2104,7 @@ matrix_col0_row5:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -2343,9 +2307,6 @@ matrix_col1_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -2376,8 +2337,8 @@ matrix_col1_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -2408,8 +2369,8 @@ matrix_col1_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -2440,8 +2401,8 @@ matrix_col1_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -2472,9 +2433,6 @@ matrix_col1_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -2515,7 +2473,7 @@ matrix_col1_row1:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -2582,9 +2540,6 @@ matrix_col1_row1:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_38
-                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_35
@@ -2706,9 +2661,6 @@ matrix_col1_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -2739,8 +2691,8 @@ matrix_col1_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -2771,8 +2723,8 @@ matrix_col1_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -2803,8 +2755,8 @@ matrix_col1_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -2835,9 +2787,6 @@ matrix_col1_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -2878,7 +2827,7 @@ matrix_col1_row2:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -2945,9 +2894,6 @@ matrix_col1_row2:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_38
-                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_35
@@ -3069,9 +3015,6 @@ matrix_col1_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -3102,8 +3045,8 @@ matrix_col1_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -3134,8 +3077,8 @@ matrix_col1_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -3166,8 +3109,8 @@ matrix_col1_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -3198,9 +3141,6 @@ matrix_col1_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -3241,7 +3181,7 @@ matrix_col1_row3:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -3308,9 +3248,6 @@ matrix_col1_row3:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_38
-                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_35
@@ -3432,9 +3369,6 @@ matrix_col1_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -3465,8 +3399,8 @@ matrix_col1_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -3497,8 +3431,8 @@ matrix_col1_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -3529,8 +3463,8 @@ matrix_col1_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -3561,9 +3495,6 @@ matrix_col1_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -3604,7 +3535,7 @@ matrix_col1_row4:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -3671,9 +3602,6 @@ matrix_col1_row4:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_38
-                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_35
@@ -3795,9 +3723,6 @@ matrix_col1_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -3828,8 +3753,8 @@ matrix_col1_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -3860,8 +3785,8 @@ matrix_col1_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -3892,8 +3817,8 @@ matrix_col1_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -3924,9 +3849,6 @@ matrix_col1_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -3967,7 +3889,7 @@ matrix_col1_row5:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -4034,9 +3956,6 @@ matrix_col1_row5:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_38
-                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_35
@@ -4095,8 +4014,8 @@ matrix_col2_row0:
         column_net: col2
         row_net: row0
         key:
-            led_next: LED_39
-            led_this: LED_38
+            led_next: LED_38
+            led_this: LED_37
         zone:
             key:
                 padding: kp
@@ -4158,9 +4077,6 @@ matrix_col2_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -4191,8 +4107,8 @@ matrix_col2_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -4223,8 +4139,8 @@ matrix_col2_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -4255,8 +4171,8 @@ matrix_col2_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -4287,9 +4203,6 @@ matrix_col2_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -4330,7 +4243,7 @@ matrix_col2_row0:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -4397,8 +4310,8 @@ matrix_col2_row0:
             rows:
                 row0:
                     key:
-                        led_next: LED_39
-                        led_this: LED_38
+                        led_next: LED_38
+                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_34
@@ -4520,9 +4433,6 @@ matrix_col2_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -4553,8 +4463,8 @@ matrix_col2_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -4585,8 +4495,8 @@ matrix_col2_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -4617,8 +4527,8 @@ matrix_col2_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -4649,9 +4559,6 @@ matrix_col2_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -4692,7 +4599,7 @@ matrix_col2_row1:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -4759,8 +4666,8 @@ matrix_col2_row1:
             rows:
                 row0:
                     key:
-                        led_next: LED_39
-                        led_this: LED_38
+                        led_next: LED_38
+                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_34
@@ -4882,9 +4789,6 @@ matrix_col2_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -4915,8 +4819,8 @@ matrix_col2_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -4947,8 +4851,8 @@ matrix_col2_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -4979,8 +4883,8 @@ matrix_col2_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -5011,9 +4915,6 @@ matrix_col2_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -5054,7 +4955,7 @@ matrix_col2_row2:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -5121,8 +5022,8 @@ matrix_col2_row2:
             rows:
                 row0:
                     key:
-                        led_next: LED_39
-                        led_this: LED_38
+                        led_next: LED_38
+                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_34
@@ -5244,9 +5145,6 @@ matrix_col2_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -5277,8 +5175,8 @@ matrix_col2_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -5309,8 +5207,8 @@ matrix_col2_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -5341,8 +5239,8 @@ matrix_col2_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -5373,9 +5271,6 @@ matrix_col2_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -5416,7 +5311,7 @@ matrix_col2_row3:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -5483,8 +5378,8 @@ matrix_col2_row3:
             rows:
                 row0:
                     key:
-                        led_next: LED_39
-                        led_this: LED_38
+                        led_next: LED_38
+                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_34
@@ -5606,9 +5501,6 @@ matrix_col2_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -5639,8 +5531,8 @@ matrix_col2_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -5671,8 +5563,8 @@ matrix_col2_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -5703,8 +5595,8 @@ matrix_col2_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -5735,9 +5627,6 @@ matrix_col2_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -5778,7 +5667,7 @@ matrix_col2_row4:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -5845,8 +5734,8 @@ matrix_col2_row4:
             rows:
                 row0:
                     key:
-                        led_next: LED_39
-                        led_this: LED_38
+                        led_next: LED_38
+                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_34
@@ -5968,9 +5857,6 @@ matrix_col2_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -6001,8 +5887,8 @@ matrix_col2_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -6033,8 +5919,8 @@ matrix_col2_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -6065,8 +5951,8 @@ matrix_col2_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -6097,9 +5983,6 @@ matrix_col2_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -6140,7 +6023,7 @@ matrix_col2_row5:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -6207,8 +6090,8 @@ matrix_col2_row5:
             rows:
                 row0:
                     key:
-                        led_next: LED_39
-                        led_this: LED_38
+                        led_next: LED_38
+                        led_this: LED_37
                 row1:
                     key:
                         led_next: LED_34
@@ -6267,8 +6150,8 @@ matrix_col3_row0:
         column_net: col3
         row_net: row0
         key:
-            led_next: LED_40
-            led_this: LED_39
+            led_next: LED_39
+            led_this: LED_38
         zone:
             key:
                 padding: kp
@@ -6330,9 +6213,6 @@ matrix_col3_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -6363,8 +6243,8 @@ matrix_col3_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -6395,8 +6275,8 @@ matrix_col3_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -6427,8 +6307,8 @@ matrix_col3_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -6459,9 +6339,6 @@ matrix_col3_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -6502,7 +6379,7 @@ matrix_col3_row0:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -6569,8 +6446,8 @@ matrix_col3_row0:
             rows:
                 row0:
                     key:
-                        led_next: LED_40
-                        led_this: LED_39
+                        led_next: LED_39
+                        led_this: LED_38
                 row1:
                     key:
                         led_next: LED_33
@@ -6692,9 +6569,6 @@ matrix_col3_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -6725,8 +6599,8 @@ matrix_col3_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -6757,8 +6631,8 @@ matrix_col3_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -6789,8 +6663,8 @@ matrix_col3_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -6821,9 +6695,6 @@ matrix_col3_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -6864,7 +6735,7 @@ matrix_col3_row1:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -6931,8 +6802,8 @@ matrix_col3_row1:
             rows:
                 row0:
                     key:
-                        led_next: LED_40
-                        led_this: LED_39
+                        led_next: LED_39
+                        led_this: LED_38
                 row1:
                     key:
                         led_next: LED_33
@@ -7054,9 +6925,6 @@ matrix_col3_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -7087,8 +6955,8 @@ matrix_col3_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -7119,8 +6987,8 @@ matrix_col3_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -7151,8 +7019,8 @@ matrix_col3_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -7183,9 +7051,6 @@ matrix_col3_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -7226,7 +7091,7 @@ matrix_col3_row2:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -7293,8 +7158,8 @@ matrix_col3_row2:
             rows:
                 row0:
                     key:
-                        led_next: LED_40
-                        led_this: LED_39
+                        led_next: LED_39
+                        led_this: LED_38
                 row1:
                     key:
                         led_next: LED_33
@@ -7416,9 +7281,6 @@ matrix_col3_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -7449,8 +7311,8 @@ matrix_col3_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -7481,8 +7343,8 @@ matrix_col3_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -7513,8 +7375,8 @@ matrix_col3_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -7545,9 +7407,6 @@ matrix_col3_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -7588,7 +7447,7 @@ matrix_col3_row3:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -7655,8 +7514,8 @@ matrix_col3_row3:
             rows:
                 row0:
                     key:
-                        led_next: LED_40
-                        led_this: LED_39
+                        led_next: LED_39
+                        led_this: LED_38
                 row1:
                     key:
                         led_next: LED_33
@@ -7778,9 +7637,6 @@ matrix_col3_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -7811,8 +7667,8 @@ matrix_col3_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -7843,8 +7699,8 @@ matrix_col3_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -7875,8 +7731,8 @@ matrix_col3_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -7907,9 +7763,6 @@ matrix_col3_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -7950,7 +7803,7 @@ matrix_col3_row4:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -8017,8 +7870,8 @@ matrix_col3_row4:
             rows:
                 row0:
                     key:
-                        led_next: LED_40
-                        led_this: LED_39
+                        led_next: LED_39
+                        led_this: LED_38
                 row1:
                     key:
                         led_next: LED_33
@@ -8140,9 +7993,6 @@ matrix_col3_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -8173,8 +8023,8 @@ matrix_col3_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -8205,8 +8055,8 @@ matrix_col3_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -8237,8 +8087,8 @@ matrix_col3_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -8269,9 +8119,6 @@ matrix_col3_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -8312,7 +8159,7 @@ matrix_col3_row5:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -8379,8 +8226,8 @@ matrix_col3_row5:
             rows:
                 row0:
                     key:
-                        led_next: LED_40
-                        led_this: LED_39
+                        led_next: LED_39
+                        led_this: LED_38
                 row1:
                     key:
                         led_next: LED_33
@@ -8439,8 +8286,8 @@ matrix_col4_row0:
         column_net: col4
         row_net: row0
         key:
-            led_next: LED_41
-            led_this: LED_40
+            led_next: LED_40
+            led_this: LED_39
         zone:
             key:
                 padding: kp
@@ -8502,9 +8349,6 @@ matrix_col4_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -8535,8 +8379,8 @@ matrix_col4_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -8567,8 +8411,8 @@ matrix_col4_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -8599,8 +8443,8 @@ matrix_col4_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -8631,9 +8475,6 @@ matrix_col4_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -8674,7 +8515,7 @@ matrix_col4_row0:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -8741,8 +8582,8 @@ matrix_col4_row0:
             rows:
                 row0:
                     key:
-                        led_next: LED_41
-                        led_this: LED_40
+                        led_next: LED_40
+                        led_this: LED_39
                 row1:
                     key:
                         led_next: LED_32
@@ -8864,9 +8705,6 @@ matrix_col4_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -8897,8 +8735,8 @@ matrix_col4_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -8929,8 +8767,8 @@ matrix_col4_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -8961,8 +8799,8 @@ matrix_col4_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -8993,9 +8831,6 @@ matrix_col4_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -9036,7 +8871,7 @@ matrix_col4_row1:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -9103,8 +8938,8 @@ matrix_col4_row1:
             rows:
                 row0:
                     key:
-                        led_next: LED_41
-                        led_this: LED_40
+                        led_next: LED_40
+                        led_this: LED_39
                 row1:
                     key:
                         led_next: LED_32
@@ -9226,9 +9061,6 @@ matrix_col4_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -9259,8 +9091,8 @@ matrix_col4_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -9291,8 +9123,8 @@ matrix_col4_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -9323,8 +9155,8 @@ matrix_col4_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -9355,9 +9187,6 @@ matrix_col4_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -9398,7 +9227,7 @@ matrix_col4_row2:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -9465,8 +9294,8 @@ matrix_col4_row2:
             rows:
                 row0:
                     key:
-                        led_next: LED_41
-                        led_this: LED_40
+                        led_next: LED_40
+                        led_this: LED_39
                 row1:
                     key:
                         led_next: LED_32
@@ -9588,9 +9417,6 @@ matrix_col4_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -9621,8 +9447,8 @@ matrix_col4_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -9653,8 +9479,8 @@ matrix_col4_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -9685,8 +9511,8 @@ matrix_col4_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -9717,9 +9543,6 @@ matrix_col4_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -9760,7 +9583,7 @@ matrix_col4_row3:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -9827,8 +9650,8 @@ matrix_col4_row3:
             rows:
                 row0:
                     key:
-                        led_next: LED_41
-                        led_this: LED_40
+                        led_next: LED_40
+                        led_this: LED_39
                 row1:
                     key:
                         led_next: LED_32
@@ -9950,9 +9773,6 @@ matrix_col4_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -9983,8 +9803,8 @@ matrix_col4_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -10015,8 +9835,8 @@ matrix_col4_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -10047,8 +9867,8 @@ matrix_col4_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -10079,9 +9899,6 @@ matrix_col4_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -10122,7 +9939,7 @@ matrix_col4_row4:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -10189,8 +10006,8 @@ matrix_col4_row4:
             rows:
                 row0:
                     key:
-                        led_next: LED_41
-                        led_this: LED_40
+                        led_next: LED_40
+                        led_this: LED_39
                 row1:
                     key:
                         led_next: LED_32
@@ -10312,9 +10129,6 @@ matrix_col4_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -10345,8 +10159,8 @@ matrix_col4_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -10377,8 +10191,8 @@ matrix_col4_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -10409,8 +10223,8 @@ matrix_col4_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -10441,9 +10255,6 @@ matrix_col4_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -10484,7 +10295,7 @@ matrix_col4_row5:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -10551,8 +10362,8 @@ matrix_col4_row5:
             rows:
                 row0:
                     key:
-                        led_next: LED_41
-                        led_this: LED_40
+                        led_next: LED_40
+                        led_this: LED_39
                 row1:
                     key:
                         led_next: LED_32
@@ -10674,9 +10485,6 @@ matrix_col5_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -10707,8 +10515,8 @@ matrix_col5_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -10739,8 +10547,8 @@ matrix_col5_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -10771,8 +10579,8 @@ matrix_col5_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -10803,9 +10611,6 @@ matrix_col5_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -10846,7 +10651,7 @@ matrix_col5_row1:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -10913,9 +10718,6 @@ matrix_col5_row1:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_42
-                        led_this: LED_41
                 row1:
                     key:
                         led_next: LED_31
@@ -11037,9 +10839,6 @@ matrix_col5_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -11070,8 +10869,8 @@ matrix_col5_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -11102,8 +10901,8 @@ matrix_col5_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -11134,8 +10933,8 @@ matrix_col5_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -11166,9 +10965,6 @@ matrix_col5_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -11209,7 +11005,7 @@ matrix_col5_row2:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -11276,9 +11072,6 @@ matrix_col5_row2:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_42
-                        led_this: LED_41
                 row1:
                     key:
                         led_next: LED_31
@@ -11400,9 +11193,6 @@ matrix_col5_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -11433,8 +11223,8 @@ matrix_col5_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -11465,8 +11255,8 @@ matrix_col5_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -11497,8 +11287,8 @@ matrix_col5_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -11529,9 +11319,6 @@ matrix_col5_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -11572,7 +11359,7 @@ matrix_col5_row3:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -11639,9 +11426,6 @@ matrix_col5_row3:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_42
-                        led_this: LED_41
                 row1:
                     key:
                         led_next: LED_31
@@ -11763,9 +11547,6 @@ matrix_col5_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -11796,8 +11577,8 @@ matrix_col5_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -11828,8 +11609,8 @@ matrix_col5_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -11860,8 +11641,8 @@ matrix_col5_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -11892,9 +11673,6 @@ matrix_col5_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -11935,7 +11713,7 @@ matrix_col5_row4:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -12002,9 +11780,6 @@ matrix_col5_row4:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_42
-                        led_this: LED_41
                 row1:
                     key:
                         led_next: LED_31
@@ -12126,9 +11901,6 @@ matrix_col5_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -12159,8 +11931,8 @@ matrix_col5_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -12191,8 +11963,8 @@ matrix_col5_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -12223,8 +11995,8 @@ matrix_col5_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -12255,9 +12027,6 @@ matrix_col5_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -12298,7 +12067,7 @@ matrix_col5_row5:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -12365,9 +12134,6 @@ matrix_col5_row5:
             rows:
                 row0:
                     skip: true
-                    key:
-                        led_next: LED_42
-                        led_this: LED_41
                 row1:
                     key:
                         led_next: LED_31
@@ -12428,7 +12194,7 @@ matrix_col6_row0:
         row_net: row0
         key:
             led_next: ''
-            led_this: LED_42
+            led_this: LED_40
         zone:
             key:
                 padding: kp
@@ -12490,9 +12256,6 @@ matrix_col6_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -12523,8 +12286,8 @@ matrix_col6_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -12555,8 +12318,8 @@ matrix_col6_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -12587,8 +12350,8 @@ matrix_col6_row0:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -12619,9 +12382,6 @@ matrix_col6_row0:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -12662,7 +12422,7 @@ matrix_col6_row0:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -12739,7 +12499,7 @@ matrix_col6_row0:
                         - 2u_stabilizers
                     key:
                         led_next: ''
-                        led_this: LED_42
+                        led_this: LED_40
                 row1:
                     shift:
                         - 0.5kspr
@@ -12865,9 +12625,6 @@ matrix_col6_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -12898,8 +12655,8 @@ matrix_col6_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -12930,8 +12687,8 @@ matrix_col6_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -12962,8 +12719,8 @@ matrix_col6_row1:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -12994,9 +12751,6 @@ matrix_col6_row1:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -13037,7 +12791,7 @@ matrix_col6_row1:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -13114,7 +12868,7 @@ matrix_col6_row1:
                         - 2u_stabilizers
                     key:
                         led_next: ''
-                        led_this: LED_42
+                        led_this: LED_40
                 row1:
                     shift:
                         - 0.5kspr
@@ -13240,9 +12994,6 @@ matrix_col6_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -13273,8 +13024,8 @@ matrix_col6_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -13305,8 +13056,8 @@ matrix_col6_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -13337,8 +13088,8 @@ matrix_col6_row2:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -13369,9 +13120,6 @@ matrix_col6_row2:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -13412,7 +13160,7 @@ matrix_col6_row2:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -13489,7 +13237,7 @@ matrix_col6_row2:
                         - 2u_stabilizers
                     key:
                         led_next: ''
-                        led_this: LED_42
+                        led_this: LED_40
                 row1:
                     shift:
                         - 0.5kspr
@@ -13615,9 +13363,6 @@ matrix_col6_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -13648,8 +13393,8 @@ matrix_col6_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -13680,8 +13425,8 @@ matrix_col6_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -13712,8 +13457,8 @@ matrix_col6_row3:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -13744,9 +13489,6 @@ matrix_col6_row3:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -13787,7 +13529,7 @@ matrix_col6_row3:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -13864,7 +13606,7 @@ matrix_col6_row3:
                         - 2u_stabilizers
                     key:
                         led_next: ''
-                        led_this: LED_42
+                        led_this: LED_40
                 row1:
                     shift:
                         - 0.5kspr
@@ -13990,9 +13732,6 @@ matrix_col6_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -14023,8 +13762,8 @@ matrix_col6_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -14055,8 +13794,8 @@ matrix_col6_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -14087,8 +13826,8 @@ matrix_col6_row4:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -14119,9 +13858,6 @@ matrix_col6_row4:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -14162,7 +13898,7 @@ matrix_col6_row4:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -14239,7 +13975,7 @@ matrix_col6_row4:
                         - 2u_stabilizers
                     key:
                         led_next: ''
-                        led_this: LED_42
+                        led_this: LED_40
                 row1:
                     shift:
                         - 0.5kspr
@@ -14365,9 +14101,6 @@ matrix_col6_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_38
-                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_35
@@ -14398,8 +14131,8 @@ matrix_col6_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED_38
+                                led_this: LED_37
                         row1:
                             key:
                                 led_next: LED_34
@@ -14430,8 +14163,8 @@ matrix_col6_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED_39
+                                led_this: LED_38
                         row1:
                             key:
                                 led_next: LED_33
@@ -14462,8 +14195,8 @@ matrix_col6_row5:
                     rows:
                         row0:
                             key:
-                                led_next: LED_41
-                                led_this: LED_40
+                                led_next: LED_40
+                                led_this: LED_39
                         row1:
                             key:
                                 led_next: LED_32
@@ -14494,9 +14227,6 @@ matrix_col6_row5:
                     rows:
                         row0:
                             skip: true
-                            key:
-                                led_next: LED_42
-                                led_this: LED_41
                         row1:
                             key:
                                 led_next: LED_31
@@ -14537,7 +14267,7 @@ matrix_col6_row5:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_42
+                                led_this: LED_40
                         row1:
                             shift:
                                 - 0.5kspr
@@ -14614,7 +14344,7 @@ matrix_col6_row5:
                         - 2u_stabilizers
                     key:
                         led_next: ''
-                        led_this: LED_42
+                        led_this: LED_40
                 row1:
                     shift:
                         - 0.5kspr
