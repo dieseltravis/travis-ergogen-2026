@@ -428,7 +428,7 @@ pcbs:
                 outline: board
         footprints:
             mcu:
-                what: travis/ScottoKeebs-Arduino_Pro_Micro
+                what: travis/ScottoKeebs-RP2040_Pro_Micro
                 where:
                     ref: matrix_col6_row5
                     shift:
@@ -436,26 +436,31 @@ pcbs:
                         - kp - 1.0
                     rotate: -90
                 params:
-                    value: Arduino Pro Micro
-                    P3: GND
+                    value: RP2040 Pro Micro
                     P4: GND
-                    P5: sda
-                    P6: scl
-                    P7: row0
-                    P8: row1
-                    P9: row2
-                    P10: row3
-                    P11: row4
-                    P12: row5
-                    P23: GND
-                    P20: col6
-                    P19: col5
-                    P18: col4
-                    P17: col3
-                    P16: col2
-                    P15: col1
-                    P14: col0
-                    P13: LED_1
+                    P5: GND
+                    P6: sda
+                    P7: scl
+                    P8: row0
+                    P9: row1
+                    P10: row2
+                    P11: row3
+                    P12: row4
+                    P13: row5
+                    P14: GP12
+                    P15: GP13
+                    P16: GP14
+                    P17: GP15
+                    P18: GP16
+                    P29: GND
+                    P26: col6
+                    P25: col5
+                    P24: col4
+                    P23: col3
+                    P22: col2
+                    P21: col1
+                    P20: col0
+                    P19: LED_1
                     offset3d:
                         - 0
                         - 0
@@ -526,11 +531,12 @@ pcbs:
                     P1: VCC
                     P2: GND
                     side: F
-                    value: 10V 470uF
+                    bend: 90
+                    value: 6.3V 1000uF
                 where:
                     ref: matrix_col5_row5
                     shift:
-                        - 0
+                        - '-kp / 2'
                         - kp - 3
                     rotate: 90
             mx_hotswap_key:

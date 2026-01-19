@@ -380,39 +380,47 @@ pcbs:
     footprints:
 
       mcu:
-        what: travis/ScottoKeebs-Arduino_Pro_Micro
+        what: travis/ScottoKeebs-RP2040_Pro_Micro
         where:
           ref: matrix_col6_row5
           shift: [-3.5, kp - 1.0]
           rotate: -90
         params:
-          value: "Arduino Pro Micro"
+          value: "RP2040 Pro Micro"
           # left
-          #P1:  # D3 TXO/PD3
-          #P2:  # D2 RXI/PD2
-          P3: GND
+          #P1:       # GP10
+          #P2:       # GP0  D3 TXO/PD3
+          #P3:       # GP1  D2 RXI/PD2
           P4: GND
-          P5: sda # D1 SDA
-          P6: scl  # D0 SCL PWM
-          P7: row0  # D4 A6
-          P8: row1  # C6 PWM
-          P9: row2  # D7 A7 PWM
-          P10: row3 # E6
-          P11: row4 # B4 A8
-          P12: row5 # B5 A9 PWM
-          # right
-          #P24: RAW LEDV
-          P23: GND
-          #P22: RESET 13
-          #P21: 3.3V
-          P20: col6 # F4 A3
-          P19: col5 # F5 A2
-          P18: col4 # F6 A1
-          P17: col3 # F7 A0
-          P16: col2 # B1 SCLK
-          P15: col1 # B3 MISO
-          P14: col0 # B2 MOSI
-          P13: LED_1 # B6 A10 PWM
+          P5: GND
+          P6: sda    # D1 SDA
+          P7: scl    # D0 SCL PWM
+          P8: row0   # D4 A6
+          P9: row1   # C6 PWM
+          P10: row2  # D7 A7 PWM
+          P11: row3  # E6
+          P12: row4  # B4 A8
+          P13: row5  # B5 A9 PWM
+          # bottom
+          P14: GP12
+          P15: GP13
+          P16: GP14
+          P17: GP15
+          P18: GP16
+          # right (from top)
+          #P31:      # GP11
+          #P30:      # RAW 5V
+          P29: GND
+          #P28:      # RESET 13
+          #P27:      # VCC 3.3V
+          P26: col6  # F4 A3
+          P25: col5  # F5 A2
+          P24: col4  # F6 A1
+          P23: col3  # F7 A0
+          P22: col2  # B1 SCLK
+          P21: col1  # B3 MISO
+          P20: col0  # B2 MOSI
+          P19: LED_1 # B6 A10 PWM
           offset3d: [0, 0, 5]
 
       # oled mounting options
@@ -475,11 +483,11 @@ pcbs:
           P1: VCC
           P2: GND
           side: F
-          #bend: 90
-          value: "10V 470uF"
+          bend: 90
+          value: "6.3V 1000uF"
         where:
           ref: matrix_col5_row5
-          shift: [0, kp - 3]
+          shift: [-kp / 2, kp - 3]
           rotate: 90
 
       # keys
