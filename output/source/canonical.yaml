@@ -433,7 +433,7 @@ pcbs:
                     ref: matrix_col6_row5
                     shift:
                         - -3.5
-                        - kp - 1.0
+                        - kp + 0.5
                     rotate: -90
                 params:
                     value: RP2040 Pro Micro
@@ -465,6 +465,20 @@ pcbs:
                         - 0
                         - 0
                         - 5
+            cap1:
+                what: travis/CRadialD63H11P25
+                params:
+                    P1: VCC
+                    P2: GND
+                    side: F
+                    bend: 90
+                    value: 6.3V 1000uF
+                where:
+                    ref: matrix_col6_row5
+                    shift:
+                        - 3
+                        - kp - 0.5
+                    rotate: 90
             oled1:
                 what: oled
                 params:
@@ -525,20 +539,6 @@ pcbs:
                         - kp / 4 + 0.75
                         - kp + 13
                     rotate: 270
-            cap1:
-                what: travis/CRadialD63H11P25
-                params:
-                    P1: VCC
-                    P2: GND
-                    side: F
-                    bend: 90
-                    value: 6.3V 1000uF
-                where:
-                    ref: matrix_col5_row5
-                    shift:
-                        - '-kp / 2'
-                        - kp - 3
-                    rotate: 90
             mx_hotswap_key:
                 what: travis/mx
                 where: meta.tags ~ /key/
@@ -795,8 +795,8 @@ pcbs:
                 where:
                     ref: matrix_col6_row5
                     shift:
-                        - bp - 2.75
-                        - bp + 20 - 2.75
+                        - bp - 2.75 - 1
+                        - bp + 20 - 2.75 - 10
                 params:
                     pad: 2
             holeBottomRight:
