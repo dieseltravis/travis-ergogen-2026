@@ -438,14 +438,14 @@ pcbs:
 
       # oled mounting options
       oled1:
-        what: oled
+        what: travis/Keebio-I2C_Breakout
         params:
-          side: "F"
-          SDA: sda
-          SCL: scl
+          #side: "F"
+          P4: sda
+          P3: scl
         where:
           ref: matrix_col0_row5
-          shift: [-kp / 2, kp + 7.5]
+          shift: [-kp / 2, kp + 5.5]
           rotate: 0
       oled2:
         what: oled
