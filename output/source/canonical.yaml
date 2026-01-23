@@ -1,8 +1,8 @@
 meta:
     engine: 4.2.1
     name: travis-ergogen-2026
-    version: 2026.01.19
-    date: '2026-01-19'
+    version: 2026.01.22
+    date: '2026-01-22'
     author: Travis Hardiman
     url: 'https://github.com/dieseltravis/travis-ergogen-2026'
     tags:
@@ -352,23 +352,23 @@ outlines:
                 -
                     ref: matrix_col0_row0
                     shift:
-                        - '-bp - 0.5kspr'
-                        - '-bp'
+                        - '-bp - 0.5kspr - 12'
+                        - '-bp - 12'
                 -
                     ref: matrix_col3_row0
                     shift:
                         - '-bp/3'
-                        - '-bp'
+                        - '-bp - 12'
                 -
                     ref: matrix_col3_row0
                     shift:
                         - bp/3
-                        - '-bp'
+                        - '-bp - 12'
                 -
                     ref: matrix_col6_row0
                     shift:
-                        - bp + 0.5kspr
-                        - '-bp'
+                        - bp + 0.5kspr + 12
+                        - '-bp - 12'
                 -
                     ref: matrix_col6_row5
                     shift:
@@ -482,61 +482,57 @@ pcbs:
             oled1:
                 what: travis/Keebio-I2C_Breakout
                 params:
-                    P4: sda
                     P3: scl
+                    P4: sda
                 where:
                     ref: matrix_col0_row5
                     shift:
-                        - '-kp / 2'
+                        - '-kp / 2 - 1'
                         - kp + 5.5
                     rotate: 0
             oled2:
-                what: oled
+                what: travis/Keebio-I2C_Breakout
                 params:
-                    side: F
-                    SDA: sda
-                    SCL: scl
+                    P3: scl
+                    P4: sda
                 where:
                     ref: matrix_col1_row5
                     shift:
-                        - '-kp / 4 - 0.75'
-                        - kp / 2
+                        - '-2.54 - 1.27'
+                        - kp / 2 + 1.5
                     rotate: 90
             oled3:
-                what: oled
+                what: travis/Keebio-I2C_Breakout
                 params:
-                    side: F
-                    SDA: sda
-                    SCL: scl
+                    P3: scl
+                    P4: sda
                 where:
                     ref: matrix_col1_row5
                     shift:
-                        - kp / 4 + 0.75
-                        - kp + 13
+                        - 2.54 + 1.27
+                        - kp + 11
                     rotate: 273
             oled4:
-                what: oled
+                what: travis/Keebio-I2C_Breakout
                 params:
-                    side: F
-                    SDA: sda
-                    SCL: scl
+                    P3: scl
+                    P4: sda
                 where:
                     ref: matrix_col3_row5
                     shift:
-                        - '-kp / 4 - 0.75'
-                        - kp / 2
+                        - '-2.54 - 1.27'
+                        - kp / 2 + 1.5
                     rotate: 90
             oled5:
-                what: oled
+                what: travis/Keebio-I2C_Breakout
                 params:
-                    side: F
-                    SDA: sda
-                    SCL: scl
+                    P3: scl
+                    P4: sda
                 where:
                     ref: matrix_col3_row5
                     shift:
-                        - kp / 4 + 0.75
-                        - kp + 13
+                        - 2.54 + 1.27
+                        - kp + 11
                     rotate: 270
             mx_hotswap_key:
                 what: travis/mx
@@ -757,7 +753,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: 3270 Nerd Font
-                    text: 2026.01.19
+                    text: 2026.01.22
                     height: 1
                     width: 1
                 adjust:
@@ -794,8 +790,8 @@ pcbs:
                 where:
                     ref: matrix_col6_row5
                     shift:
-                        - bp - 2.75 - 1
-                        - bp + 20 - 2.75 - 10
+                        - bp - 2.75
+                        - bp + 20 - 2.75 - 10.25
                 params:
                     pad: 2
             holeBottomRight:
@@ -803,8 +799,8 @@ pcbs:
                 where:
                     ref: matrix_col6_row0
                     shift:
-                        - bp + 0.5kspr - 2.75
-                        - '-bp + 2.75'
+                        - bp + 0.5kspr - 2.75 + 11.5
+                        - '-bp + 2.75 - 11.5'
                 params:
                     pad: 3
             holeBottomLeft:
@@ -812,8 +808,8 @@ pcbs:
                 where:
                     ref: matrix_col0_row0
                     shift:
-                        - '-bp - 0.5kspr + 2.75'
-                        - '-bp + 2.75'
+                        - '-bp - 0.5kspr + 2.75 - 11.5'
+                        - '-bp + 2.75 - 11.5'
                 params:
                     pad: 4
             background:
@@ -827,14 +823,14 @@ pcbs:
                             - 15
                             - 45
                         -
-                            - 195
+                            - 205
                             - 45
                         -
-                            - 195
-                            - 220
+                            - 205
+                            - 230
                         -
                             - 15
-                            - 220
+                            - 230
             foreground:
                 what: ceoloide/utility_filled_zone
                 params:
@@ -848,12 +844,12 @@ pcbs:
                             - 20
                             - 50
                         -
-                            - 200
+                            - 210
                             - 50
                         -
-                            - 200
-                            - 225
+                            - 210
+                            - 235
                         -
                             - 20
-                            - 225
+                            - 235
 cases: null

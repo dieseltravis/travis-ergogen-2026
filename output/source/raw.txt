@@ -1,8 +1,8 @@
 meta:
   engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2026.01.19"
-  date: "2026-01-19"
+  version: &meta_version "2026.01.22"
+  date: "2026-01-22"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
   tags: [ "ergogen", "keyboard", "cherrymx", "hotswap" ]
@@ -335,14 +335,14 @@ outlines:
       fillet: 2.75
       points:
         - ref: matrix_col0_row0
-          shift: [-bp - 0.5kspr, -bp]
+          shift: [-bp - 0.5kspr - 12, -bp - 12]
         - ref: matrix_col3_row0
-          shift: [-bp/3, -bp]
+          shift: [-bp/3, -bp - 12]
 
         - ref: matrix_col3_row0
-          shift: [bp/3, -bp]
+          shift: [bp/3, -bp - 12]
         - ref: matrix_col6_row0
-          shift: [bp + 0.5kspr, -bp]
+          shift: [bp + 0.5kspr + 12, -bp - 12]
 
         - ref: matrix_col6_row5
           shift: [bp, bp + 20]
@@ -441,54 +441,58 @@ pcbs:
         what: travis/Keebio-I2C_Breakout
         params:
           #side: "F"
-          P4: sda
           P3: scl
+          P4: sda
         where:
           ref: matrix_col0_row5
-          shift: [-kp / 2, kp + 5.5]
+          shift: [-kp / 2 - 1, kp + 5.5]
           rotate: 0
       oled2:
-        what: oled
+        what: travis/Keebio-I2C_Breakout
         params:
-          side: "F"
-          SDA: sda
-          SCL: scl
+          #side: "F"
+          P3: scl
+          P4: sda
         where:
           #ref.aggregate.parts: [matrix_col1_row5, matrix_col2_row5]
           ref: matrix_col1_row5
-          shift: [-kp / 4 - 0.75, kp / 2]
+          shift: [-2.54 - 1.27, kp / 2 + 1.5]
           rotate: 90
       oled3:
-        what: oled
+        what: travis/Keebio-I2C_Breakout
         params:
-          side: "F"
-          SDA: sda
-          SCL: scl
+          #side: "F"
+          P3: scl
+          P4: sda
         where:
           #ref.aggregate.parts: [matrix_col1_row5, matrix_col2_row5]
           ref: matrix_col1_row5
-          shift: [kp / 4 + 0.75, kp + 13]
+          shift: [2.54 + 1.27, kp + 11]
           rotate: 273
       oled4:
-        what: oled
+        what: travis/Keebio-I2C_Breakout
         params:
-          side: "F"
-          SDA: sda
-          SCL: scl
+          #side: "F"
+          P3: scl
+          P4: sda
         where:
           ref: matrix_col3_row5
-          shift: [-kp / 4 - 0.75, kp / 2]
+          shift: [-2.54 - 1.27, kp / 2 + 1.5]
           rotate: 90
       oled5:
-        what: oled
+        what: travis/Keebio-I2C_Breakout
         params:
-          side: "F"
-          SDA: sda
-          SCL: scl
+          #side: "F"
+          P3: scl
+          P4: sda
         where:
           ref: matrix_col3_row5
-          shift: [kp / 4 + 0.75, kp + 13]
+          shift: [2.54 + 1.27, kp + 11]
           rotate: 270
+
+      # encoder wheel options
+      #wheel1:
+      #  what: null
 
       # keys
       mx_hotswap_key:
@@ -700,21 +704,21 @@ pcbs:
         what: travis/mountinghole
         where:
           ref: matrix_col6_row5
-          shift: [bp - 2.75 - 1, bp + 20 - 2.75 - 10]
+          shift: [bp - 2.75, bp + 20 - 2.75 - 10.25]
         params:
           pad: 2
       holeBottomRight:
         what: travis/mountinghole
         where:
           ref: matrix_col6_row0
-          shift: [bp + 0.5kspr - 2.75, -bp + 2.75]
+          shift: [bp + 0.5kspr - 2.75 + 11.5, -bp + 2.75 - 11.5]
         params:
           pad: 3
       holeBottomLeft:
         what: travis/mountinghole
         where:
           ref: matrix_col0_row0
-          shift: [-bp - 0.5kspr + 2.75, -bp + 2.75]
+          shift: [-bp - 0.5kspr + 2.75 - 11.5, -bp + 2.75 - 11.5]
         params:
           pad: 4
 
@@ -725,7 +729,7 @@ pcbs:
           side: "B"
           name: "back ground"
           connect_pads: "yes"
-          points: [[15, 45], [195, 45], [195, 220], [15, 220]]
+          points: [[15, 45], [205, 45], [205, 230], [15, 230]]
       foreground:
         what: ceoloide/utility_filled_zone
         params:
@@ -734,6 +738,6 @@ pcbs:
           connect_pads: "yes"
           fill_type: "hatch"
           hatch_orientation: 45
-          points: [[20, 50], [200, 50], [200, 225], [20, 225]]
+          points: [[20, 50], [210, 50], [210, 235], [20, 235]]
 
 cases:
