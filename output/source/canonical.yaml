@@ -352,8 +352,8 @@ outlines:
                 -
                     ref: matrix_col0_row0
                     shift:
-                        - '-bp - 0.5kspr - 12'
-                        - '-bp - 12'
+                        - '-bp - 0.5kspr - 8'
+                        - '-bp - 10'
                 -
                     ref: matrix_col3_row0
                     shift:
@@ -367,8 +367,18 @@ outlines:
                 -
                     ref: matrix_col6_row0
                     shift:
-                        - bp + 0.5kspr + 12
-                        - '-bp - 12'
+                        - bp + 0.5kspr + 8
+                        - '-bp - 10'
+                -
+                    ref: matrix_col6_row1
+                    shift:
+                        - bp + 10
+                        - '-bp / 2'
+                -
+                    ref: matrix_col6_row2
+                    shift:
+                        - bp
+                        - '-bp / 2'
                 -
                     ref: matrix_col6_row5
                     shift:
@@ -414,6 +424,16 @@ outlines:
                     shift:
                         - '-bp'
                         - bp + 20
+                -
+                    ref: matrix_col0_row2
+                    shift:
+                        - '-bp'
+                        - '-bp / 2'
+                -
+                    ref: matrix_col0_row1
+                    shift:
+                        - '-bp - 10'
+                        - '-bp / 2'
     combo:
         -
             name: board
@@ -785,33 +805,42 @@ pcbs:
                         - bp + 20 - 2.75
                 params:
                     pad: 1
+            holeTopCenter:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col3_row5
+                    shift:
+                        - 0
+                        - bp + 10.5
+                params:
+                    pad: 2
             holeTopRight:
                 what: travis/mountinghole
                 where:
                     ref: matrix_col6_row5
                     shift:
-                        - bp - 2.75
+                        - bp - 3
                         - bp + 20 - 2.75 - 10.25
                 params:
-                    pad: 2
+                    pad: 3
             holeBottomRight:
                 what: travis/mountinghole
                 where:
                     ref: matrix_col6_row0
                     shift:
-                        - bp + 0.5kspr - 2.75 + 11.5
-                        - '-bp + 2.75 - 11.5'
+                        - bp + 0.5kspr - 2.75 + 8
+                        - '-bp + 2.75 - 10'
                 params:
-                    pad: 3
+                    pad: 4
             holeBottomLeft:
                 what: travis/mountinghole
                 where:
                     ref: matrix_col0_row0
                     shift:
-                        - '-bp - 0.5kspr + 2.75 - 11.5'
-                        - '-bp + 2.75 - 11.5'
+                        - '-bp - 0.5kspr + 2.75 - 8'
+                        - '-bp + 2.75 - 10'
                 params:
-                    pad: 4
+                    pad: 5
             background:
                 what: ceoloide/utility_filled_zone
                 params:
