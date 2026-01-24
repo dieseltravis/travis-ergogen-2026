@@ -27,7 +27,7 @@ units:
   #screwSize: 1
   # M2 Screw Inserts
   screwSize: 1.5
-  standoffSize: 4
+  standoffSize: 2.85
 points:
   zones:
     matrix:
@@ -487,16 +487,21 @@ outlines:
         ref: matrix_col3_row5
         shift: [0, bp + 10.5]
     - what: rectangle
-      size: [standoffSize * 2, 10]
+      size: [1, 12]
       where:
         ref: matrix_col3_row5
-        shift: [0, bp + 10.5 + standoffSize]
+        shift: [0, bp + 10.5 + 5]
     - what: circle
       radius: standoffSize
       where:
         # holeTopRight
         ref: matrix_col6_row5
         shift: [bp - 3, bp + 20 - 2.75 - 10.25]
+    - what: rectangle
+      size: [4, standoffSize * 2]
+      where:
+        ref: matrix_col6_row5
+        shift: [bp - 1, bp + 20 - 2.75 - 10.25]
     - what: circle
       radius: standoffSize
       where:
@@ -510,10 +515,10 @@ outlines:
         ref: matrix_col3_row0
         shift: [0, -5bp / 4]
     - what: rectangle
-      size: [standoffSize * 2, 9]
+      size: [standoffSize * 2, 10]
       where:
         ref: matrix_col3_row0
-        shift: [0, -5bp / 4 - standoffSize]
+        shift: [0, -5bp / 4 - 5]
     - what: circle
       radius: standoffSize
       where:
