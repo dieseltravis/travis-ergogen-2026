@@ -372,7 +372,7 @@ outlines:
                 -
                     ref: matrix_col6_row1
                     shift:
-                        - bp + 10
+                        - bp + 8
                         - '-bp / 2'
                 -
                     ref: matrix_col6_row2
@@ -432,7 +432,7 @@ outlines:
                 -
                     ref: matrix_col0_row1
                     shift:
-                        - '-bp - 10'
+                        - '-bp - 8'
                         - '-bp / 2'
     combo:
         -
@@ -470,8 +470,8 @@ pcbs:
                     P14: GP12
                     P15: GP13
                     P16: GP14
-                    P17: GP15
-                    P18: GP16
+                    P17: encA
+                    P18: encC
                     P29: GND
                     P26: col6
                     P25: col5
@@ -554,6 +554,58 @@ pcbs:
                         - 2.54 + 1.27
                         - kp + 11
                     rotate: 270
+            wheel1:
+                what: travis/Alps-EC10E1220501
+                params:
+                    P1: encA
+                    P2: GND
+                    P3: encC
+                    P4: GND
+                where:
+                    ref: matrix_col0_row0
+                    shift:
+                        - '-3kp / 2 + 1.75'
+                        - 0
+                    rotate: -90
+            wheel2:
+                what: travis/Alps-EC10E1220501
+                params:
+                    P1: encA
+                    P2: GND
+                    P3: encC
+                    P4: GND
+                where:
+                    ref: matrix_col0_row0
+                    shift:
+                        - '-kp / 2'
+                        - '-kp - 1'
+                    rotate: 0
+            wheel3:
+                what: travis/Alps-EC10E1220501
+                params:
+                    P1: encA
+                    P2: GND
+                    P3: encC
+                    P4: GND
+                where:
+                    ref: matrix_col6_row0
+                    shift:
+                        - kp / 2
+                        - '-kp - 1'
+                    rotate: 0
+            wheel4:
+                what: travis/Alps-EC10E1220501
+                params:
+                    P1: encA
+                    P2: GND
+                    P3: encC
+                    P4: GND
+                where:
+                    ref: matrix_col6_row0
+                    shift:
+                        - 3kp / 2 - 1.75
+                        - 0
+                    rotate: 90
             mx_hotswap_key:
                 what: travis/mx
                 where: meta.tags ~ /key/
@@ -832,6 +884,15 @@ pcbs:
                         - '-bp + 2.75 - 10'
                 params:
                     pad: 4
+            holeBottomCenter:
+                what: travis/mountinghole
+                where:
+                    ref: matrix_col3_row0
+                    shift:
+                        - 0
+                        - '-5bp / 4'
+                params:
+                    pad: 5
             holeBottomLeft:
                 what: travis/mountinghole
                 where:
@@ -840,7 +901,7 @@ pcbs:
                         - '-bp - 0.5kspr + 2.75 - 8'
                         - '-bp + 2.75 - 10'
                 params:
-                    pad: 5
+                    pad: 6
             background:
                 what: ceoloide/utility_filled_zone
                 params:

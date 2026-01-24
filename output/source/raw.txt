@@ -345,7 +345,7 @@ outlines:
           shift: [bp + 0.5kspr + 8, -bp - 10]
         # right
         - ref: matrix_col6_row1
-          shift: [bp + 10 , -bp / 2]
+          shift: [bp + 8 , -bp / 2]
         - ref: matrix_col6_row2
           shift: [bp , -bp / 2]
         # top
@@ -375,7 +375,7 @@ outlines:
         - ref: matrix_col0_row2
           shift: [-bp, -bp / 2]
         - ref: matrix_col0_row1
-          shift: [-bp - 10, -bp / 2]
+          shift: [-bp - 8, -bp / 2]
   combo:
     - name: board
     - operation: subtract
@@ -415,8 +415,8 @@ pcbs:
           P14: GP12
           P15: GP13
           P16: GP14
-          P17: GP15
-          P18: GP16
+          P17: encA
+          P18: encC
           # right (from top)
           #P31:      # GP11
           #P30:      # RAW 5V
@@ -501,8 +501,50 @@ pcbs:
           rotate: 270
 
       # encoder wheel options
-      #wheel1:
-      #  what: null
+      wheel1:
+        what: travis/Alps-EC10E1220501
+        params:
+          P1: encA
+          P2: GND
+          P3: encC
+          P4: GND
+        where:
+          ref: matrix_col0_row0
+          shift: [-3kp / 2 + 1.75, 0]
+          rotate: -90
+      wheel2:
+        what: travis/Alps-EC10E1220501
+        params:
+          P1: encA
+          P2: GND
+          P3: encC
+          P4: GND
+        where:
+          ref: matrix_col0_row0
+          shift: [-kp / 2, -kp - 1]
+          rotate: 0
+      wheel3:
+        what: travis/Alps-EC10E1220501
+        params:
+          P1: encA
+          P2: GND
+          P3: encC
+          P4: GND
+        where:
+          ref: matrix_col6_row0
+          shift: [kp / 2, -kp - 1]
+          rotate: 0
+      wheel4:
+        what: travis/Alps-EC10E1220501
+        params:
+          P1: encA
+          P2: GND
+          P3: encC
+          P4: GND
+        where:
+          ref: matrix_col6_row0
+          shift: [3kp / 2 - 1.75, 0]
+          rotate: 90
 
       # keys
       mx_hotswap_key:
@@ -731,13 +773,20 @@ pcbs:
           shift: [bp + 0.5kspr - 2.75 + 8, -bp + 2.75 - 10]
         params:
           pad: 4
+      holeBottomCenter:
+        what: travis/mountinghole
+        where:
+          ref: matrix_col3_row0
+          shift: [0, -5bp / 4]
+        params:
+          pad: 5
       holeBottomLeft:
         what: travis/mountinghole
         where:
           ref: matrix_col0_row0
           shift: [-bp - 0.5kspr + 2.75 - 8, -bp + 2.75 - 10]
         params:
-          pad: 5
+          pad: 6
 
       # grounds
       background:

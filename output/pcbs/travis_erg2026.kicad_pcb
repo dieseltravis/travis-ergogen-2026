@@ -97,8 +97,8 @@
 (net 13 "GP12")
 (net 14 "GP13")
 (net 15 "GP14")
-(net 16 "GP15")
-(net 17 "GP16")
+(net 16 "encA")
+(net 17 "encC")
 (net 18 "LED_1")
 (net 19 "col0")
 (net 20 "col1")
@@ -1403,7 +1403,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 16 "GP15")
+        (net 16 "encA")
 		(remove_unused_layers no)
 		(uuid "9e9026c5-ee67-4d04-80a5-7b0b109d0a9a")
 	)
@@ -1412,7 +1412,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 17 "GP16")
+        (net 17 "encC")
 		(remove_unused_layers no)
 		(uuid "f599ab4a-f994-4bf2-8ddd-f2a76ad79adf")
 	)
@@ -1617,8 +1617,13 @@
   (pad "2" thru_hole oval (at 0 2.54 3) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 26 "VCC") (tstamp 099f7aa3-e922-4ef1-9732-ae8a90f2d205))
   (pad "3" thru_hole oval (at 0 5.08 3) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 6 "scl") (tstamp 629c663c-f05f-4cc6-b74e-9958f34ed5f7))
   (pad "4" thru_hole oval (at 0 7.62 3) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 5 "sda") (tstamp 13c1c6a1-300b-4210-8cc0-b9eb4e2ced94))
-)
 
+  (model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 0.75))
+    (rotate (xyz 0 0 0))
+  )
+)
 (footprint "I2C_Breakout" (version 20210126) (generator pcbnew) (layer "F.Cu")
     (at 62.06966869999998 80.88144240000004 92)
   (tedit 60242D9C)
@@ -1666,8 +1671,13 @@
   (pad "2" thru_hole oval (at 0 2.54 92) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 26 "VCC") (tstamp 099f7aa3-e922-4ef1-9732-ae8a90f2d205))
   (pad "3" thru_hole oval (at 0 5.08 92) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 6 "scl") (tstamp 629c663c-f05f-4cc6-b74e-9958f34ed5f7))
   (pad "4" thru_hole oval (at 0 7.62 92) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 5 "sda") (tstamp 13c1c6a1-300b-4210-8cc0-b9eb4e2ced94))
-)
 
+  (model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 0.75))
+    (rotate (xyz 0 0 0))
+  )
+)
 (footprint "I2C_Breakout" (version 20210126) (generator pcbnew) (layer "F.Cu")
     (at 68.98616439999998 60.60270690000004 275)
   (tedit 60242D9C)
@@ -1715,8 +1725,13 @@
   (pad "2" thru_hole oval (at 0 2.54 275) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 26 "VCC") (tstamp 099f7aa3-e922-4ef1-9732-ae8a90f2d205))
   (pad "3" thru_hole oval (at 0 5.08 275) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 6 "scl") (tstamp 629c663c-f05f-4cc6-b74e-9958f34ed5f7))
   (pad "4" thru_hole oval (at 0 7.62 275) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 5 "sda") (tstamp 13c1c6a1-300b-4210-8cc0-b9eb4e2ced94))
-)
 
+  (model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 0.75))
+    (rotate (xyz 0 0 0))
+  )
+)
 (footprint "I2C_Breakout" (version 20210126) (generator pcbnew) (layer "F.Cu")
     (at 106.19256659999999 77.62814029999996 90)
   (tedit 60242D9C)
@@ -1764,8 +1779,13 @@
   (pad "2" thru_hole oval (at 0 2.54 90) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 26 "VCC") (tstamp 099f7aa3-e922-4ef1-9732-ae8a90f2d205))
   (pad "3" thru_hole oval (at 0 5.08 90) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 6 "scl") (tstamp 629c663c-f05f-4cc6-b74e-9958f34ed5f7))
   (pad "4" thru_hole oval (at 0 7.62 90) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 5 "sda") (tstamp 13c1c6a1-300b-4210-8cc0-b9eb4e2ced94))
-)
 
+  (model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 0.75))
+    (rotate (xyz 0 0 0))
+  )
+)
 (footprint "I2C_Breakout" (version 20210126) (generator pcbnew) (layer "F.Cu")
     (at 113.8125666 57.603140299999964 270)
   (tedit 60242D9C)
@@ -1813,8 +1833,1081 @@
   (pad "2" thru_hole oval (at 0 2.54 270) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 26 "VCC") (tstamp 099f7aa3-e922-4ef1-9732-ae8a90f2d205))
   (pad "3" thru_hole oval (at 0 5.08 270) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 6 "scl") (tstamp 629c663c-f05f-4cc6-b74e-9958f34ed5f7))
   (pad "4" thru_hole oval (at 0 7.62 270) (locked) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (net 5 "sda") (tstamp 13c1c6a1-300b-4210-8cc0-b9eb4e2ced94))
-)
 
+  (model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 0.75))
+    (rotate (xyz 0 0 0))
+  )
+)
+(footprint "Alps-EC10E1220501"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+    (at 30.2589133 201.5558188 -86)
+	(property "Reference" "ROT1"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		hide
+		(uuid "0209e05c-cfe1-47ba-ac49-a1647ff0e8c3")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "EC10E1220501"
+		(at -0.167 -5.334 0)
+		(unlocked yes)
+		(layer "F.Fab") (hide yes)
+		(uuid "f578bc23-73ff-4a68-abed-596a9c6f9cf2")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "718c4f33-1c23-4d15-a980-df7e01c11e71")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d62d41ec-6b19-4e77-91c8-08b8a9da8754")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -4.5 -4.4)
+		(end -4.5 -3.6)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "fd6a2da9-7772-4722-aab2-b1224265596e")
+	)
+	(fp_line
+		(start -4.5 1.7)
+		(end -4.5 0)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "84e57433-8f72-4fd7-bdb6-caa521d7b913")
+	)
+	(fp_line
+		(start 4.5 -4.4)
+		(end 4.5 -3.6)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "4de100a4-ecf1-4fd1-a88a-ba1070bf7e28")
+	)
+	(fp_line
+		(start 4.5 1.7)
+		(end 4.5 0)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "c6eebfae-3e9f-475b-87ee-216ad6b2fb93")
+	)
+	(fp_line
+		(start -3.5 1)
+		(end -0.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "30af9117-58bf-452e-ac8f-f5b3fdf40f9e")
+	)
+	(fp_line
+		(start -0.5 1)
+		(end -0.5 2.5)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "21f67f4c-c1f7-484a-818e-8f2d81acd37d")
+	)
+	(fp_line
+		(start -0.5 2.5)
+		(end 0.5 2.5)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "2893bfd8-92fc-4194-956c-c2dc969ef62d")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end 3.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "a16ffc0a-35b2-4da2-9c8a-be6c7ca4cce5")
+	)
+	(fp_line
+		(start 0.5 2.5)
+		(end 0.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "dcdfde9b-ffe1-49b9-b872-6b0c7e9451b1")
+	)
+	(fp_line
+		(start -5.9 -3.7)
+		(end -4.8 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "33c85f7c-fce5-4bcb-8f0f-431b19a18d6a")
+	)
+	(fp_line
+		(start -5.9 -0.3)
+		(end -5.9 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "98776853-2003-4a90-9b96-ae45c109e346")
+	)
+	(fp_line
+		(start -4.8 -4.7)
+		(end 4.8 -4.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "6bc6e218-e74f-4750-ad1f-ec446d5198dd")
+	)
+	(fp_line
+		(start -4.8 -3.7)
+		(end -4.8 -4.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "638747a9-553f-4f34-85a5-51a2834b55fa")
+	)
+	(fp_line
+		(start -4.8 -0.3)
+		(end -5.9 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "9ae67e20-a00f-44d1-89be-82610f9b9de9")
+	)
+	(fp_line
+		(start -4.8 2)
+		(end -4.8 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "b86f9d2b-883b-4773-a6b1-858ff1f11cfd")
+	)
+	(fp_line
+		(start 4.8 -4.7)
+		(end 4.8 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "e9434315-4ab5-4962-ad36-b7eb3a8802f0")
+	)
+	(fp_line
+		(start 4.8 -3.7)
+		(end 5.9 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "f1178bae-2415-4313-9898-333d73227e83")
+	)
+	(fp_line
+		(start 4.8 -0.3)
+		(end 4.8 2)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "54a1f0eb-aa55-4e23-ae61-5eac7f2d4239")
+	)
+	(fp_line
+		(start 4.8 2)
+		(end -4.8 2)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "7e580e10-06e9-4f26-9a98-1e78ed6ba86b")
+	)
+	(fp_line
+		(start 5.9 -3.7)
+		(end 5.9 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "ebd4cf49-d264-4970-9293-d78a0c0c0117")
+	)
+	(fp_line
+		(start 5.9 -0.3)
+		(end 4.8 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "ff98b47b-85a2-4dae-8b7b-3f148938858e")
+	)
+	(fp_text user "SHAFT"
+		(at 0.5 1.75 -86)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "5b7eecca-ca35-4136-8f4c-58c47162cb61")
+		(effects
+			(font (size 0.5 0.5) (thickness 0.125))
+			(justify left bottom)
+		)
+	)
+	(fp_text user "ROT1"
+		(at 0 -6.5 -86)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1498524e-0f42-4710-9aa4-0701267f8833")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "4" thru_hole roundrect
+		(at -4.5 -2 -86)
+		(size 2.5 3)
+		(drill oval 1.8 2.05)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(zone_connect 2)
+		(uuid "4b170b16-67d0-4621-a595-6112a8467014")
+	)
+	(pad "4" thru_hole roundrect
+		(at 4.5 -2 -86)
+		(size 2.5 3)
+		(drill oval 1.8 2.05)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "b86e2e50-6874-4d3d-a89e-1078dff58a4d")
+	)
+	(pad "A" thru_hole oval
+		(at -2.5 0 -86)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 16 "encA")
+		(remove_unused_layers no)
+		(uuid "b0c17c82-2307-4cd7-b660-a91b8f49b3cc")
+	)
+	(pad "B" thru_hole oval
+		(at 0 0 -86)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(uuid "d438ea68-cf91-486a-a92c-c48941175871")
+	)
+	(pad "C" thru_hole oval
+		(at 2.5 0 -86)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 17 "encC")
+		(remove_unused_layers no)
+		(uuid "2ed72e63-c32c-4fc0-9802-032a35fa7823")
+	)
+	(embedded_fonts no)
+    (model "${TRAVIS_KICAD}/Alps-EC10E1220501.step"
+        (offset (xyz 0 0 9.2))
+        (scale (xyz 1 1 1))
+        (rotate (xyz 270 0 180))
+    )
+)
+(footprint "Alps-EC10E1220501"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+    (at 51.050029699999996 222.2058062 4)
+	(property "Reference" "ROT2"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		hide
+		(uuid "0209e05c-cfe1-47ba-ac49-a1647ff0e8c3")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "EC10E1220501"
+		(at -0.167 -5.334 0)
+		(unlocked yes)
+		(layer "F.Fab") (hide yes)
+		(uuid "f578bc23-73ff-4a68-abed-596a9c6f9cf2")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "718c4f33-1c23-4d15-a980-df7e01c11e71")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d62d41ec-6b19-4e77-91c8-08b8a9da8754")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -4.5 -4.4)
+		(end -4.5 -3.6)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "fd6a2da9-7772-4722-aab2-b1224265596e")
+	)
+	(fp_line
+		(start -4.5 1.7)
+		(end -4.5 0)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "84e57433-8f72-4fd7-bdb6-caa521d7b913")
+	)
+	(fp_line
+		(start 4.5 -4.4)
+		(end 4.5 -3.6)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "4de100a4-ecf1-4fd1-a88a-ba1070bf7e28")
+	)
+	(fp_line
+		(start 4.5 1.7)
+		(end 4.5 0)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "c6eebfae-3e9f-475b-87ee-216ad6b2fb93")
+	)
+	(fp_line
+		(start -3.5 1)
+		(end -0.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "30af9117-58bf-452e-ac8f-f5b3fdf40f9e")
+	)
+	(fp_line
+		(start -0.5 1)
+		(end -0.5 2.5)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "21f67f4c-c1f7-484a-818e-8f2d81acd37d")
+	)
+	(fp_line
+		(start -0.5 2.5)
+		(end 0.5 2.5)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "2893bfd8-92fc-4194-956c-c2dc969ef62d")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end 3.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "a16ffc0a-35b2-4da2-9c8a-be6c7ca4cce5")
+	)
+	(fp_line
+		(start 0.5 2.5)
+		(end 0.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "dcdfde9b-ffe1-49b9-b872-6b0c7e9451b1")
+	)
+	(fp_line
+		(start -5.9 -3.7)
+		(end -4.8 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "33c85f7c-fce5-4bcb-8f0f-431b19a18d6a")
+	)
+	(fp_line
+		(start -5.9 -0.3)
+		(end -5.9 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "98776853-2003-4a90-9b96-ae45c109e346")
+	)
+	(fp_line
+		(start -4.8 -4.7)
+		(end 4.8 -4.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "6bc6e218-e74f-4750-ad1f-ec446d5198dd")
+	)
+	(fp_line
+		(start -4.8 -3.7)
+		(end -4.8 -4.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "638747a9-553f-4f34-85a5-51a2834b55fa")
+	)
+	(fp_line
+		(start -4.8 -0.3)
+		(end -5.9 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "9ae67e20-a00f-44d1-89be-82610f9b9de9")
+	)
+	(fp_line
+		(start -4.8 2)
+		(end -4.8 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "b86f9d2b-883b-4773-a6b1-858ff1f11cfd")
+	)
+	(fp_line
+		(start 4.8 -4.7)
+		(end 4.8 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "e9434315-4ab5-4962-ad36-b7eb3a8802f0")
+	)
+	(fp_line
+		(start 4.8 -3.7)
+		(end 5.9 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "f1178bae-2415-4313-9898-333d73227e83")
+	)
+	(fp_line
+		(start 4.8 -0.3)
+		(end 4.8 2)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "54a1f0eb-aa55-4e23-ae61-5eac7f2d4239")
+	)
+	(fp_line
+		(start 4.8 2)
+		(end -4.8 2)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "7e580e10-06e9-4f26-9a98-1e78ed6ba86b")
+	)
+	(fp_line
+		(start 5.9 -3.7)
+		(end 5.9 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "ebd4cf49-d264-4970-9293-d78a0c0c0117")
+	)
+	(fp_line
+		(start 5.9 -0.3)
+		(end 4.8 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "ff98b47b-85a2-4dae-8b7b-3f148938858e")
+	)
+	(fp_text user "SHAFT"
+		(at 0.5 1.75 4)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "5b7eecca-ca35-4136-8f4c-58c47162cb61")
+		(effects
+			(font (size 0.5 0.5) (thickness 0.125))
+			(justify left bottom)
+		)
+	)
+	(fp_text user "ROT2"
+		(at 0 -6.5 4)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1498524e-0f42-4710-9aa4-0701267f8833")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "4" thru_hole roundrect
+		(at -4.5 -2 4)
+		(size 2.5 3)
+		(drill oval 1.8 2.05)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(zone_connect 2)
+		(uuid "4b170b16-67d0-4621-a595-6112a8467014")
+	)
+	(pad "4" thru_hole roundrect
+		(at 4.5 -2 4)
+		(size 2.5 3)
+		(drill oval 1.8 2.05)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "b86e2e50-6874-4d3d-a89e-1078dff58a4d")
+	)
+	(pad "A" thru_hole oval
+		(at -2.5 0 4)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 16 "encA")
+		(remove_unused_layers no)
+		(uuid "b0c17c82-2307-4cd7-b660-a91b8f49b3cc")
+	)
+	(pad "B" thru_hole oval
+		(at 0 0 4)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(uuid "d438ea68-cf91-486a-a92c-c48941175871")
+	)
+	(pad "C" thru_hole oval
+		(at 2.5 0 4)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 17 "encC")
+		(remove_unused_layers no)
+		(uuid "2ed72e63-c32c-4fc0-9802-032a35fa7823")
+	)
+	(embedded_fonts no)
+    (model "${TRAVIS_KICAD}/Alps-EC10E1220501.step"
+        (offset (xyz 0 0 9.2))
+        (scale (xyz 1 1 1))
+        (rotate (xyz 270 0 180))
+    )
+)
+(footprint "Alps-EC10E1220501"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+    (at 169.0349174 221.15784090000002 -4)
+	(property "Reference" "ROT3"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		hide
+		(uuid "0209e05c-cfe1-47ba-ac49-a1647ff0e8c3")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "EC10E1220501"
+		(at -0.167 -5.334 0)
+		(unlocked yes)
+		(layer "F.Fab") (hide yes)
+		(uuid "f578bc23-73ff-4a68-abed-596a9c6f9cf2")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "718c4f33-1c23-4d15-a980-df7e01c11e71")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d62d41ec-6b19-4e77-91c8-08b8a9da8754")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -4.5 -4.4)
+		(end -4.5 -3.6)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "fd6a2da9-7772-4722-aab2-b1224265596e")
+	)
+	(fp_line
+		(start -4.5 1.7)
+		(end -4.5 0)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "84e57433-8f72-4fd7-bdb6-caa521d7b913")
+	)
+	(fp_line
+		(start 4.5 -4.4)
+		(end 4.5 -3.6)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "4de100a4-ecf1-4fd1-a88a-ba1070bf7e28")
+	)
+	(fp_line
+		(start 4.5 1.7)
+		(end 4.5 0)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "c6eebfae-3e9f-475b-87ee-216ad6b2fb93")
+	)
+	(fp_line
+		(start -3.5 1)
+		(end -0.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "30af9117-58bf-452e-ac8f-f5b3fdf40f9e")
+	)
+	(fp_line
+		(start -0.5 1)
+		(end -0.5 2.5)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "21f67f4c-c1f7-484a-818e-8f2d81acd37d")
+	)
+	(fp_line
+		(start -0.5 2.5)
+		(end 0.5 2.5)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "2893bfd8-92fc-4194-956c-c2dc969ef62d")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end 3.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "a16ffc0a-35b2-4da2-9c8a-be6c7ca4cce5")
+	)
+	(fp_line
+		(start 0.5 2.5)
+		(end 0.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "dcdfde9b-ffe1-49b9-b872-6b0c7e9451b1")
+	)
+	(fp_line
+		(start -5.9 -3.7)
+		(end -4.8 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "33c85f7c-fce5-4bcb-8f0f-431b19a18d6a")
+	)
+	(fp_line
+		(start -5.9 -0.3)
+		(end -5.9 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "98776853-2003-4a90-9b96-ae45c109e346")
+	)
+	(fp_line
+		(start -4.8 -4.7)
+		(end 4.8 -4.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "6bc6e218-e74f-4750-ad1f-ec446d5198dd")
+	)
+	(fp_line
+		(start -4.8 -3.7)
+		(end -4.8 -4.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "638747a9-553f-4f34-85a5-51a2834b55fa")
+	)
+	(fp_line
+		(start -4.8 -0.3)
+		(end -5.9 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "9ae67e20-a00f-44d1-89be-82610f9b9de9")
+	)
+	(fp_line
+		(start -4.8 2)
+		(end -4.8 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "b86f9d2b-883b-4773-a6b1-858ff1f11cfd")
+	)
+	(fp_line
+		(start 4.8 -4.7)
+		(end 4.8 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "e9434315-4ab5-4962-ad36-b7eb3a8802f0")
+	)
+	(fp_line
+		(start 4.8 -3.7)
+		(end 5.9 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "f1178bae-2415-4313-9898-333d73227e83")
+	)
+	(fp_line
+		(start 4.8 -0.3)
+		(end 4.8 2)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "54a1f0eb-aa55-4e23-ae61-5eac7f2d4239")
+	)
+	(fp_line
+		(start 4.8 2)
+		(end -4.8 2)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "7e580e10-06e9-4f26-9a98-1e78ed6ba86b")
+	)
+	(fp_line
+		(start 5.9 -3.7)
+		(end 5.9 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "ebd4cf49-d264-4970-9293-d78a0c0c0117")
+	)
+	(fp_line
+		(start 5.9 -0.3)
+		(end 4.8 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "ff98b47b-85a2-4dae-8b7b-3f148938858e")
+	)
+	(fp_text user "SHAFT"
+		(at 0.5 1.75 -4)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "5b7eecca-ca35-4136-8f4c-58c47162cb61")
+		(effects
+			(font (size 0.5 0.5) (thickness 0.125))
+			(justify left bottom)
+		)
+	)
+	(fp_text user "ROT3"
+		(at 0 -6.5 -4)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1498524e-0f42-4710-9aa4-0701267f8833")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "4" thru_hole roundrect
+		(at -4.5 -2 -4)
+		(size 2.5 3)
+		(drill oval 1.8 2.05)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(zone_connect 2)
+		(uuid "4b170b16-67d0-4621-a595-6112a8467014")
+	)
+	(pad "4" thru_hole roundrect
+		(at 4.5 -2 -4)
+		(size 2.5 3)
+		(drill oval 1.8 2.05)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "b86e2e50-6874-4d3d-a89e-1078dff58a4d")
+	)
+	(pad "A" thru_hole oval
+		(at -2.5 0 -4)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 16 "encA")
+		(remove_unused_layers no)
+		(uuid "b0c17c82-2307-4cd7-b660-a91b8f49b3cc")
+	)
+	(pad "B" thru_hole oval
+		(at 0 0 -4)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(uuid "d438ea68-cf91-486a-a92c-c48941175871")
+	)
+	(pad "C" thru_hole oval
+		(at 2.5 0 -4)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 17 "encC")
+		(remove_unused_layers no)
+		(uuid "2ed72e63-c32c-4fc0-9802-032a35fa7823")
+	)
+	(embedded_fonts no)
+    (model "${TRAVIS_KICAD}/Alps-EC10E1220501.step"
+        (offset (xyz 0 0 9.2))
+        (scale (xyz 1 1 1))
+        (rotate (xyz 270 0 180))
+    )
+)
+(footprint "Alps-EC10E1220501"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+    (at 189.8260338 200.5078535 86)
+	(property "Reference" "ROT4"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		hide
+		(uuid "0209e05c-cfe1-47ba-ac49-a1647ff0e8c3")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "EC10E1220501"
+		(at -0.167 -5.334 0)
+		(unlocked yes)
+		(layer "F.Fab") (hide yes)
+		(uuid "f578bc23-73ff-4a68-abed-596a9c6f9cf2")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "718c4f33-1c23-4d15-a980-df7e01c11e71")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d62d41ec-6b19-4e77-91c8-08b8a9da8754")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -4.5 -4.4)
+		(end -4.5 -3.6)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "fd6a2da9-7772-4722-aab2-b1224265596e")
+	)
+	(fp_line
+		(start -4.5 1.7)
+		(end -4.5 0)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "84e57433-8f72-4fd7-bdb6-caa521d7b913")
+	)
+	(fp_line
+		(start 4.5 -4.4)
+		(end 4.5 -3.6)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "4de100a4-ecf1-4fd1-a88a-ba1070bf7e28")
+	)
+	(fp_line
+		(start 4.5 1.7)
+		(end 4.5 0)
+		(stroke (width 0.1) (type default))
+		(layer "F.SilkS")
+		(uuid "c6eebfae-3e9f-475b-87ee-216ad6b2fb93")
+	)
+	(fp_line
+		(start -3.5 1)
+		(end -0.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "30af9117-58bf-452e-ac8f-f5b3fdf40f9e")
+	)
+	(fp_line
+		(start -0.5 1)
+		(end -0.5 2.5)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "21f67f4c-c1f7-484a-818e-8f2d81acd37d")
+	)
+	(fp_line
+		(start -0.5 2.5)
+		(end 0.5 2.5)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "2893bfd8-92fc-4194-956c-c2dc969ef62d")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end 3.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "a16ffc0a-35b2-4da2-9c8a-be6c7ca4cce5")
+	)
+	(fp_line
+		(start 0.5 2.5)
+		(end 0.5 1)
+		(stroke (width 0.1) (type default))
+		(layer "Cmts.User")
+		(uuid "dcdfde9b-ffe1-49b9-b872-6b0c7e9451b1")
+	)
+	(fp_line
+		(start -5.9 -3.7)
+		(end -4.8 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "33c85f7c-fce5-4bcb-8f0f-431b19a18d6a")
+	)
+	(fp_line
+		(start -5.9 -0.3)
+		(end -5.9 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "98776853-2003-4a90-9b96-ae45c109e346")
+	)
+	(fp_line
+		(start -4.8 -4.7)
+		(end 4.8 -4.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "6bc6e218-e74f-4750-ad1f-ec446d5198dd")
+	)
+	(fp_line
+		(start -4.8 -3.7)
+		(end -4.8 -4.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "638747a9-553f-4f34-85a5-51a2834b55fa")
+	)
+	(fp_line
+		(start -4.8 -0.3)
+		(end -5.9 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "9ae67e20-a00f-44d1-89be-82610f9b9de9")
+	)
+	(fp_line
+		(start -4.8 2)
+		(end -4.8 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "b86f9d2b-883b-4773-a6b1-858ff1f11cfd")
+	)
+	(fp_line
+		(start 4.8 -4.7)
+		(end 4.8 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "e9434315-4ab5-4962-ad36-b7eb3a8802f0")
+	)
+	(fp_line
+		(start 4.8 -3.7)
+		(end 5.9 -3.7)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "f1178bae-2415-4313-9898-333d73227e83")
+	)
+	(fp_line
+		(start 4.8 -0.3)
+		(end 4.8 2)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "54a1f0eb-aa55-4e23-ae61-5eac7f2d4239")
+	)
+	(fp_line
+		(start 4.8 2)
+		(end -4.8 2)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "7e580e10-06e9-4f26-9a98-1e78ed6ba86b")
+	)
+	(fp_line
+		(start 5.9 -3.7)
+		(end 5.9 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "ebd4cf49-d264-4970-9293-d78a0c0c0117")
+	)
+	(fp_line
+		(start 5.9 -0.3)
+		(end 4.8 -0.3)
+		(stroke (width 0.05) (type default))
+		(layer "F.CrtYd")
+		(uuid "ff98b47b-85a2-4dae-8b7b-3f148938858e")
+	)
+	(fp_text user "SHAFT"
+		(at 0.5 1.75 86)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "5b7eecca-ca35-4136-8f4c-58c47162cb61")
+		(effects
+			(font (size 0.5 0.5) (thickness 0.125))
+			(justify left bottom)
+		)
+	)
+	(fp_text user "ROT4"
+		(at 0 -6.5 86)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1498524e-0f42-4710-9aa4-0701267f8833")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "4" thru_hole roundrect
+		(at -4.5 -2 86)
+		(size 2.5 3)
+		(drill oval 1.8 2.05)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(zone_connect 2)
+		(uuid "4b170b16-67d0-4621-a595-6112a8467014")
+	)
+	(pad "4" thru_hole roundrect
+		(at 4.5 -2 86)
+		(size 2.5 3)
+		(drill oval 1.8 2.05)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "b86e2e50-6874-4d3d-a89e-1078dff58a4d")
+	)
+	(pad "A" thru_hole oval
+		(at -2.5 0 86)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 16 "encA")
+		(remove_unused_layers no)
+		(uuid "b0c17c82-2307-4cd7-b660-a91b8f49b3cc")
+	)
+	(pad "B" thru_hole oval
+		(at 0 0 86)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 4 "GND")
+		(remove_unused_layers no)
+		(uuid "d438ea68-cf91-486a-a92c-c48941175871")
+	)
+	(pad "C" thru_hole oval
+		(at 2.5 0 86)
+		(size 1.4 1.7)
+		(drill oval 0.7 1)
+		(layers "*.Cu" "*.Mask")
+        (net 17 "encC")
+		(remove_unused_layers no)
+		(uuid "2ed72e63-c32c-4fc0-9802-032a35fa7823")
+	)
+	(embedded_fonts no)
+    (model "${TRAVIS_KICAD}/Alps-EC10E1220501.step"
+        (offset (xyz 0 0 9.2))
+        (scale (xyz 1 1 1))
+        (rotate (xyz 270 0 180))
+    )
+)
 
           
         (module "travis:MX" (layer F.Cu)
@@ -10456,7 +11549,7 @@
       )
     )
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 48.28272139999999 174.2227148 183)
 
@@ -10525,6 +11618,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -10543,7 +11642,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 46.079377599999994 132.18041140000003 183)
 
@@ -10612,6 +11711,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -10630,7 +11735,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 43.876033799999995 90.13810800000002 183)
 
@@ -10699,6 +11804,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -10717,7 +11828,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 69.0624503 171.9578791 182)
 
@@ -10786,6 +11897,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -10804,7 +11921,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 67.59318149999999 129.88352530000003 182)
 
@@ -10873,6 +11990,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -10891,7 +12014,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 66.12391269999998 87.80917150000003 182)
 
@@ -10960,6 +12083,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -10978,7 +12107,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 89.51913569999999 170.2468702 181)
 
@@ -11047,6 +12176,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11065,7 +12200,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 88.78438929999999 128.15328219999998 181)
 
@@ -11134,6 +12269,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11152,7 +12293,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 88.04964289999998 86.05969419999997 181)
 
@@ -11221,6 +12362,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11239,7 +12386,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 168.89314029999997 180)
 
@@ -11308,6 +12455,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11326,7 +12479,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 126.79314029999996 180)
 
@@ -11395,6 +12548,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11413,7 +12572,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 84.69314029999997 180)
 
@@ -11482,6 +12641,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11500,7 +12665,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 130.5065038 169.89710169999998 179)
 
@@ -11569,6 +12734,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11587,7 +12758,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 131.2412502 127.80351369999997 179)
 
@@ -11656,6 +12827,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11674,7 +12851,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 131.9759966 85.70992569999996 179)
 
@@ -11743,6 +12920,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11761,7 +12944,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 150.98979640000002 171.25875340000002 178)
 
@@ -11830,6 +13013,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11848,7 +13037,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 152.45906520000003 129.18439960000003 178)
 
@@ -11917,6 +13106,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -11935,7 +13130,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 153.92833400000004 87.11004580000004 178)
 
@@ -12004,6 +13199,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -12022,7 +13223,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 171.8022257 173.17474950000002 177)
 
@@ -12091,6 +13292,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -12109,7 +13316,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 174.00556950000004 131.13244610000004 177)
 
@@ -12178,6 +13385,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -12196,7 +13409,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 176.20891330000006 89.09014270000003 177)
 
@@ -12265,6 +13478,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14236,7 +15455,7 @@
     )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 59.665269 194.5274143 4)
 
@@ -14305,6 +15524,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14323,7 +15548,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 47.18104949999999 153.20156310000002 3)
 
@@ -14392,6 +15617,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14410,7 +15641,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 44.977705699999994 111.15925970000002 3)
 
@@ -14479,6 +15710,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14497,7 +15734,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 68.32781589999999 150.92070220000002 2)
 
@@ -14566,6 +15803,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14584,7 +15827,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 66.85854709999998 108.84634840000002 2)
 
@@ -14653,6 +15896,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14671,7 +15920,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 89.8865089 191.2936642 1)
 
@@ -14740,6 +15989,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14758,7 +16013,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 89.15176249999999 149.20007619999998 1)
 
@@ -14827,6 +16082,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14845,7 +16106,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 88.41701609999998 107.10648819999997 1)
 
@@ -14914,6 +16175,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -14932,7 +16199,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 189.94314029999998 0)
 
@@ -15001,6 +16268,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15019,7 +16292,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 147.84314029999996 0)
 
@@ -15088,6 +16361,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15106,7 +16385,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 105.74314029999996 0)
 
@@ -15175,6 +16454,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15193,7 +16478,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 130.1391306 190.94389569999998 -1)
 
@@ -15262,6 +16547,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15280,7 +16571,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 130.873877 148.85030769999997 -1)
 
@@ -15349,6 +16640,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15367,7 +16664,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 131.6086234 106.75671969999996 -1)
 
@@ -15436,6 +16733,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15454,7 +16757,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 151.72443080000002 150.22157650000003 -2)
 
@@ -15523,6 +16826,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15541,7 +16850,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 153.19369960000003 108.14722270000003 -2)
 
@@ -15610,6 +16919,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15628,7 +16943,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 160.4196781 193.47944900000002 -4)
 
@@ -15697,6 +17012,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15715,7 +17036,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 172.90389760000002 152.15359780000003 -3)
 
@@ -15784,6 +17105,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -15802,7 +17129,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)" 
+      (module "travis:led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 175.10724140000005 110.11129440000003 -3)
 
@@ -15871,6 +17198,12 @@
         (fp_line (start -1.8 1.55) (end 1.8 1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 1.55) (end 1.8 -1.55) (layer Edge.Cuts) (width 0.12))
         (fp_line (start 1.8 -1.55) (end -1.8 -1.55) (layer Edge.Cuts) (width 0.12))
+
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/LED_SK6812MINI.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 90 0 180))
+	)
       )
     
       (zone (net 0) (net_name "") (layers "F&B.Cu") (hatch edge 0.3)
@@ -18270,7 +19603,7 @@
     )
 
     (module "travis:MountingHole_2.2mm_M2_Pad_Via" (layer "F.Cu")
-      (at 31.8027996 223.2760321 4) 
+      (at 110.0025666 213.0593903 0) 
     
       (fp_text reference "HOLE5" (at 0 -3.2) (layer "F.SilkS") hide 
         (effects (font (size 1 1) (thickness 0.15)))
@@ -18286,6 +19619,25 @@
       (pad "5" thru_hole circle locked (at -1.166726 1.166726) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
       (pad "5" thru_hole circle locked (at 1.65 0) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
       (pad "5" thru_hole circle locked (at 0 -1.65) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
+    )
+
+    (module "travis:MountingHole_2.2mm_M2_Pad_Via" (layer "F.Cu")
+      (at 31.8027996 223.2760321 4) 
+    
+      (fp_text reference "HOLE6" (at 0 -3.2) (layer "F.SilkS") hide 
+        (effects (font (size 1 1) (thickness 0.15)))
+      )
+    
+      (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (fill none))
+      (pad "6" thru_hole circle locked (at 1.166726 1.166726) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
+      (pad "6" thru_hole circle locked (at 0 0) (size 4.4 4.4) (drill 2.2) (layers *.Cu *.Mask))
+      (pad "6" thru_hole circle locked (at 0 1.65) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
+      (pad "6" thru_hole circle locked (at 1.166726 -1.166726) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
+      (pad "6" thru_hole circle locked (at -1.65 0) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
+      (pad "6" thru_hole circle locked (at -1.166726 -1.166726) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
+      (pad "6" thru_hole circle locked (at -1.166726 1.166726) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
+      (pad "6" thru_hole circle locked (at 1.65 0) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
+      (pad "6" thru_hole circle locked (at 0 -1.65) (size 0.7 0.7) (drill 0.4) (layers *.Cu *.Mask))
     )
 
   (zone
@@ -18361,13 +19713,13 @@
     )
   )
     
-  (gr_line (start 24.521107031067928 188.43160912024223) (end 28.930113287320424 223.6456646543214) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 31.831741470358217 226.0485731157292) (end 105.07451916043858 221.43358310627602) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 105.24745236004316 221.4281403) (end 114.77668895701309 221.4281403) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 114.91169498440452 221.43145620134632) (end 188.2867158768448 225.03801202206364) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 191.15041688766942 222.63297665572622) (end 195.56384006893208 187.38364382024224) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 195.37745468704293 185.99358589167036) (end 187.005685498367 165.69270594450728) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 186.80176390534282 164.500372744606) (end 192.11739601274624 63.072071619350936) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+  (gr_line (start 26.467238965165212 188.14024804309108) (end 29.05276969927609 223.49597579889794) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 31.96837899613124 226.03996365502542) (end 105.07451916043848 221.43358310627602) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 105.24745236004306 221.4281403) (end 114.77668895701309 221.4281403) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 114.91169498440452 221.43145620134632) (end 188.15177093389087 225.03137915895073) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 191.0294530585329 222.48526439789384) (end 193.61770813483477 187.09228274309135) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 193.49325332276052 186.05063225934975) (end 186.9237522037958 165.6002770738778) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 186.79574229440396 164.6152719240872) (end 192.11739601274624 63.07207161935139) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 189.51508882182398 60.18191642113639) (end 177.8046515958478 59.56819838329706) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 177.7079187024389 59.56141678020279) (end 154.99409511244704 57.56603912001346) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 154.92611841186456 57.56091561755708) (end 132.51593004774315 56.150935651921394) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
@@ -18376,14 +19728,14 @@
 (gr_line (start 87.509739357568 56.50107647666074) (end 65.12574345291323 58.25953942095811) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 65.05854718436682 58.265648625435176) (end 42.39790705169811 60.60647894367557) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_line (start 42.25926139204001 60.61726603445304) (end 30.56985827817603 61.22988172113638) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 27.9675510872538 64.12003691935041) (end 33.2831831946572 165.5483380446055) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_line (start 33.079261601633 166.74067124450735) (end 24.707492412957194 187.0415511916701) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 28.930113270753665 223.64566462200523) (mid 29.904820770753666 225.42204052200523) (end 31.831741470753666 226.04857312200522) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 105.24745236004316 221.4281403) (mid 105.16094296004316 221.4295013) (end 105.07451916004315 221.4335831) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 27.9675510872538 64.12003691935041) (end 33.28920480559606 165.6632372240869) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_line (start 33.161194896204265 166.64824237387768) (end 26.591693777239467 187.0985975593497) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 29.052769696526695 223.49597576130148) (mid 29.987445996526695 225.36751576130146) (end 31.968378996526695 226.03996366130147) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 105.24745236004306 221.4281403) (mid 105.16094296004306 221.4295013) (end 105.07451916004305 221.4335831) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 114.9116949570131 221.43145619999999) (mid 114.8442122570131 221.4289694) (end 114.77668895701309 221.4281403) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 188.28671590423622 225.03801202341) (mid 190.19029600423622 224.39718782341) (end 191.1504169042362 222.63297662341) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 195.5638400854988 187.38364378792636) (mid 195.56075288549883 186.67653308792634) (end 195.37745468549883 185.99358588792634) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 186.80176389991098 164.5003727482513) (mid 186.837352999911 165.1078907482513) (end 187.00568549991098 165.6927059482513) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 188.1517709612823 225.0313791602971) (mid 190.1090450612823 224.34426766029708) (end 191.0294530612823 222.4852643602971) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 193.6177081375842 187.09228270549457) (mid 193.6056114375842 186.56546790549456) (end 193.49325333758418 186.05063220549457) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 186.7957422889721 164.6152719277329) (mid 186.81490618897212 165.1136020277329) (end 186.9237522889721 165.6002770277329) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 192.1173960181781 63.0720716157048) (mid 191.4148131181781 61.0880385157048) (end 189.5150888181781 60.181916415704805) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 177.70791869949366 59.56141678872892) (mid 177.75625529949366 59.56523398872892) (end 177.80465159949367 59.568198388728916) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 154.9940951153923 57.566039111487335) (mid 154.9601226153923 57.56326671148734) (end 154.9261184153923 57.56091561148733) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
@@ -18393,8 +19745,8 @@
 (gr_arc (start 65.12574344767083 58.25953942922585) (mid 65.09212654767083 58.26238792922585) (end 65.05854714767084 58.26564862922585) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 42.25926138839411 60.617266039884896) (mid 42.32865238839411 60.612749039884896) (end 42.39790708839411 60.6064789398849) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 (gr_arc (start 30.569858281821954 61.22988171570452) (mid 28.67013398182195 62.13600381570452) (end 27.967551081821952 64.12003691570452) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 33.07926160008905 166.7406712482514) (mid 33.247594100089046 166.1558560482514) (end 33.28318320008905 165.5483380482514) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
-(gr_arc (start 24.707492414501175 187.04155118792605) (mid 24.524194314501173 187.72449838792605) (end 24.521107114501174 188.43160908792606) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 33.161194911027906 166.64824232773282) (mid 33.27004101102791 166.16156722773283) (end 33.28920481102791 165.66323712773283) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
+(gr_arc (start 26.591693762415815 187.0985976054946) (mid 26.479335662415817 187.6134333054946) (end 26.467238962415816 188.1402481054946) (layer Edge.Cuts) (stroke (width 0.15) (type default)))
 
 )
 
