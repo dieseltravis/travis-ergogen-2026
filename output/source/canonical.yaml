@@ -526,6 +526,7 @@ pcbs:
                 params:
                     P3: scl
                     P4: sda
+                    justify_override: left
                 where:
                     ref: matrix_col1_row5
                     shift:

@@ -474,6 +474,7 @@ pcbs:
           #side: "F"
           P3: scl
           P4: sda
+          justify_override: left
         where:
           #ref.aggregate.parts: [matrix_col1_row5, matrix_col2_row5]
           ref: matrix_col1_row5
