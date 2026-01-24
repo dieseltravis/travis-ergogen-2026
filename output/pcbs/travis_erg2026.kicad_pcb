@@ -12,7 +12,7 @@
   (title_block
     (title "travis_erg2026")
     (date "2026-01-24")
-    (rev "2026.01.22")
+    (rev "2026.01.24")
     (company "Travis Hardiman")
   )
 
@@ -19482,7 +19482,7 @@
   )
       
 
-  (gr_text "2026.01.22"
+  (gr_text "2026.01.24"
     (at 110.0025666 70.60314029999996 0)
     (layer "F.SilkS" )
     (effects

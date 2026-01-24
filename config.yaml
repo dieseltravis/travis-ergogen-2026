@@ -1,8 +1,8 @@
 meta:
   engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2026.01.22"
-  date: "2026-01-22"
+  version: &meta_version "2026.01.24"
+  date: "2026-01-24"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
   tags: [ "ergogen", "keyboard", "cherrymx", "hotswap" ]
@@ -19,6 +19,15 @@ units:
   stabilizer_offset: 0 # This means south stabs, use `orient` to rotate them for north facing scenarios
   stabilizer_spacing_3u: U * ((3 - 1) / 2)
   stabilizer_spacing_2u: 23.86 / 2 # 0.94in / 2
+  # case
+  board: 1.6
+  height: 4.0
+  wall: 2.0
+  # Defaults to M2 Screws
+  #screwSize: 1
+  # M2 Screw Inserts
+  screwSize: 1.5
+  standoffSize: 4
 points:
   zones:
     matrix:
@@ -376,10 +385,141 @@ outlines:
           shift: [-bp, -bp / 2]
         - ref: matrix_col0_row1
           shift: [-bp - 8, -bp / 2]
+  xlboard:
+    - what: polygon
+      operation: stack
+      fillet: 2.75
+      points:
+        # bottom
+        - ref: matrix_col0_row0
+          shift: [-bp - 0.5kspr - 8 - wall, -bp - 10 - wall]
+        - ref: matrix_col3_row0
+          shift: [-bp/3 - wall, -bp - 12 - wall]
+        - ref: matrix_col3_row0
+          shift: [bp/3 + wall, -bp - 12 - wall]
+        - ref: matrix_col6_row0
+          shift: [bp + 0.5kspr + 8 + wall, -bp - 10 - wall]
+        # right
+        - ref: matrix_col6_row1
+          shift: [bp + 8 + wall, -bp / 2]
+        - ref: matrix_col6_row2
+          shift: [bp + wall, -bp / 2 ]
+        # top
+        - ref: matrix_col6_row5
+          shift: [bp + wall, bp + 20 + wall]
+        #- ref: matrix_col3_row5
+        #  shift: [bp/3, bp + 20]
+        - ref: matrix_col6_row5
+          shift: [0, bp + 20 + wall]
+        - ref: matrix_col5_row5
+          shift: [0, bp + 20 + wall]
+        - ref: matrix_col4_row5
+          shift: [0, bp + 20 + wall]
+        - ref: matrix_col3_row5
+          shift: [0, bp + 20 + wall]
+        - ref: matrix_col2_row5
+          shift: [0, bp + 20 + wall]
+        - ref: matrix_col1_row5
+          shift: [0, bp + 20 + wall]
+        - ref: matrix_col0_row5
+          shift: [0, bp + 20 + wall]
+        #- ref: matrix_col3_row5
+        #  shift: [-bp/3, bp + 20]
+        - ref: matrix_col0_row5
+          shift: [-bp - wall, bp + 20 + wall]
+        # left
+        - ref: matrix_col0_row2
+          shift: [-bp - wall, -bp / 2]
+        - ref: matrix_col0_row1
+          shift: [-bp - 8 - wall, -bp / 2]
   combo:
     - name: board
     - operation: subtract
       name: keys
+  mounting:
+    - what: circle
+      radius: screwSize
+      where:
+        # holeTopLeft
+        ref: matrix_col0_row5
+        shift: [-bp + 2.75, bp + 20 - 2.75]
+    - what: circle
+      radius: screwSize
+      where:
+        # holeTopCenter
+        ref: matrix_col3_row5
+        shift: [0, bp + 10.5]
+    - what: circle
+      radius: screwSize
+      where:
+        # holeTopRight
+        ref: matrix_col6_row5
+        shift: [bp - 3, bp + 20 - 2.75 - 10.25]
+    - what: circle
+      radius: screwSize
+      where:
+        # holeBottomRight
+        ref: matrix_col6_row0
+        shift: [bp + 0.5kspr - 2.75 + 8, -bp + 2.75 - 10]
+    - what: circle
+      radius: screwSize
+      where:
+        # holeBottomCenter
+        ref: matrix_col3_row0
+        shift: [0, -5bp / 4]
+    - what: circle
+      radius: screwSize
+      where:
+        # holeBottomLeft
+        ref: matrix_col0_row0
+        shift: [-bp - 0.5kspr + 2.75 - 8, -bp + 2.75 - 10]
+  standoff:
+    - what: circle
+      radius: standoffSize
+      where:
+        # holeTopLeft
+        ref: matrix_col0_row5
+        shift: [-bp + 2.75, bp + 20 - 2.75]
+    - what: circle
+      radius: standoffSize
+      where:
+        # holeTopCenter
+        ref: matrix_col3_row5
+        shift: [0, bp + 10.5]
+    - what: rectangle
+      size: [standoffSize * 2, 10]
+      where:
+        ref: matrix_col3_row5
+        shift: [0, bp + 10.5 + standoffSize]
+    - what: circle
+      radius: standoffSize
+      where:
+        # holeTopRight
+        ref: matrix_col6_row5
+        shift: [bp - 3, bp + 20 - 2.75 - 10.25]
+    - what: circle
+      radius: standoffSize
+      where:
+        # holeBottomRight
+        ref: matrix_col6_row0
+        shift: [bp + 0.5kspr - 2.75 + 8, -bp + 2.75 - 10]
+    - what: circle
+      radius: standoffSize
+      where:
+        # holeBottomCenter
+        ref: matrix_col3_row0
+        shift: [0, -5bp / 4]
+    - what: rectangle
+      size: [standoffSize * 2, 9]
+      where:
+        ref: matrix_col3_row0
+        shift: [0, -5bp / 4 - standoffSize]
+    - what: circle
+      radius: standoffSize
+      where:
+        # holeBottomLeft
+        ref: matrix_col0_row0
+        shift: [-bp - 0.5kspr + 2.75 - 8, -bp + 2.75 - 10]
 
 pcbs:
   travis_erg2026:
@@ -808,3 +948,41 @@ pcbs:
           points: [[20, 50], [210, 50], [210, 235], [20, 235]]
 
 cases:
+  bottom:
+    - name: board
+      extrude: 1
+  xlbottom:
+    - name: xlboard
+      extrude: 1
+  _outerwall:
+    - name: xlboard
+      extrude: height + board
+  _innerwall:
+    - name: board
+      extrude: height + board
+  _holes:
+    - name: mounting
+      extrude: height
+  _standoffs:
+    - name: standoff
+      extrude: height
+  wall:
+    - what: case
+      name: _outerwall
+      operation: add
+    - what: case
+      name: _innerwall
+      operation: subtract
+  case:
+    - what: case
+      name: _standoffs
+      operation: add
+    - what: case
+      name: _holes
+      operation: subtract
+    - what: case
+      name: xlbottom
+      operation: add
+    - what: case
+      name: wall
+      operation: add

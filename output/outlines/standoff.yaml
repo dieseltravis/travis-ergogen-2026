@@ -1,0 +1,210 @@
+models:
+    export:
+        models:
+            a:
+                models:
+                    a:
+                        models:
+                            a:
+                                models:
+                                    a:
+                                        models:
+                                            a:
+                                                models:
+                                                    a:
+                                                        models:
+                                                            a:
+                                                                models:
+                                                                    a:
+                                                                        models: {}
+                                                                        origin:
+                                                                            - 0
+                                                                            - 0
+                                                                    b:
+                                                                        paths:
+                                                                            circle:
+                                                                                type: circle
+                                                                                origin:
+                                                                                    - 30.7137823
+                                                                                    - -63.97611290000002
+                                                                                radius: 4
+                                                                        origin:
+                                                                            - 0
+                                                                            - 0
+                                                                origin:
+                                                                    - 0
+                                                                    - 0
+                                                            b:
+                                                                paths:
+                                                                    circle:
+                                                                        type: arc
+                                                                        origin:
+                                                                            - 110.0025666
+                                                                            - -64.62814029999996
+                                                                        radius: 4
+                                                                        startAngle: 194.47751235139802
+                                                                        endAngle: 345.522487648602
+                                                                origin:
+                                                                    - 0
+                                                                    - 0
+                                                        origin:
+                                                            - 0
+                                                            - 0
+                                                    b:
+                                                        paths:
+                                                            ShapeLine1:
+                                                                type: line
+                                                                origin:
+                                                                    - 106.0025666
+                                                                    - -65.62814029999996
+                                                                end:
+                                                                    - 106.1295833
+                                                                    - -65.62814029999996
+                                                            ShapeLine1_1:
+                                                                type: line
+                                                                origin:
+                                                                    - 113.8755499
+                                                                    - -65.62814029999996
+                                                                end:
+                                                                    - 114.0025666
+                                                                    - -65.62814029999996
+                                                            ShapeLine2:
+                                                                type: line
+                                                                origin:
+                                                                    - 114.0025666
+                                                                    - -65.62814029999996
+                                                                end:
+                                                                    - 114.0025666
+                                                                    - -55.628140299999956
+                                                            ShapeLine3:
+                                                                type: line
+                                                                origin:
+                                                                    - 114.0025666
+                                                                    - -55.628140299999956
+                                                                end:
+                                                                    - 106.0025666
+                                                                    - -55.628140299999956
+                                                            ShapeLine4:
+                                                                type: line
+                                                                origin:
+                                                                    - 106.0025666
+                                                                    - -65.62814029999996
+                                                                end:
+                                                                    - 106.0025666
+                                                                    - -55.628140299999956
+                                                        origin:
+                                                            - 0
+                                                            - 0
+                                                origin:
+                                                    - 0
+                                                    - 0
+                                            b:
+                                                paths:
+                                                    circle:
+                                                        type: circle
+                                                        origin:
+                                                            - 188.58506380000006
+                                                            - -73.15101640000003
+                                                        radius: 4
+                                                origin:
+                                                    - 0
+                                                    - 0
+                                        origin:
+                                            - 0
+                                            - 0
+                                    b:
+                                        paths:
+                                            circle:
+                                                type: circle
+                                                origin:
+                                                    - 188.2821475
+                                                    - -222.22806680000002
+                                                radius: 4
+                                        origin:
+                                            - 0
+                                            - 0
+                                origin:
+                                    - 0
+                                    - 0
+                            b:
+                                paths:
+                                    circle:
+                                        type: arc
+                                        origin:
+                                            - 110.0025666
+                                            - -213.0593903
+                                        radius: 4
+                                        startAngle: 7.180755721650245
+                                        endAngle: 172.81924427834977
+                                origin:
+                                    - 0
+                                    - 0
+                        origin:
+                            - 0
+                            - 0
+                    b:
+                        paths:
+                            ShapeLine1:
+                                type: line
+                                origin:
+                                    - 106.0025666
+                                    - -221.5593903
+                                end:
+                                    - 114.0025666
+                                    - -221.5593903
+                            ShapeLine2:
+                                type: line
+                                origin:
+                                    - 114.0025666
+                                    - -221.5593903
+                                end:
+                                    - 114.0025666
+                                    - -212.5593903
+                            ShapeLine3:
+                                type: line
+                                origin:
+                                    - 114.0025666
+                                    - -212.5593903
+                                end:
+                                    - 113.97119359999999
+                                    - -212.5593903
+                            ShapeLine3_1:
+                                type: line
+                                origin:
+                                    - 106.0339396
+                                    - -212.5593903
+                                end:
+                                    - 106.0025666
+                                    - -212.5593903
+                            ShapeLine4:
+                                type: line
+                                origin:
+                                    - 106.0025666
+                                    - -221.5593903
+                                end:
+                                    - 106.0025666
+                                    - -212.5593903
+                        origin:
+                            - 0
+                            - 0
+                origin:
+                    - 0
+                    - 0
+            b:
+                paths:
+                    circle:
+                        type: circle
+                        origin:
+                            - 31.8027996
+                            - -223.2760321
+                        radius: 4
+                origin:
+                    - 0
+                    - 0
+        origin:
+            - 0
+            - 0
+units: mm
+origin:
+    - 0
+    - 0

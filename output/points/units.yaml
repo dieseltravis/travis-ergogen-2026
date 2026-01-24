@@ -19,3 +19,8 @@ stabilizer_height: 16
 stabilizer_offset: 0
 stabilizer_spacing_3u: 19.05
 stabilizer_spacing_2u: 11.93
+board: 1.6
+height: 4
+wall: 2
+screwSize: 1.5
+standoffSize: 4
