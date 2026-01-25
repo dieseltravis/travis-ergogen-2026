@@ -279,7 +279,7 @@ points:
                 led_this: LED_15
             row4:
               key:
-                led_next: LED_13
+                led_next: LED_15
                 led_this: LED_14
             row5:
               key:
