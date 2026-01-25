@@ -550,20 +550,20 @@ pcbs:
           P5: GND
           P6: sda    # D1 SDA
           P7: scl    # D0 SCL PWM
-          P8: row0   # D4 A6
-          P9: row1   # C6 PWM
-          P10: row2  # D7 A7 PWM
-          P11: row3  # E6
-          P12: row4  # B4 A8
+          P8: encC   # D4 A6
+          P9: encA   # C6 PWM
+          #P10:      # D7 A7 PWM
+          #P11:      # E6
+          #P12:      # B4 A8
           P13: row5  # B5 A9 PWM
           # bottom
-          P14: GP12
-          P15: GP13
-          P16: GP14
-          P17: encA
-          P18: encC
+          P14: row4
+          P15: row3
+          P16: row2
+          P17: row1
+          P18: row0
           # right (from top)
-          #P31:      # GP11
+          P31: LED_1 # GP11
           #P30:      # RAW 5V
           P29: GND
           #P28:      # RESET 13
@@ -575,8 +575,8 @@ pcbs:
           P22: col2  # B1 SCLK
           P21: col1  # B3 MISO
           P20: col0  # B2 MOSI
-          P19: LED_1 # B6 A10 PWM
-          offset3d: [0, 0, 5]
+          #P19:      # B6 A10 PWM
+          offset3d: [0, 0, 7]
 
       cap1:
         what: travis/CRadialD63H11P25
@@ -585,10 +585,12 @@ pcbs:
           P2: GND
           side: F
           bend: 90
+          # TODO: why is the Z offset so weird? is the 3d model in cm?
+          offset3d: [0, 0, 0.12]
           value: "6.3V 1000uF"
         where:
           ref: matrix_col6_row5
-          shift: [3, kp - 0.5]
+          shift: [2.5, kp - 0.75]
           rotate: 90
 
       # oled mounting options

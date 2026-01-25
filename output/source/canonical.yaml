@@ -273,7 +273,7 @@ points:
                                 led_this: LED_15
                         row4:
                             key:
-                                led_next: LED_13
+                                led_next: LED_15
                                 led_this: LED_14
                         row5:
                             key:
@@ -685,17 +685,15 @@ pcbs:
                     P5: GND
                     P6: sda
                     P7: scl
-                    P8: row0
-                    P9: row1
-                    P10: row2
-                    P11: row3
-                    P12: row4
+                    P8: encC
+                    P9: encA
                     P13: row5
-                    P14: GP12
-                    P15: GP13
-                    P16: GP14
-                    P17: encA
-                    P18: encC
+                    P14: row4
+                    P15: row3
+                    P16: row2
+                    P17: row1
+                    P18: row0
+                    P31: LED_1
                     P29: GND
                     P26: col6
                     P25: col5
@@ -704,11 +702,10 @@ pcbs:
                     P22: col2
                     P21: col1
                     P20: col0
-                    P19: LED_1
                     offset3d:
                         - 0
                         - 0
-                        - 5
+                        - 7
             cap1:
                 what: travis/CRadialD63H11P25
                 params:
@@ -716,12 +713,16 @@ pcbs:
                     P2: GND
                     side: F
                     bend: 90
+                    offset3d:
+                        - 0
+                        - 0
+                        - 0.12
                     value: 6.3V 1000uF
                 where:
                     ref: matrix_col6_row5
                     shift:
-                        - 3
-                        - kp - 0.5
+                        - 2.5
+                        - kp - 0.75
                     rotate: 90
             oled1:
                 what: travis/Keebio-I2C_Breakout

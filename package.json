@@ -1,6 +1,6 @@
 {
   "name": "travis-ergogen-2026",
-  "version": "2025.11.07",
+  "version": "2026.01.24",
   "description": "Travis's Ergogen Keyboard 2026",
   "repository": "https://github.com/dieseltravis/travis-ergogen-2026",
   "author": "Travis Hardiman <dieseltravis@users.noreply.github.com>",
@@ -34,7 +34,7 @@
   },
   "keywords": [
     "ergogen",
-    "promicro",
+    "rp2040",
     "keyboard"
   ]
 }
