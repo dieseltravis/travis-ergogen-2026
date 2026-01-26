@@ -1,0 +1,174 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+180.02072,-73.678516,87.0,top,C1,,,C_Radial_D6.3mm_H11.0mm_P2.50mm,6.3V 1000uF,tht
+83.312757,-86.852485,-89.0,bottom,C10,,,C_1206_3216Metric,C_1206_3216Metric,smt
+105.252567,-169.60314,-90.0,bottom,C11,,,C_1206_3216Metric,C_1206_3216Metric,smt
+105.252567,-127.50314,-90.0,bottom,C12,,,C_1206_3216Metric,C_1206_3216Metric,smt
+105.252567,-85.40314,-90.0,bottom,C13,,,C_1206_3216Metric,C_1206_3216Metric,smt
+125.744836,-170.524095,-91.0,bottom,C14,,,C_1206_3216Metric,C_1206_3216Metric,smt
+126.479583,-128.430507,-91.0,bottom,C15,,,C_1206_3216Metric,C_1206_3216Metric,smt
+127.214329,-86.336919,-91.0,bottom,C16,,,C_1206_3216Metric,C_1206_3216Metric,smt
+146.217911,-171.802548,-92.0,bottom,C17,,,C_1206_3216Metric,C_1206_3216Metric,smt
+147.68718,-129.728195,-92.0,bottom,C18,,,C_1206_3216Metric,C_1206_3216Metric,smt
+149.156449,-87.653841,-92.0,bottom,C19,,,C_1206_3216Metric,C_1206_3216Metric,smt
+43.57639,-175.180338,-87.0,bottom,C2,,,C_1206_3216Metric,C_1206_3216Metric,smt
+167.021577,-173.635181,-93.0,bottom,C20,,,C_1206_3216Metric,C_1206_3216Metric,smt
+169.224921,-131.592877,-93.0,bottom,C21,,,C_1206_3216Metric,C_1206_3216Metric,smt
+171.428265,-89.550574,-93.0,bottom,C22,,,C_1206_3216Metric,C_1206_3216Metric,smt
+64.355566,-193.507752,94.0,bottom,C23,,,C_1206_3216Metric,C_1206_3216Metric,smt
+51.888428,-152.263913,93.0,bottom,C24,,,C_1206_3216Metric,C_1206_3216Metric,smt
+49.685084,-110.22161,93.0,bottom,C25,,,C_1206_3216Metric,C_1206_3216Metric,smt
+73.050842,-150.06535,92.0,bottom,C26,,,C_1206_3216Metric,C_1206_3216Metric,smt
+71.581573,-107.990996,92.0,bottom,C27,,,C_1206_3216Metric,C_1206_3216Metric,smt
+94.623743,-190.52087,91.0,bottom,C28,,,C_1206_3216Metric,C_1206_3216Metric,smt
+93.888997,-148.427282,91.0,bottom,C29,,,C_1206_3216Metric,C_1206_3216Metric,smt
+41.373046,-133.138034,-87.0,bottom,C3,,,C_1206_3216Metric,C_1206_3216Metric,smt
+93.15425,-106.333694,91.0,bottom,C30,,,C_1206_3216Metric,C_1206_3216Metric,smt
+114.752567,-189.25314,90.0,bottom,C31,,,C_1206_3216Metric,C_1206_3216Metric,smt
+114.752567,-147.15314,90.0,bottom,C32,,,C_1206_3216Metric,C_1206_3216Metric,smt
+114.752567,-105.05314,90.0,bottom,C33,,,C_1206_3216Metric,C_1206_3216Metric,smt
+134.900449,-190.3369,89.0,bottom,C34,,,C_1206_3216Metric,C_1206_3216Metric,smt
+135.635196,-148.243312,89.0,bottom,C35,,,C_1206_3216Metric,C_1206_3216Metric,smt
+136.369942,-106.149724,89.0,bottom,C36,,,C_1206_3216Metric,C_1206_3216Metric,smt
+156.495618,-149.697769,88.0,bottom,C37,,,C_1206_3216Metric,C_1206_3216Metric,smt
+157.964887,-107.623416,88.0,bottom,C38,,,C_1206_3216Metric,C_1206_3216Metric,smt
+165.206239,-193.122473,86.0,bottom,C39,,,C_1206_3216Metric,C_1206_3216Metric,smt
+39.169702,-91.095731,-87.0,bottom,C4,,,C_1206_3216Metric,C_1206_3216Metric,smt
+177.6835,-151.713139,87.0,bottom,C40,,,C_1206_3216Metric,C_1206_3216Metric,smt
+179.886844,-109.670836,87.0,bottom,C41,,,C_1206_3216Metric,C_1206_3216Metric,smt
+64.340122,-172.833219,-88.0,bottom,C5,,,C_1206_3216Metric,C_1206_3216Metric,smt
+62.870854,-130.758865,-88.0,bottom,C6,,,C_1206_3216Metric,C_1206_3216Metric,smt
+61.401585,-88.684512,-88.0,bottom,C7,,,C_1206_3216Metric,C_1206_3216Metric,smt
+84.78225,-171.039661,-89.0,bottom,C8,,,C_1206_3216Metric,C_1206_3216Metric,smt
+84.047504,-128.946073,-89.0,bottom,C9,,,C_1206_3216Metric,C_1206_3216Metric,smt
+54.595612,-208.399848,94.0,bottom,D1,,,D_1206_3216Metric,D_1206_3216Metric,smt
+61.307837,-122.533403,92.0,bottom,D10,,,D_1206_3216Metric,D_1206_3216Metric,smt
+60.573203,-101.496226,92.0,bottom,D11,,,D_1206_3216Metric,D_1206_3216Metric,smt
+84.097772,-204.881761,91.0,bottom,D12,,,D_1206_3216Metric,D_1206_3216Metric,smt
+83.730399,-183.834967,91.0,bottom,D13,,,D_1206_3216Metric,D_1206_3216Metric,smt
+83.363026,-162.788173,91.0,bottom,D14,,,D_1206_3216Metric,D_1206_3216Metric,smt
+82.995653,-141.741379,91.0,bottom,D15,,,D_1206_3216Metric,D_1206_3216Metric,smt
+82.628279,-120.694585,91.0,bottom,D16,,,D_1206_3216Metric,D_1206_3216Metric,smt
+82.260906,-99.647791,91.0,bottom,D17,,,D_1206_3216Metric,D_1206_3216Metric,smt
+103.977567,-203.42814,90.0,bottom,D18,,,D_1206_3216Metric,D_1206_3216Metric,smt
+103.977567,-182.37814,90.0,bottom,D19,,,D_1206_3216Metric,D_1206_3216Metric,smt
+42.971729,-188.004558,93.0,bottom,D2,,,D_1206_3216Metric,D_1206_3216Metric,smt
+103.977567,-161.32814,90.0,bottom,D20,,,D_1206_3216Metric,D_1206_3216Metric,smt
+103.977567,-140.27814,90.0,bottom,D21,,,D_1206_3216Metric,D_1206_3216Metric,smt
+103.977567,-119.22814,90.0,bottom,D22,,,D_1206_3216Metric,D_1206_3216Metric,smt
+103.977567,-98.17814,90.0,bottom,D23,,,D_1206_3216Metric,D_1206_3216Metric,smt
+123.879703,-204.321691,89.0,bottom,D24,,,D_1206_3216Metric,D_1206_3216Metric,smt
+124.247076,-183.274897,89.0,bottom,D25,,,D_1206_3216Metric,D_1206_3216Metric,smt
+124.614449,-162.228103,89.0,bottom,D26,,,D_1206_3216Metric,D_1206_3216Metric,smt
+124.981822,-141.181309,89.0,bottom,D27,,,D_1206_3216Metric,D_1206_3216Metric,smt
+125.349195,-120.134515,89.0,bottom,D28,,,D_1206_3216Metric,D_1206_3216Metric,smt
+125.716569,-99.087721,89.0,bottom,D29,,,D_1206_3216Metric,D_1206_3216Metric,smt
+41.870057,-166.983407,93.0,bottom,D3,,,D_1206_3216Metric,D_1206_3216Metric,smt
+144.497847,-184.525269,88.0,bottom,D30,,,D_1206_3216Metric,D_1206_3216Metric,smt
+145.232481,-163.488092,88.0,bottom,D31,,,D_1206_3216Metric,D_1206_3216Metric,smt
+145.967116,-142.450915,88.0,bottom,D32,,,D_1206_3216Metric,D_1206_3216Metric,smt
+146.70175,-121.413739,88.0,bottom,D33,,,D_1206_3216Metric,D_1206_3216Metric,smt
+147.436385,-100.376562,88.0,bottom,D34,,,D_1206_3216Metric,D_1206_3216Metric,smt
+153.468689,-206.511318,86.0,bottom,D35,,,D_1206_3216Metric,D_1206_3216Metric,smt
+165.079732,-186.325945,87.0,bottom,D36,,,D_1206_3216Metric,D_1206_3216Metric,smt
+166.181404,-165.304793,87.0,bottom,D37,,,D_1206_3216Metric,D_1206_3216Metric,smt
+167.283076,-144.283641,87.0,bottom,D38,,,D_1206_3216Metric,D_1206_3216Metric,smt
+168.384748,-123.26249,87.0,bottom,D39,,,D_1206_3216Metric,D_1206_3216Metric,smt
+40.768385,-145.962255,93.0,bottom,D4,,,D_1206_3216Metric,D_1206_3216Metric,smt
+169.48642,-102.241338,87.0,bottom,D40,,,D_1206_3216Metric,D_1206_3216Metric,smt
+39.666713,-124.941103,93.0,bottom,D5,,,D_1206_3216Metric,D_1206_3216Metric,smt
+38.565041,-103.919951,93.0,bottom,D6,,,D_1206_3216Metric,D_1206_3216Metric,smt
+63.51174,-185.644934,92.0,bottom,D7,,,D_1206_3216Metric,D_1206_3216Metric,smt
+62.777106,-164.607757,92.0,bottom,D8,,,D_1206_3216Metric,D_1206_3216Metric,smt
+62.042471,-143.57058,92.0,bottom,D9,,,D_1206_3216Metric,D_1206_3216Metric,smt
+30.713782,-63.976113,3.0,top,HOLE1,,,MountingHole_2.2mm_M2_Pad_Via,,tht
+110.002567,-64.62814,0.0,top,HOLE2,,,MountingHole_2.2mm_M2_Pad_Via,,tht
+188.585064,-73.151016,-3.0,top,HOLE3,,,MountingHole_2.2mm_M2_Pad_Via,,tht
+188.282148,-222.228067,-4.0,top,HOLE4,,,MountingHole_2.2mm_M2_Pad_Via,,tht
+110.002567,-213.05939,0.0,top,HOLE5,,,MountingHole_2.2mm_M2_Pad_Via,,tht
+31.8028,-223.276032,4.0,top,HOLE6,,,MountingHole_2.2mm_M2_Pad_Via,,tht
+48.282721,-174.222715,-177.0,bottom,LED1,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+110.002567,-168.89314,180.0,bottom,LED10,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+110.002567,-126.79314,180.0,bottom,LED11,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+110.002567,-84.69314,180.0,bottom,LED12,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+130.506504,-169.897102,179.0,bottom,LED13,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+131.24125,-127.803514,179.0,bottom,LED14,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+131.975997,-85.709926,179.0,bottom,LED15,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+150.989796,-171.258753,178.0,bottom,LED16,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+152.459065,-129.1844,178.0,bottom,LED17,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+153.928334,-87.110046,178.0,bottom,LED18,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+171.802226,-173.17475,177.0,bottom,LED19,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+46.079378,-132.180411,-177.0,bottom,LED2,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+174.00557,-131.132446,177.0,bottom,LED20,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+176.208913,-89.090143,177.0,bottom,LED21,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+59.665269,-194.527414,4.0,bottom,LED22,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+47.181049,-153.201563,3.0,bottom,LED23,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+44.977706,-111.15926,3.0,bottom,LED24,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+68.327816,-150.920702,2.0,bottom,LED25,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+66.858547,-108.846348,2.0,bottom,LED26,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+89.886509,-191.293664,1.0,bottom,LED27,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+89.151762,-149.200076,1.0,bottom,LED28,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+88.417016,-107.106488,1.0,bottom,LED29,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+43.876034,-90.138108,-177.0,bottom,LED3,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+110.002567,-189.94314,0.0,bottom,LED30,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+110.002567,-147.84314,0.0,bottom,LED31,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+110.002567,-105.74314,0.0,bottom,LED32,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+130.139131,-190.943896,-1.0,bottom,LED33,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+130.873877,-148.850308,-1.0,bottom,LED34,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+131.608623,-106.75672,-1.0,bottom,LED35,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+151.724431,-150.221577,-2.0,bottom,LED36,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+153.1937,-108.147223,-2.0,bottom,LED37,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+160.419678,-193.479449,-4.0,bottom,LED38,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+172.903898,-152.153598,-3.0,bottom,LED39,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+69.06245,-171.957879,-178.0,bottom,LED4,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+175.107241,-110.111294,-3.0,bottom,LED40,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+67.593181,-129.883525,-178.0,bottom,LED5,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+66.123913,-87.809172,-178.0,bottom,LED6,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+89.519136,-170.24687,-179.0,bottom,LED7,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+88.784389,-128.153282,-179.0,bottom,LED8,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+88.049643,-86.059694,-179.0,bottom,LED9,,,"led_SK6812mini-e (per-key, single-side)",SK6812mini-e,tht
+173.581964,-72.339703,-93.0,top,MCU1,,,RP2040_Pro_Micro,RP2040 Pro Micro,tht
+31.236895,-69.180868,3.0,top,OLED1,,,I2C_Breakout,I2C_Breakout,tht
+62.069669,-80.881442,92.0,top,OLED2,,,I2C_Breakout,I2C_Breakout,tht
+68.986164,-60.602707,-85.0,top,OLED3,,,I2C_Breakout,I2C_Breakout,tht
+106.192567,-77.62814,90.0,top,OLED4,,,I2C_Breakout,I2C_Breakout,tht
+113.812567,-57.60314,-90.0,top,OLED5,,,I2C_Breakout,I2C_Breakout,tht
+60.011261,-199.475332,-176.0,top,S1,,,MX,Kailh MX Switch Sockets,tht
+67.031649,-113.803327,-178.0,top,S10,,,MX,Kailh MX Switch Sockets,tht
+66.297014,-92.76615,-178.0,top,S11,,,MX,Kailh MX Switch Sockets,tht
+89.973073,-196.252909,-179.0,top,S12,,,MX,Kailh MX Switch Sockets,tht
+89.6057,-175.206115,-179.0,top,S13,,,MX,Kailh MX Switch Sockets,tht
+89.238326,-154.159321,-179.0,top,S14,,,MX,Kailh MX Switch Sockets,tht
+88.870953,-133.112527,-179.0,top,S15,,,MX,Kailh MX Switch Sockets,tht
+88.50358,-112.065733,-179.0,top,S16,,,MX,Kailh MX Switch Sockets,tht
+88.136207,-91.018939,-179.0,top,S17,,,MX,Kailh MX Switch Sockets,tht
+110.002567,-194.90314,180.0,top,S18,,,MX,Kailh MX Switch Sockets,tht
+110.002567,-173.85314,180.0,top,S19,,,MX,Kailh MX Switch Sockets,tht
+48.542308,-179.175917,-177.0,top,S2,,,MX,Kailh MX Switch Sockets,tht
+110.002567,-152.80314,180.0,top,S20,,,MX,Kailh MX Switch Sockets,tht
+110.002567,-131.75314,180.0,top,S21,,,MX,Kailh MX Switch Sockets,tht
+110.002567,-110.70314,180.0,top,S22,,,MX,Kailh MX Switch Sockets,tht
+110.002567,-89.65314,180.0,top,S23,,,MX,Kailh MX Switch Sockets,tht
+130.052567,-195.90314,179.0,top,S24,,,MX,Kailh MX Switch Sockets,tht
+130.41994,-174.856346,179.0,top,S25,,,MX,Kailh MX Switch Sockets,tht
+130.787313,-153.809552,179.0,top,S26,,,MX,Kailh MX Switch Sockets,tht
+131.154686,-132.762758,179.0,top,S27,,,MX,Kailh MX Switch Sockets,tht
+131.52206,-111.715964,179.0,top,S28,,,MX,Kailh MX Switch Sockets,tht
+131.889433,-90.66917,179.0,top,S29,,,MX,Kailh MX Switch Sockets,tht
+47.440636,-158.154766,-177.0,top,S3,,,MX,Kailh MX Switch Sockets,tht
+150.816695,-176.215732,178.0,top,S30,,,MX,Kailh MX Switch Sockets,tht
+151.551329,-155.178555,178.0,top,S31,,,MX,Kailh MX Switch Sockets,tht
+152.285964,-134.141378,178.0,top,S32,,,MX,Kailh MX Switch Sockets,tht
+153.020598,-113.104201,178.0,top,S33,,,MX,Kailh MX Switch Sockets,tht
+153.755233,-92.067024,178.0,top,S34,,,MX,Kailh MX Switch Sockets,tht
+160.073686,-198.427367,176.0,top,S35,,,MX,Kailh MX Switch Sockets,tht
+171.542639,-178.127952,177.0,top,S36,,,MX,Kailh MX Switch Sockets,tht
+172.644311,-157.1068,177.0,top,S37,,,MX,Kailh MX Switch Sockets,tht
+173.745983,-136.085649,177.0,top,S38,,,MX,Kailh MX Switch Sockets,tht
+174.847655,-115.064497,177.0,top,S39,,,MX,Kailh MX Switch Sockets,tht
+46.338964,-137.133614,-177.0,top,S4,,,MX,Kailh MX Switch Sockets,tht
+175.949327,-94.043345,177.0,top,S40,,,MX,Kailh MX Switch Sockets,tht
+45.237292,-116.112462,-177.0,top,S5,,,MX,Kailh MX Switch Sockets,tht
+44.13562,-95.091311,-177.0,top,S6,,,MX,Kailh MX Switch Sockets,tht
+69.235552,-176.914858,-178.0,top,S7,,,MX,Kailh MX Switch Sockets,tht
+68.500917,-155.877681,-178.0,top,S8,,,MX,Kailh MX Switch Sockets,tht
+67.766283,-134.840504,-178.0,top,S9,,,MX,Kailh MX Switch Sockets,tht

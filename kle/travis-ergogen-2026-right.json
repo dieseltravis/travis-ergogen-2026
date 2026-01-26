@@ -1,0 +1,125 @@
+[
+  {
+    "backcolor": "#000000",
+    "name": "travis-ergogen-2026-right",
+    "author": "Travis Hardiman",
+    "radii": "2.75",
+    "switchMount": "cherry",
+    "switchBrand": "kailh",
+    "switchType": "PG151101D49/D09",
+    "plate": true
+  },
+  [
+    {
+      "c": "#ffffff",
+      "p": "DSA",
+      "a": 7
+    },
+    "\n\n\n\nF7",
+    "\n\n\n\nF8",
+    "\n\n\n\nF9",
+    "\n\n\n\nF10",
+    "\n\n\n\nF11",
+    "\n\n\n\nF12",
+    {
+      "c": "#ff0000"
+    },
+    "\n\n\n\nDel"
+  ],
+  [
+    {
+      "c": "#cccccc"
+    },
+    "\n\n\n\n7",
+    "\n\n\n\n8",
+    "\n\n\n\n9",
+    "\n\n\n\n0",
+    "\n\n\n\n-",
+    "\n\n\n\n=",
+    {
+      "c": "#ff0000"
+    },
+    "\n\n\n\nBacksp"
+  ],
+  [
+    {
+      "c": "#cccccc"
+    },
+    "\n\n\n\nu",
+    "\n\n\n\nI",
+    "\n\n\n\nO",
+    "\n\n\n\nP",
+    "\n\n\n\n[",
+    "\n\n\n\n]",
+    "\n\n\n\n\\"
+  ],
+  [
+    {
+      "c": "#333333",
+      "t": "#ffffff"
+    },
+    "\n\n\n\nj",
+    "\n\n\n\nk",
+    "\n\n\n\nL",
+    {
+      "f": 5
+    },
+    "\n\n\n\n;",
+    "\n\n\n\n'",
+    {
+      "c": "#ffffff",
+      "t": "#ff0000",
+      "f": 3
+    },
+    "X",
+    {
+      "c": "#666666",
+      "t": "#ffffff"
+    },
+    "\n\n\n\nEnter"
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "t": "#000000"
+    },
+    "\n\n\n\nM",
+    {
+      "f": 5
+    },
+    "\n\n\n\n,",
+    "\n\n\n\n.",
+    {
+      "f": 3
+    },
+    "\n\n\n\n/",
+    {
+      "c": "#ffffff",
+      "t": "#ff0000"
+    },
+    "X",
+    "X",
+    {
+      "c": "#666666",
+      "t": "#ffffff"
+    },
+    "\n\n\n\nShift"
+  ],
+  [
+    {
+      "w": 2
+    },
+    "\n\n\n\nSpace",
+    {
+      "c": "#ff0000",
+      "t": "#000000"
+    },
+    "\n\n\n\nAlt",
+    "\n\n\n\nMenu",
+    "\n\n\n\nFn",
+    {
+      "w": 2
+    },
+    "\n\n\n\nCtrl"
+  ]
+]

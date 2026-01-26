@@ -10,6 +10,7 @@ meta:
         - keyboard
         - cherrymx
         - hotswap
+        - rp2040
     cool_font: 3270 Nerd Font
 units:
     kp: U + 2
@@ -845,7 +846,7 @@ pcbs:
                         - 0
                     from: '{{column_net}}'
                     to: '{{name}}'
-                    value: Kailh MX Switch Sockets
+                    value: C41430893
                 adjust:
                     rotate: 180
             diode:
@@ -855,6 +856,7 @@ pcbs:
                     side: B
                     from: '{{name}}'
                     to: '{{row_net}}'
+                    value: C7420318
                     refpos:
                         - -1.5
                         - 2.75
@@ -872,6 +874,7 @@ pcbs:
                     P2: '{{key.led_next}}'
                     P3: GND
                     P4: '{{key.led_this}}'
+                    value: C5378731
                     valpos:
                         - 0
                         - 2.25
@@ -879,7 +882,7 @@ pcbs:
                 adjust:
                     shift:
                         - 0
-                        - '-(-4.96)'
+                        - 4.96
                     rotate: 180
             ledlabel_odd:
                 what: ceoloide/utility_text
@@ -898,6 +901,7 @@ pcbs:
                 where: meta.tags ~ /row_odd/
                 params:
                     side: B
+                    value: C710467
                     refpos:
                         - -1.5
                         - 2.75
@@ -918,6 +922,7 @@ pcbs:
                     P2: '{{key.led_next}}'
                     P3: GND
                     P4: '{{key.led_this}}'
+                    value: C5378731
                     valpos:
                         - 0
                         - 2.25
@@ -925,7 +930,7 @@ pcbs:
                 adjust:
                     shift:
                         - 0
-                        - '-(-4.96)'
+                        - 4.96
                     rotate: 0
             ledlabel_even:
                 what: ceoloide/utility_text
@@ -945,6 +950,7 @@ pcbs:
                 where: meta.tags ~ /row_even/
                 params:
                     side: B
+                    value: C710467
                     refpos:
                         - -1.5
                         - 2.75
