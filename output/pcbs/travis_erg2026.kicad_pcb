@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "travis_erg2026")
-    (date "2026-01-26")
+    (date "2026-01-27")
     (rev "2026.01.24")
     (company "Travis Hardiman")
   )
@@ -2909,13 +2909,14 @@
 )
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 60.0112611 199.475332 184)
-  
+
         
         (fp_text reference "S1" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -2925,10 +2926,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -2944,7 +2945,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 184) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
           (pad 2 smd rect (at 5.842 -5.08 184) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 30 "matrix_col0_row0"))
@@ -2962,13 +2963,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 48.542307699999995 179.1759173 183)
-  
+
         
         (fp_text reference "S2" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -2978,10 +2980,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -2997,7 +2999,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
           (pad 2 smd rect (at 5.842 -5.08 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 31 "matrix_col0_row1"))
@@ -3015,13 +3017,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 47.440635799999995 158.15476560000002 183)
-  
+
         
         (fp_text reference "S3" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3031,10 +3034,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3050,7 +3053,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
           (pad 2 smd rect (at 5.842 -5.08 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 32 "matrix_col0_row2"))
@@ -3068,13 +3071,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 46.338963899999996 137.13361390000003 183)
-  
+
         
         (fp_text reference "S4" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3084,10 +3088,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3103,7 +3107,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
           (pad 2 smd rect (at 5.842 -5.08 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 33 "matrix_col0_row3"))
@@ -3121,13 +3125,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 45.237292 116.11246220000002 183)
-  
+
         
         (fp_text reference "S5" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3137,10 +3142,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3156,7 +3161,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
           (pad 2 smd rect (at 5.842 -5.08 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 34 "matrix_col0_row4"))
@@ -3174,13 +3179,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 44.1356201 95.09131050000002 183)
-  
+
         
         (fp_text reference "S6" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3190,10 +3196,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3209,7 +3215,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 19 "col0"))
           (pad 2 smd rect (at 5.842 -5.08 183) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 35 "matrix_col0_row5"))
@@ -3227,13 +3233,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 69.2355518 176.9148576 182)
-  
+
         
         (fp_text reference "S7" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3243,10 +3250,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3262,7 +3269,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 20 "col1"))
           (pad 2 smd rect (at 5.842 -5.08 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 36 "matrix_col1_row1"))
@@ -3280,13 +3287,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 68.50091739999999 155.8776807 182)
-  
+
         
         (fp_text reference "S8" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3296,10 +3304,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3315,7 +3323,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 20 "col1"))
           (pad 2 smd rect (at 5.842 -5.08 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 37 "matrix_col1_row2"))
@@ -3333,13 +3341,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 67.76628299999999 134.84050380000002 182)
-  
+
         
         (fp_text reference "S9" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3349,10 +3358,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3368,7 +3377,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 20 "col1"))
           (pad 2 smd rect (at 5.842 -5.08 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 38 "matrix_col1_row3"))
@@ -3386,13 +3395,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 67.03164859999998 113.80332690000003 182)
-  
+
         
         (fp_text reference "S10" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3402,10 +3412,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3421,7 +3431,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 20 "col1"))
           (pad 2 smd rect (at 5.842 -5.08 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 39 "matrix_col1_row4"))
@@ -3439,13 +3449,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 66.29701419999998 92.76615000000004 182)
-  
+
         
         (fp_text reference "S11" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3455,10 +3466,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3474,7 +3485,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 20 "col1"))
           (pad 2 smd rect (at 5.842 -5.08 182) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 40 "matrix_col1_row5"))
@@ -3492,13 +3503,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 89.9730728 196.2529088 181)
-  
+
         
         (fp_text reference "S12" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3508,10 +3520,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3527,7 +3539,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "col2"))
           (pad 2 smd rect (at 5.842 -5.08 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 41 "matrix_col2_row0"))
@@ -3545,13 +3557,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 89.6056996 175.2061148 181)
-  
+
         
         (fp_text reference "S13" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3561,10 +3574,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3580,7 +3593,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "col2"))
           (pad 2 smd rect (at 5.842 -5.08 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 42 "matrix_col2_row1"))
@@ -3598,13 +3611,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 89.23832639999999 154.1593208 181)
-  
+
         
         (fp_text reference "S14" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3614,10 +3628,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3633,7 +3647,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "col2"))
           (pad 2 smd rect (at 5.842 -5.08 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 43 "matrix_col2_row2"))
@@ -3651,13 +3665,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 88.87095319999999 133.11252679999998 181)
-  
+
         
         (fp_text reference "S15" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3667,10 +3682,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3686,7 +3701,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "col2"))
           (pad 2 smd rect (at 5.842 -5.08 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 44 "matrix_col2_row3"))
@@ -3704,13 +3719,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 88.50357999999999 112.06573279999998 181)
-  
+
         
         (fp_text reference "S16" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3720,10 +3736,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3739,7 +3755,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "col2"))
           (pad 2 smd rect (at 5.842 -5.08 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 45 "matrix_col2_row4"))
@@ -3757,13 +3773,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 88.13620679999998 91.01893879999997 181)
-  
+
         
         (fp_text reference "S17" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3773,10 +3790,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3792,7 +3809,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 21 "col2"))
           (pad 2 smd rect (at 5.842 -5.08 181) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 46 "matrix_col2_row5"))
@@ -3810,13 +3827,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 110.0025666 194.9031403 180)
-  
+
         
         (fp_text reference "S18" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3826,10 +3844,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3845,7 +3863,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "col3"))
           (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 47 "matrix_col3_row0"))
@@ -3863,13 +3881,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 110.0025666 173.85314029999998 180)
-  
+
         
         (fp_text reference "S19" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3879,10 +3898,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3898,7 +3917,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "col3"))
           (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 48 "matrix_col3_row1"))
@@ -3916,13 +3935,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 110.0025666 152.80314029999997 180)
-  
+
         
         (fp_text reference "S20" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3932,10 +3952,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -3951,7 +3971,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "col3"))
           (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 49 "matrix_col3_row2"))
@@ -3969,13 +3989,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 110.0025666 131.75314029999996 180)
-  
+
         
         (fp_text reference "S21" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -3985,10 +4006,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4004,7 +4025,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "col3"))
           (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 50 "matrix_col3_row3"))
@@ -4022,13 +4043,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 110.0025666 110.70314029999996 180)
-  
+
         
         (fp_text reference "S22" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4038,10 +4060,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4057,7 +4079,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "col3"))
           (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 51 "matrix_col3_row4"))
@@ -4075,13 +4097,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 110.0025666 89.65314029999996 180)
-  
+
         
         (fp_text reference "S23" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4091,10 +4114,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4110,7 +4133,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 22 "col3"))
           (pad 2 smd rect (at 5.842 -5.08 180) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 52 "matrix_col3_row5"))
@@ -4128,13 +4151,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 130.0525667 195.9031403 179)
-  
+
         
         (fp_text reference "S24" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4144,10 +4168,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4163,7 +4187,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "col4"))
           (pad 2 smd rect (at 5.842 -5.08 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 53 "matrix_col4_row0"))
@@ -4181,13 +4205,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 130.4199399 174.85634629999998 179)
-  
+
         
         (fp_text reference "S25" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4197,10 +4222,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4216,7 +4241,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "col4"))
           (pad 2 smd rect (at 5.842 -5.08 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 54 "matrix_col4_row1"))
@@ -4234,13 +4259,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 130.7873131 153.80955229999998 179)
-  
+
         
         (fp_text reference "S26" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4250,10 +4276,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4269,7 +4295,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "col4"))
           (pad 2 smd rect (at 5.842 -5.08 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 55 "matrix_col4_row2"))
@@ -4287,13 +4313,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 131.1546863 132.76275829999997 179)
-  
+
         
         (fp_text reference "S27" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4303,10 +4330,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4322,7 +4349,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "col4"))
           (pad 2 smd rect (at 5.842 -5.08 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 56 "matrix_col4_row3"))
@@ -4340,13 +4367,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 131.5220595 111.71596429999997 179)
-  
+
         
         (fp_text reference "S28" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4356,10 +4384,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4375,7 +4403,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "col4"))
           (pad 2 smd rect (at 5.842 -5.08 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 57 "matrix_col4_row4"))
@@ -4393,13 +4421,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 131.88943270000001 90.66917029999996 179)
-  
+
         
         (fp_text reference "S29" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4409,10 +4438,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4428,7 +4457,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 23 "col4"))
           (pad 2 smd rect (at 5.842 -5.08 179) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 58 "matrix_col4_row5"))
@@ -4446,13 +4475,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 150.81669490000002 176.2157319 178)
-  
+
         
         (fp_text reference "S30" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4462,10 +4492,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4481,7 +4511,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 24 "col5"))
           (pad 2 smd rect (at 5.842 -5.08 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 59 "matrix_col5_row1"))
@@ -4499,13 +4529,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 151.55132930000002 155.17855500000002 178)
-  
+
         
         (fp_text reference "S31" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4515,10 +4546,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4534,7 +4565,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 24 "col5"))
           (pad 2 smd rect (at 5.842 -5.08 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 60 "matrix_col5_row2"))
@@ -4552,13 +4583,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 152.28596370000002 134.14137810000003 178)
-  
+
         
         (fp_text reference "S32" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4568,10 +4600,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4587,7 +4619,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 24 "col5"))
           (pad 2 smd rect (at 5.842 -5.08 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 61 "matrix_col5_row3"))
@@ -4605,13 +4637,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 153.02059810000003 113.10420120000003 178)
-  
+
         
         (fp_text reference "S33" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4621,10 +4654,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4640,7 +4673,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 24 "col5"))
           (pad 2 smd rect (at 5.842 -5.08 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 62 "matrix_col5_row4"))
@@ -4658,13 +4691,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 153.75523250000003 92.06702430000004 178)
-  
+
         
         (fp_text reference "S34" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4674,10 +4708,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4693,7 +4727,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 24 "col5"))
           (pad 2 smd rect (at 5.842 -5.08 178) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 63 "matrix_col5_row5"))
@@ -4711,13 +4745,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 160.073686 198.42736670000002 176)
-  
+
         
         (fp_text reference "S35" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4727,10 +4762,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4746,7 +4781,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 176) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 25 "col6"))
           (pad 2 smd rect (at 5.842 -5.08 176) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 64 "matrix_col6_row0"))
@@ -4764,13 +4799,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 171.5426394 178.12795200000002 177)
-  
+
         
         (fp_text reference "S36" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4780,10 +4816,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4799,7 +4835,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 25 "col6"))
           (pad 2 smd rect (at 5.842 -5.08 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 65 "matrix_col6_row1"))
@@ -4817,13 +4853,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 172.64431130000003 157.10680030000003 177)
-  
+
         
         (fp_text reference "S37" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4833,10 +4870,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4852,7 +4889,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 25 "col6"))
           (pad 2 smd rect (at 5.842 -5.08 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 66 "matrix_col6_row2"))
@@ -4870,13 +4907,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 173.74598320000004 136.08564860000004 177)
-  
+
         
         (fp_text reference "S38" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4886,10 +4924,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4905,7 +4943,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 25 "col6"))
           (pad 2 smd rect (at 5.842 -5.08 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 67 "matrix_col6_row3"))
@@ -4923,13 +4961,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 174.84765510000005 115.06449690000004 177)
-  
+
         
         (fp_text reference "S39" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4939,10 +4978,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -4958,7 +4997,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 25 "col6"))
           (pad 2 smd rect (at 5.842 -5.08 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 68 "matrix_col6_row4"))
@@ -4976,13 +5015,14 @@
           
 
           
-        (module "travis:MX" (layer F.Cu)
+        (footprint "MX" (layer F.Cu)
         (at 175.94932700000007 94.04334520000003 177)
-  
+
         
         (fp_text reference "S40" (at 3.5 -2 0) (layer F.SilkS)  (effects (font (size 1 1) (thickness 0.15))))
         (fp_text value "C41430893" (at 0 0 184) (layer B.Fab) hide (effects (font (size 1 1) (thickness 0.15))))
-  
+        (attr smd)
+
         
         (fp_line (start -7 -6) (end -7 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start -7 7) (end -6 7) (layer Dwgs.User) (width 0.15))
@@ -4992,10 +5032,10 @@
         (fp_line (start 7 -7) (end 6 -7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 6 7) (end 7 7) (layer Dwgs.User) (width 0.15))
         (fp_line (start 7 -7) (end 7 -6) (layer Dwgs.User) (width 0.15))
-      
+
         
         (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  
+
         
         (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
         (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
@@ -5011,7 +5051,7 @@
           
           (pad "" np_thru_hole circle (at 2.54 -5.08) (size 3 3) (drill 3) (layers *.Cu *.Mask))
           (pad "" np_thru_hole circle (at -3.81 -2.54) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-          
+
           
           (pad 1 smd rect (at -7.085 -2.54 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 25 "col6"))
           (pad 2 smd rect (at 5.842 -5.08 177) (size 2.55 2.5) (layers B.Cu B.Paste B.Mask) (net 69 "matrix_col6_row5"))
@@ -11548,7 +11588,7 @@
       )
     )
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 48.28272139999999 174.2227148 183)
 
@@ -11558,6 +11598,7 @@
         (fp_text value "C5378731" (at 0 2.25 183) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -11641,7 +11682,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 46.079377599999994 132.18041140000003 183)
 
@@ -11651,6 +11692,7 @@
         (fp_text value "C5378731" (at 0 2.25 183) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -11734,7 +11776,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 43.876033799999995 90.13810800000002 183)
 
@@ -11744,6 +11786,7 @@
         (fp_text value "C5378731" (at 0 2.25 183) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -11827,7 +11870,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 69.0624503 171.9578791 182)
 
@@ -11837,6 +11880,7 @@
         (fp_text value "C5378731" (at 0 2.25 182) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -11920,7 +11964,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 67.59318149999999 129.88352530000003 182)
 
@@ -11930,6 +11974,7 @@
         (fp_text value "C5378731" (at 0 2.25 182) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12013,7 +12058,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 66.12391269999998 87.80917150000003 182)
 
@@ -12023,6 +12068,7 @@
         (fp_text value "C5378731" (at 0 2.25 182) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12106,7 +12152,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 89.51913569999999 170.2468702 181)
 
@@ -12116,6 +12162,7 @@
         (fp_text value "C5378731" (at 0 2.25 181) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12199,7 +12246,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 88.78438929999999 128.15328219999998 181)
 
@@ -12209,6 +12256,7 @@
         (fp_text value "C5378731" (at 0 2.25 181) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12292,7 +12340,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 88.04964289999998 86.05969419999997 181)
 
@@ -12302,6 +12350,7 @@
         (fp_text value "C5378731" (at 0 2.25 181) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12385,7 +12434,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 168.89314029999997 180)
 
@@ -12395,6 +12444,7 @@
         (fp_text value "C5378731" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12478,7 +12528,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 126.79314029999996 180)
 
@@ -12488,6 +12538,7 @@
         (fp_text value "C5378731" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12571,7 +12622,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 84.69314029999997 180)
 
@@ -12581,6 +12632,7 @@
         (fp_text value "C5378731" (at 0 2.25 180) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12664,7 +12716,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 130.5065038 169.89710169999998 179)
 
@@ -12674,6 +12726,7 @@
         (fp_text value "C5378731" (at 0 2.25 179) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12757,7 +12810,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 131.2412502 127.80351369999997 179)
 
@@ -12767,6 +12820,7 @@
         (fp_text value "C5378731" (at 0 2.25 179) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12850,7 +12904,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 131.9759966 85.70992569999996 179)
 
@@ -12860,6 +12914,7 @@
         (fp_text value "C5378731" (at 0 2.25 179) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -12943,7 +12998,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 150.98979640000002 171.25875340000002 178)
 
@@ -12953,6 +13008,7 @@
         (fp_text value "C5378731" (at 0 2.25 178) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -13036,7 +13092,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 152.45906520000003 129.18439960000003 178)
 
@@ -13046,6 +13102,7 @@
         (fp_text value "C5378731" (at 0 2.25 178) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -13129,7 +13186,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 153.92833400000004 87.11004580000004 178)
 
@@ -13139,6 +13196,7 @@
         (fp_text value "C5378731" (at 0 2.25 178) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -13222,7 +13280,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 171.8022257 173.17474950000002 177)
 
@@ -13232,6 +13290,7 @@
         (fp_text value "C5378731" (at 0 2.25 177) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -13315,7 +13374,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 174.00556950000004 131.13244610000004 177)
 
@@ -13325,6 +13384,7 @@
         (fp_text value "C5378731" (at 0 2.25 177) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -13408,7 +13468,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 176.20891330000006 89.09014270000003 177)
 
@@ -13418,6 +13478,7 @@
         (fp_text value "C5378731" (at 0 2.25 177) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -15454,7 +15515,7 @@
     )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 59.665269 194.5274143 4)
 
@@ -15464,6 +15525,7 @@
         (fp_text value "C5378731" (at 0 2.25 4) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -15547,7 +15609,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 47.18104949999999 153.20156310000002 3)
 
@@ -15557,6 +15619,7 @@
         (fp_text value "C5378731" (at 0 2.25 3) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -15640,7 +15703,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 44.977705699999994 111.15925970000002 3)
 
@@ -15650,6 +15713,7 @@
         (fp_text value "C5378731" (at 0 2.25 3) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -15733,7 +15797,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 68.32781589999999 150.92070220000002 2)
 
@@ -15743,6 +15807,7 @@
         (fp_text value "C5378731" (at 0 2.25 2) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -15826,7 +15891,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 66.85854709999998 108.84634840000002 2)
 
@@ -15836,6 +15901,7 @@
         (fp_text value "C5378731" (at 0 2.25 2) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -15919,7 +15985,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 89.8865089 191.2936642 1)
 
@@ -15929,6 +15995,7 @@
         (fp_text value "C5378731" (at 0 2.25 1) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16012,7 +16079,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 89.15176249999999 149.20007619999998 1)
 
@@ -16022,6 +16089,7 @@
         (fp_text value "C5378731" (at 0 2.25 1) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16105,7 +16173,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 88.41701609999998 107.10648819999997 1)
 
@@ -16115,6 +16183,7 @@
         (fp_text value "C5378731" (at 0 2.25 1) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16198,7 +16267,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 189.94314029999998 0)
 
@@ -16208,6 +16277,7 @@
         (fp_text value "C5378731" (at 0 2.25 0) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16291,7 +16361,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 147.84314029999996 0)
 
@@ -16301,6 +16371,7 @@
         (fp_text value "C5378731" (at 0 2.25 0) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16384,7 +16455,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 110.0025666 105.74314029999996 0)
 
@@ -16394,6 +16465,7 @@
         (fp_text value "C5378731" (at 0 2.25 0) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16477,7 +16549,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 130.1391306 190.94389569999998 -1)
 
@@ -16487,6 +16559,7 @@
         (fp_text value "C5378731" (at 0 2.25 -1) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16570,7 +16643,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 130.873877 148.85030769999997 -1)
 
@@ -16580,6 +16653,7 @@
         (fp_text value "C5378731" (at 0 2.25 -1) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16663,7 +16737,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 131.6086234 106.75671969999996 -1)
 
@@ -16673,6 +16747,7 @@
         (fp_text value "C5378731" (at 0 2.25 -1) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16756,7 +16831,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 151.72443080000002 150.22157650000003 -2)
 
@@ -16766,6 +16841,7 @@
         (fp_text value "C5378731" (at 0 2.25 -2) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16849,7 +16925,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 153.19369960000003 108.14722270000003 -2)
 
@@ -16859,6 +16935,7 @@
         (fp_text value "C5378731" (at 0 2.25 -2) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -16942,7 +17019,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 160.4196781 193.47944900000002 -4)
 
@@ -16952,6 +17029,7 @@
         (fp_text value "C5378731" (at 0 2.25 -4) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -17035,7 +17113,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 172.90389760000002 152.15359780000003 -3)
 
@@ -17045,6 +17123,7 @@
         (fp_text value "C5378731" (at 0 2.25 -3) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))
@@ -17128,7 +17207,7 @@
       )
     
 
-      (module "travis:led_SK6812mini-e (per-key, single-side)"
+      (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 175.10724140000005 110.11129440000003 -3)
 
@@ -17138,6 +17217,7 @@
         (fp_text value "C5378731" (at 0 2.25 -3) (layer "B.Fab") (hide yes)
           (effects (font (size 0.8 0.8) (thickness 0.15)))
         )
+        (attr smd)
         (fp_line (start -1.6 -1.4) (end 1.6 -1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 1.4) (end 1.6 1.4) (layer Dwgs.User) (width 0.12))
         (fp_line (start -1.6 -1.4) (end -1.6 1.4) (layer Dwgs.User) (width 0.12))

@@ -1,0 +1,87 @@
+[
+  {
+    "backcolor": "#000000",
+    "name": "travis-ergogen-2026-matrix",
+    "author": "Travis Hardiman",
+    "radii": "2.75",
+    "switchMount": "cherry",
+    "switchBrand": "kailh",
+    "switchType": "PG151101D49/D09",
+    "plate": true
+  },
+  [
+    {
+      "c": "#ffffff",
+      "t": "#000000\n\n\n#c27400\n\n\n#b30808\n\n#0066ff",
+      "p": "DSA",
+      "f": 2,
+      "fa": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        3
+      ]
+    },
+    "\n\n\nLED_7\n\n\nrow5\n\ncol0",
+    "\n\n\nLED_6\n\n\nrow5\n\ncol1",
+    "\n\n\nLED_5\n\n\nrow5\n\ncol2",
+    "\n\n\nLED_4\n\n\nrow5\n\ncol3",
+    "\n\n\nLED_3\n\n\nrow5\n\ncol4",
+    "\n\n\nLED_2\n\n\nrow5\n\ncol5",
+    "\n\n\nLED_1\n\n\nrow5\n\ncol6"
+  ],
+  [
+    "\n\n\nLED_8\n\n\nrow4\n\ncol0",
+    "\n\n\nLED_9\n\n\nrow4\n\ncol1",
+    "\n\n\nLED_10\n\n\nrow4\n\ncol2",
+    "\n\n\nLED_11\n\n\nrow4\n\ncol3",
+    "\n\n\nLED_12\n\n\nrow4\n\ncol4",
+    "\n\n\nLED_13\n\n\nrow4\n\ncol5",
+    "\n\n\nLED_14\n\n\nrow4\n\ncol6"
+  ],
+  [
+    "\n\n\nLED_21\n\n\nrow3\n\ncol0",
+    "\n\n\nLED_20\n\n\nrow3\n\ncol1",
+    "\n\n\nLED_19\n\n\nrow3\n\ncol2",
+    "\n\n\nLED_18\n\n\nrow3\n\ncol3",
+    "\n\n\nLED_17\n\n\nrow3\n\ncol4",
+    "\n\n\nLED_16\n\n\nrow3\n\ncol5",
+    "\n\n\nLED_15\n\n\nrow3\n\ncol6"
+  ],
+  [
+    "\n\n\nLED_22\n\n\nrow2\n\ncol0",
+    "\n\n\nLED_23\n\n\nrow2\n\ncol1",
+    "\n\n\nLED_24\n\n\nrow2\n\ncol2",
+    "\n\n\nLED_25\n\n\nrow2\n\ncol3",
+    "\n\n\nLED_26\n\n\nrow2\n\ncol4",
+    "\n\n\nLED_27\n\n\nrow2\n\ncol5",
+    "\n\n\nLED_28\n\n\nrow2\n\ncol6"
+  ],
+  [
+    "\n\n\nLED_35\n\n\nrow1\n\ncol0",
+    "\n\n\nLED_34\n\n\nrow1\n\ncol1",
+    "\n\n\nLED_33\n\n\nrow1\n\ncol2",
+    "\n\n\nLED_32\n\n\nrow1\n\ncol3",
+    "\n\n\nLED_31\n\n\nrow1\n\ncol4",
+    "\n\n\nLED_30\n\n\nrow1\n\ncol5",
+    "\n\n\nLED_29\n\n\nrow1\n\ncol6"
+  ],
+  [
+    {
+      "w": 2
+    },
+    "\n\n\nLED_36\n\n\nrow0\n\ncol0",
+    "\n\n\nLED_37\n\n\nrow0\n\ncol2",
+    "\n\n\nLED_38\n\n\nrow0\n\ncol3",
+    "\n\n\nLED_39\n\n\nrow0\n\ncol4",
+    {
+      "w": 2
+    },
+    "\n\n\nLED_40\n\n\nrow0\n\ncol6"
+  ]
+]
