@@ -1,0 +1,39 @@
+#include "travis_erg2026.dtsi"
+
+/ {
+    kscan0: kscan0 {
+        compatible = "zmk,kscan-gpio-matrix";
+        diode-direction = "col2row";
+        wakeup-source;
+
+        col-gpios
+            = <&pico_header 23 GPIO_ACTIVE_HIGH>
+            , <&pico_header 20 GPIO_ACTIVE_HIGH>
+            , <&pico_header 22 GPIO_ACTIVE_HIGH>
+            , <&pico_header 26 GPIO_ACTIVE_HIGH>
+            , <&pico_header 27 GPIO_ACTIVE_HIGH>
+            , <&pico_header 28 GPIO_ACTIVE_HIGH>
+            , <&pico_header 29 GPIO_ACTIVE_HIGH>
+            ;
+
+        row-gpios
+            = <&pico_header 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pico_header 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pico_header 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pico_header 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pico_header 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&pico_header  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;
+    };
+};
+
+&physical_layout_travis_erg2026 {
+    kscan = <&kscan0>;
+};
+
+&encoder0 {
+    a-gpios = <&pico_header 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    b-gpios = <&pico_header 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    status = "okay";
+};
+
