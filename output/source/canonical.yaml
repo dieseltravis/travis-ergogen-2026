@@ -59,32 +59,32 @@ points:
                                 - key
                                 - 2u_stabilizers
                             key:
-                                led_next: LED_37
-                                led_this: LED_36
+                                led_next: LED37
+                                led_this: LED36
                         row1:
                             shift:
                                 - '-0.5kspr'
                                 - 0.0kp
                             rotate: -1
                             key:
-                                led_next: LED_36
-                                led_this: LED_35
+                                led_next: LED36
+                                led_this: LED35
                         row2:
                             key:
-                                led_next: LED_23
-                                led_this: LED_22
+                                led_next: LED23
+                                led_this: LED22
                         row3:
                             key:
-                                led_next: LED_22
-                                led_this: LED_21
+                                led_next: LED22
+                                led_this: LED21
                         row4:
                             key:
-                                led_next: LED_9
-                                led_this: LED_8
+                                led_next: LED09
+                                led_this: LED08
                         row5:
                             key:
-                                led_next: LED_8
-                                led_this: LED_7
+                                led_next: LED08
+                                led_this: LED07
                 col1:
                     key:
                         tags: col_odd
@@ -96,24 +96,24 @@ points:
                             skip: true
                         row1:
                             key:
-                                led_next: LED_35
-                                led_this: LED_34
+                                led_next: LED35
+                                led_this: LED34
                         row2:
                             key:
-                                led_next: LED_24
-                                led_this: LED_23
+                                led_next: LED24
+                                led_this: LED23
                         row3:
                             key:
-                                led_next: LED_21
-                                led_this: LED_20
+                                led_next: LED21
+                                led_this: LED20
                         row4:
                             key:
-                                led_next: LED_10
-                                led_this: LED_9
+                                led_next: LED10
+                                led_this: LED09
                         row5:
                             key:
-                                led_next: LED_7
-                                led_this: LED_6
+                                led_next: LED07
+                                led_this: LED06
                 col2:
                     key:
                         tags: col_even
@@ -123,28 +123,28 @@ points:
                     rows:
                         row0:
                             key:
-                                led_next: LED_38
-                                led_this: LED_37
+                                led_next: LED38
+                                led_this: LED37
                         row1:
                             key:
-                                led_next: LED_34
-                                led_this: LED_33
+                                led_next: LED34
+                                led_this: LED33
                         row2:
                             key:
-                                led_next: LED_25
-                                led_this: LED_24
+                                led_next: LED25
+                                led_this: LED24
                         row3:
                             key:
-                                led_next: LED_20
-                                led_this: LED_19
+                                led_next: LED20
+                                led_this: LED19
                         row4:
                             key:
-                                led_next: LED_11
-                                led_this: LED_10
+                                led_next: LED11
+                                led_this: LED10
                         row5:
                             key:
-                                led_next: LED_6
-                                led_this: LED_5
+                                led_next: LED06
+                                led_this: LED05
                 col3:
                     key:
                         tags: col_odd
@@ -154,28 +154,28 @@ points:
                     rows:
                         row0:
                             key:
-                                led_next: LED_39
-                                led_this: LED_38
+                                led_next: LED39
+                                led_this: LED38
                         row1:
                             key:
-                                led_next: LED_33
-                                led_this: LED_32
+                                led_next: LED33
+                                led_this: LED32
                         row2:
                             key:
-                                led_next: LED_26
-                                led_this: LED_25
+                                led_next: LED26
+                                led_this: LED25
                         row3:
                             key:
-                                led_next: LED_19
-                                led_this: LED_18
+                                led_next: LED19
+                                led_this: LED18
                         row4:
                             key:
-                                led_next: LED_12
-                                led_this: LED_11
+                                led_next: LED12
+                                led_this: LED11
                         row5:
                             key:
-                                led_next: LED_5
-                                led_this: LED_4
+                                led_next: LED05
+                                led_this: LED04
                 col4:
                     key:
                         tags: col_even
@@ -185,28 +185,28 @@ points:
                     rows:
                         row0:
                             key:
-                                led_next: LED_40
-                                led_this: LED_39
+                                led_next: LED40
+                                led_this: LED39
                         row1:
                             key:
-                                led_next: LED_32
-                                led_this: LED_31
+                                led_next: LED32
+                                led_this: LED31
                         row2:
                             key:
-                                led_next: LED_27
-                                led_this: LED_26
+                                led_next: LED27
+                                led_this: LED26
                         row3:
                             key:
-                                led_next: LED_18
-                                led_this: LED_17
+                                led_next: LED18
+                                led_this: LED17
                         row4:
                             key:
-                                led_next: LED_13
-                                led_this: LED_12
+                                led_next: LED13
+                                led_this: LED12
                         row5:
                             key:
-                                led_next: LED_4
-                                led_this: LED_3
+                                led_next: LED04
+                                led_this: LED03
                 col5:
                     key:
                         tags: col_odd
@@ -218,24 +218,24 @@ points:
                             skip: true
                         row1:
                             key:
-                                led_next: LED_31
-                                led_this: LED_30
+                                led_next: LED31
+                                led_this: LED30
                         row2:
                             key:
-                                led_next: LED_28
-                                led_this: LED_27
+                                led_next: LED28
+                                led_this: LED27
                         row3:
                             key:
-                                led_next: LED_17
-                                led_this: LED_16
+                                led_next: LED17
+                                led_this: LED16
                         row4:
                             key:
-                                led_next: LED_14
-                                led_this: LED_13
+                                led_next: LED14
+                                led_this: LED13
                         row5:
                             key:
-                                led_next: LED_3
-                                led_this: LED_2
+                                led_next: LED03
+                                led_this: LED02
                 col6:
                     key:
                         tags: col_even
@@ -255,31 +255,31 @@ points:
                                 - 2u_stabilizers
                             key:
                                 led_next: ''
-                                led_this: LED_40
+                                led_this: LED40
                         row1:
                             shift:
                                 - 0.5kspr
                                 - 0.0kp
                             rotate: 1
                             key:
-                                led_next: LED_30
-                                led_this: LED_29
+                                led_next: LED30
+                                led_this: LED29
                         row2:
                             key:
-                                led_next: LED_29
-                                led_this: LED_28
+                                led_next: LED29
+                                led_this: LED28
                         row3:
                             key:
-                                led_next: LED_16
-                                led_this: LED_15
+                                led_next: LED16
+                                led_this: LED15
                         row4:
                             key:
-                                led_next: LED_15
-                                led_this: LED_14
+                                led_next: LED15
+                                led_this: LED14
                         row5:
                             key:
-                                led_next: LED_2
-                                led_this: LED_1
+                                led_next: LED02
+                                led_this: LED01
             rows:
                 row0:
                     tags:
@@ -681,7 +681,7 @@ pcbs:
                         - kp + 0.5
                     rotate: -90
                 params:
-                    value: RP2040 Pro Micro
+                    value: RP2040 Community Edition
                     P4: GND
                     P5: GND
                     P6: sda
@@ -694,7 +694,7 @@ pcbs:
                     P16: row2
                     P17: row1
                     P18: row0
-                    P31: LED_1
+                    P31: LED01
                     P29: GND
                     P26: col6
                     P25: col5
@@ -834,19 +834,24 @@ pcbs:
                         - 0
                     rotate: 90
             mx_hotswap_key:
-                what: travis/mx
+                what: travis/switch_mx
                 where: meta.tags ~ /key/
                 params:
-                    keycaps: true
-                    reverse: false
-                    hotswap: true
-                    refpos:
-                        - 3.5
-                        - -2
-                        - 0
+                    include_corner_marks: true
+                    include_keycap: true
                     from: '{{column_net}}'
                     to: '{{name}}'
                     value: C41430893
+                    hotswap_3dmodel_filename: >-
+                        ${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step
+                    hotswap_3dmodel_xyz_offset:
+                        - 0
+                        - 0
+                        - -1.9
+                    hotswap_3dmodel_xyz_rotation:
+                        - 180
+                        - 0
+                        - 0
                 adjust:
                     rotate: 180
             diode:
@@ -874,6 +879,7 @@ pcbs:
                     P2: '{{key.led_next}}'
                     P3: GND
                     P4: '{{key.led_this}}'
+                    ref_override: '{{key.led_this}}'
                     value: C5378731
                     valpos:
                         - 0
@@ -922,6 +928,7 @@ pcbs:
                     P2: '{{key.led_next}}'
                     P3: GND
                     P4: '{{key.led_this}}'
+                    ref_override: '{{key.led_this}}'
                     value: C5378731
                     valpos:
                         - 0
