@@ -11,8 +11,8 @@
   (paper "A3")
   (title_block
     (title "travis_erg2026")
-    (date "2026-01-30")
-    (rev "2026.01.24")
+    (date "2026-02-01")
+    (rev "2026.02.01")
     (company "Travis Hardiman")
   )
 
@@ -88,7 +88,7 @@
 (net 4 "GND")
 (net 5 "sda")
 (net 6 "scl")
-(net 7 "encC")
+(net 7 "encB")
 (net 8 "encA")
 (net 9 "D7")
 (net 10 "E6")
@@ -1323,7 +1323,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 7 "encC")
+        (net 7 "encB")
 		(remove_unused_layers no)
 		(uuid "ed153360-5a0d-4176-a4ab-65141073844e")
 	)
@@ -1570,6 +1570,16 @@
     (rotate (xyz 90 0 0))
   )
 )
+
+  (segment
+    (start 179.50832070000007 73.90200550000003) 
+    (end 179.52550770000008 80.26162060000003)
+    (width 1.666)
+    (locked no)
+    (layer F.Cu)
+    (net 26)
+  )
+
 (footprint "I2C_Breakout" (version 20210126) (generator pcbnew) (layer "F.Cu")
     (at 31.236895099999998 69.18086820000002 3)
   (tedit 60242D9C)
@@ -2087,7 +2097,7 @@
 		(size 1.4 1.7)
 		(drill oval 0.7 1)
 		(layers "*.Cu" "*.Mask")
-        (net 4 "GND")
+        (net 7 "encB")
 		(remove_unused_layers no)
 		(uuid "d438ea68-cf91-486a-a92c-c48941175871")
 	)
@@ -2096,7 +2106,7 @@
 		(size 1.4 1.7)
 		(drill oval 0.7 1)
 		(layers "*.Cu" "*.Mask")
-        (net 7 "encC")
+        (net 4 "GND")
 		(remove_unused_layers no)
 		(uuid "2ed72e63-c32c-4fc0-9802-032a35fa7823")
 	)
@@ -2354,7 +2364,7 @@
 		(size 1.4 1.7)
 		(drill oval 0.7 1)
 		(layers "*.Cu" "*.Mask")
-        (net 4 "GND")
+        (net 7 "encB")
 		(remove_unused_layers no)
 		(uuid "d438ea68-cf91-486a-a92c-c48941175871")
 	)
@@ -2363,7 +2373,7 @@
 		(size 1.4 1.7)
 		(drill oval 0.7 1)
 		(layers "*.Cu" "*.Mask")
-        (net 7 "encC")
+        (net 4 "GND")
 		(remove_unused_layers no)
 		(uuid "2ed72e63-c32c-4fc0-9802-032a35fa7823")
 	)
@@ -2621,7 +2631,7 @@
 		(size 1.4 1.7)
 		(drill oval 0.7 1)
 		(layers "*.Cu" "*.Mask")
-        (net 4 "GND")
+        (net 7 "encB")
 		(remove_unused_layers no)
 		(uuid "d438ea68-cf91-486a-a92c-c48941175871")
 	)
@@ -2630,7 +2640,7 @@
 		(size 1.4 1.7)
 		(drill oval 0.7 1)
 		(layers "*.Cu" "*.Mask")
-        (net 7 "encC")
+        (net 4 "GND")
 		(remove_unused_layers no)
 		(uuid "2ed72e63-c32c-4fc0-9802-032a35fa7823")
 	)
@@ -2888,7 +2898,7 @@
 		(size 1.4 1.7)
 		(drill oval 0.7 1)
 		(layers "*.Cu" "*.Mask")
-        (net 4 "GND")
+        (net 7 "encB")
 		(remove_unused_layers no)
 		(uuid "d438ea68-cf91-486a-a92c-c48941175871")
 	)
@@ -2897,7 +2907,7 @@
 		(size 1.4 1.7)
 		(drill oval 0.7 1)
 		(layers "*.Cu" "*.Mask")
-        (net 7 "encC")
+        (net 4 "GND")
 		(remove_unused_layers no)
 		(uuid "2ed72e63-c32c-4fc0-9802-032a35fa7823")
 	)
@@ -6428,6 +6438,406 @@
 	  
   )
     
+
+  (via
+    (at 67.1686006 201.4809468)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 19)
+  )
+
+
+  (via
+    (at 55.663554299999994 181.3061394)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 19)
+  )
+
+
+  (via
+    (at 54.561882399999995 160.28498770000002)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 19)
+  )
+
+
+  (via
+    (at 53.460210499999995 139.26383600000003)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 19)
+  )
+
+
+  (via
+    (at 52.358538599999996 118.24268430000002)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 19)
+  )
+
+
+  (via
+    (at 51.256866699999996 97.22153260000002)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 19)
+  )
+
+
+  (via
+    (at 76.31853629999999 179.16903820000002)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 20)
+  )
+
+
+  (via
+    (at 75.58390189999999 158.13186130000003)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 20)
+  )
+
+
+  (via
+    (at 74.84926749999998 137.09468440000003)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 20)
+  )
+
+
+  (via
+    (at 74.11463309999998 116.05750750000003)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 20)
+  )
+
+
+  (via
+    (at 73.37999869999997 95.02033060000004)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 20)
+  )
+
+
+  (via
+    (at 97.0156377 198.6303612)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 21)
+  )
+
+
+  (via
+    (at 96.6482645 177.5835672)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 21)
+  )
+
+
+  (via
+    (at 96.2808913 156.5367732)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 21)
+  )
+
+
+  (via
+    (at 95.91351809999999 135.4899792)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 21)
+  )
+
+
+  (via
+    (at 95.54614489999999 114.44318519999997)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 21)
+  )
+
+
+  (via
+    (at 95.17877169999998 93.39639119999997)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 21)
+  )
+
+
+  (via
+    (at 117.0025666 197.4031403)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 22)
+  )
+
+
+  (via
+    (at 117.0025666 176.35314029999998)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 22)
+  )
+
+
+  (via
+    (at 117.0025666 155.30314029999997)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 22)
+  )
+
+
+  (via
+    (at 117.0025666 134.25314029999996)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 22)
+  )
+
+
+  (via
+    (at 117.0025666 113.20314029999996)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 22)
+  )
+
+
+  (via
+    (at 117.0025666 92.15314029999996)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 22)
+  )
+
+
+  (via
+    (at 137.0078696 198.5249264)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 23)
+  )
+
+
+  (via
+    (at 137.3752428 177.4781324)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 23)
+  )
+
+
+  (via
+    (at 137.742616 156.4313384)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 23)
+  )
+
+
+  (via
+    (at 138.1099892 135.38454439999998)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 23)
+  )
+
+
+  (via
+    (at 138.4773624 114.33775039999996)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 23)
+  )
+
+
+  (via
+    (at 138.8447356 93.29095639999996)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 23)
+  )
+
+
+  (via
+    (at 157.72518190000002 178.9585054)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 24)
+  )
+
+
+  (via
+    (at 158.45981630000003 157.92132850000002)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 24)
+  )
+
+
+  (via
+    (at 159.19445070000003 136.88415160000002)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 24)
+  )
+
+
+  (via
+    (at 159.92908510000004 115.84697470000003)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 24)
+  )
+
+
+  (via
+    (at 160.66371950000004 94.80979780000004)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 24)
+  )
+
+
+  (via
+    (at 166.8822432 201.40957210000002)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 25)
+  )
+
+
+  (via
+    (at 178.40220630000002 180.9908775)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 25)
+  )
+
+
+  (via
+    (at 179.50387820000003 159.96972580000002)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 25)
+  )
+
+
+  (via
+    (at 180.60555010000004 138.94857410000003)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 25)
+  )
+
+
+  (via
+    (at 181.70722200000006 117.92742240000004)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 25)
+  )
+
+
+  (via
+    (at 182.80889390000007 96.90627070000004)
+    (size 0.6)
+    (drill 0.3)
+    (layers "F.Cu" "B.Cu")
+    (locked no)
+    (net 25)
+  )
+
 (footprint "D_1206_3216Metric" (version 20240108) (generator "pcbnew") (generator_version "8.0")
       (layer "B.Cu")
       (descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
@@ -12949,6 +13359,406 @@
       )
     )
 
+  (segment
+    (start 54.3816348 204.9814475) 
+    (end 54.532308799999996 207.13618580000002)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 17)
+  )
+
+
+  (segment
+    (start 42.817443899999994 184.58294370000002) 
+    (end 42.93048949999999 186.73998350000002)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 16)
+  )
+
+
+  (segment
+    (start 41.715771999999994 163.56179200000003) 
+    (end 41.828817599999994 165.71883180000003)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 15)
+  )
+
+
+  (segment
+    (start 40.614100099999995 142.54064030000004) 
+    (end 40.727145699999994 144.69768010000004)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 14)
+  )
+
+
+  (segment
+    (start 39.512428199999995 121.51948860000003) 
+    (end 39.625473799999995 123.67652840000002)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 13)
+  )
+
+
+  (segment
+    (start 38.410756299999996 100.49833690000003) 
+    (end 38.523801899999995 102.65537670000002)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 12)
+  )
+
+
+  (segment
+    (start 63.4171943 182.2211478) 
+    (end 63.4925772 184.379832)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 16)
+  )
+
+
+  (segment
+    (start 62.682559899999994 161.18397090000002) 
+    (end 62.757942799999995 163.3426551)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 15)
+  )
+
+
+  (segment
+    (start 61.94792549999999 140.14679400000003) 
+    (end 62.02330839999999 142.3054782)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 14)
+  )
+
+
+  (segment
+    (start 61.213291099999985 119.10961710000004) 
+    (end 61.288673999999986 121.26830130000003)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 13)
+  )
+
+
+  (segment
+    (start 60.47865669999998 98.07244020000005) 
+    (end 60.55403959999998 100.23112440000004)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 12)
+  )
+
+
+  (segment
+    (start 84.0629939 201.4568465) 
+    (end 84.10069109999999 203.6165175)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 17)
+  )
+
+
+  (segment
+    (start 83.69562069999999 180.4100525) 
+    (end 83.73331789999999 182.5697235)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 16)
+  )
+
+
+  (segment
+    (start 83.32824749999999 159.3632585) 
+    (end 83.36594469999999 161.52292949999998)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 15)
+  )
+
+
+  (segment
+    (start 82.96087429999999 138.3164645) 
+    (end 82.99857149999998 140.4761355)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 14)
+  )
+
+
+  (segment
+    (start 82.59350109999998 117.26967049999998) 
+    (end 82.63119829999998 119.42934149999998)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 13)
+  )
+
+
+  (segment
+    (start 82.22612789999998 96.22287649999997) 
+    (end 82.26382509999998 98.38254749999997)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 12)
+  )
+
+
+  (segment
+    (start 104.0025666 200.00314029999998) 
+    (end 104.0025666 202.16314029999998)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 17)
+  )
+
+
+  (segment
+    (start 104.0025666 178.95314029999997) 
+    (end 104.0025666 181.11314029999997)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 16)
+  )
+
+
+  (segment
+    (start 104.0025666 157.90314029999996) 
+    (end 104.0025666 160.06314029999996)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 15)
+  )
+
+
+  (segment
+    (start 104.0025666 136.85314029999995) 
+    (end 104.0025666 139.01314029999995)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 14)
+  )
+
+
+  (segment
+    (start 104.0025666 115.80314029999995) 
+    (end 104.0025666 117.96314029999996)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 13)
+  )
+
+
+  (segment
+    (start 104.0025666 94.75314029999996) 
+    (end 104.0025666 96.91314029999997)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 12)
+  )
+
+
+  (segment
+    (start 123.9644733 200.8976491) 
+    (end 123.9267761 203.0573201)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 17)
+  )
+
+
+  (segment
+    (start 124.3318465 179.8508551) 
+    (end 124.2941493 182.0105261)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 16)
+  )
+
+
+  (segment
+    (start 124.6992197 158.80406109999998) 
+    (end 124.6615225 160.9637321)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 15)
+  )
+
+
+  (segment
+    (start 125.0665929 137.75726709999998) 
+    (end 125.0288957 139.91693809999998)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 14)
+  )
+
+
+  (segment
+    (start 125.4339661 116.71047309999997) 
+    (end 125.39626890000001 118.87014409999996)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 13)
+  )
+
+
+  (segment
+    (start 125.80133930000001 95.66367909999997) 
+    (end 125.76364210000001 97.82335009999996)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 12)
+  )
+
+
+  (segment
+    (start 144.64236250000002 181.1032281) 
+    (end 144.56697960000002 183.2619123)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 16)
+  )
+
+
+  (segment
+    (start 145.37699690000002 160.0660512) 
+    (end 145.30161400000003 162.22473540000001)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 15)
+  )
+
+
+  (segment
+    (start 146.11163130000003 139.0288743) 
+    (end 146.03624840000003 141.18755850000002)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 14)
+  )
+
+
+  (segment
+    (start 146.84626570000003 117.99169740000004) 
+    (end 146.77088280000004 120.15038160000003)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 13)
+  )
+
+
+  (segment
+    (start 147.58090010000004 96.95452050000004) 
+    (end 147.50551720000004 99.11320470000004)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 12)
+  )
+
+
+  (segment
+    (start 153.7325437 203.09640450000003) 
+    (end 153.5818697 205.25114290000002)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 17)
+  )
+
+
+  (segment
+    (start 165.28394880000002 182.9069469) 
+    (end 165.1709031 185.06398670000002)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 16)
+  )
+
+
+  (segment
+    (start 166.38562070000003 161.88579520000002) 
+    (end 166.27257500000002 164.04283500000003)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 15)
+  )
+
+
+  (segment
+    (start 167.48729260000005 140.86464350000003) 
+    (end 167.37424690000003 143.02168330000003)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 14)
+  )
+
+
+  (segment
+    (start 168.58896450000006 119.84349180000004) 
+    (end 168.47591880000004 122.00053160000004)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 13)
+  )
+
+
+  (segment
+    (start 169.69063640000007 98.82234010000003) 
+    (end 169.57759070000006 100.97937990000003)
+    (width 0.254)
+    (locked no)
+    (layer B.Cu)
+    (net 12)
+  )
+
+
       (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 48.28272139999999 174.2227148 183)
@@ -16876,6 +17686,216 @@
     )
     
 
+  (segment
+    (start 45.30802189999999 173.63759670000002) 
+    (end 43.500502499999996 173.73232470000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 43.104678099999994 131.59529330000004) 
+    (end 41.2971587 131.69002130000004)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 40.901334299999995 89.55298990000001) 
+    (end 39.0938149 89.64771790000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 66.0984156 171.3209344) 
+    (end 64.2895182 171.3841025)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 64.62914679999999 129.24658060000002) 
+    (end 62.82024939999999 129.30974870000003)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 63.15987799999998 87.17222680000003) 
+    (end 61.35098059999998 87.23539490000005)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 86.5666687 169.558293) 
+    (end 84.7569443 169.5898819)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 85.83192229999999 127.46470499999998) 
+    (end 84.0221979 127.49629389999998)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 85.09717589999998 85.37111699999997) 
+    (end 83.28745149999999 85.40270589999997)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 107.0625666 168.1531403) 
+    (end 105.2525666 168.1531403)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 107.0625666 126.05314029999995) 
+    (end 105.2525666 126.05314029999995)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 107.0625666 83.95314029999996) 
+    (end 105.2525666 83.95314029999996)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 127.5798664 169.1059044) 
+    (end 125.7701421 169.07431549999998)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 128.31461280000002 127.01231639999997) 
+    (end 126.5048885 126.98072749999997)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 129.04935920000003 84.91872839999996) 
+    (end 127.23963490000001 84.88713949999996)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 148.077413 170.4165997) 
+    (end 146.26851560000003 170.35343160000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 149.54668180000002 128.34224590000002) 
+    (end 147.73778440000004 128.27907780000004)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 151.01595060000002 86.26789210000004) 
+    (end 149.20705320000005 86.20472400000004)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 168.90498350000001 172.28189590000002) 
+    (end 167.09746410000002 172.18716790000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 171.10832730000004 130.23959250000004) 
+    (end 169.30080790000005 130.14486450000004)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 173.31167110000007 88.19728910000003) 
+    (end 171.50415170000008 88.10256110000003)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
       (footprint "led_SK6812mini-e (per-key, single-side)"
         (layer B.Cu)
         (at 59.665269 194.5274143 4)
@@ -20429,6 +21449,196 @@
     )
     
 
+  (segment
+    (start 62.6476344 195.0306008) 
+    (end 64.4518302 194.8843903)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 50.1541788 153.75672240000003) 
+    (end 51.9606516 153.64202170000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 47.950835 111.71441900000002) 
+    (end 49.7573078 111.59971830000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 71.29080359999999 151.5276652) 
+    (end 73.099003 151.44450930000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 69.82153479999998 109.45331140000003) 
+    (end 71.62973419999999 109.37015550000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 92.8384523 191.952246) 
+    (end 94.6478276 191.9006602)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 92.1037059 149.858658) 
+    (end 93.9130812 149.8070722)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 91.36895949999999 107.76506999999998) 
+    (end 93.17833479999999 107.71348419999998)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 112.94256659999999 190.6531403) 
+    (end 114.7525666 190.63314029999998)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 112.94256659999999 148.55314029999997) 
+    (end 114.7525666 148.53314029999996)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 112.94256659999999 106.45314029999996) 
+    (end 114.7525666 106.43314029999996)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 133.0662917 191.70509769999998) 
+    (end 134.876365 191.7166896)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 133.8010381 149.61150969999997) 
+    (end 135.6111114 149.62310159999998)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 134.5357845 107.51792169999997) 
+    (end 136.3458578 107.52951359999997)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 154.63786120000003 151.03374850000003) 
+    (end 156.4474566 151.07692880000002)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 156.10713000000004 108.95939470000003) 
+    (end 157.91672540000002 109.00257500000004)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 163.3029893 194.3928035) 
+    (end 165.1099754 194.49911150000003)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 175.80270990000002 153.01649250000003) 
+    (end 177.61127610000003 153.09124800000004)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
+  (segment
+    (start 178.00605370000005 110.97418910000003) 
+    (end 179.81461990000005 111.04894460000004)
+    (width 0.3556)
+    (locked no)
+    (layer B.Cu)
+    (net 26)
+  )
+
+
     (module "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u" (layer F.Cu) (tedit 0)
     (descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
     (tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
@@ -20922,7 +22132,7 @@
   )
       
 
-  (gr_text "2026.01.24"
+  (gr_text "2026.02.01"
     (at 110.0025666 70.60314029999996 0)
     (layer "F.SilkS" )
     (effects

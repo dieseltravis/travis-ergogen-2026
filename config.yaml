@@ -1,11 +1,11 @@
 meta:
   engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2026.01.26"
-  date: "2026-01-26"
+  version: &meta_version "2026.02.01"
+  date: "2026-02-01"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
-  tags: [ "ergogen", "keyboard", "cherrymx", "hotswap", "rp2040" ]
+  tags: [ "ergogen", "keyboard", "cherrymx", "hotswap", "rp2040", "wheel", "oled" ]
   cool_font: &cool_font "3270 Nerd Font"
 units:
   kp: U + 2
@@ -550,7 +550,7 @@ pcbs:
           P5: GND
           P6: sda    # D1 SDA
           P7: scl    # D0 SCL PWM
-          P8: encC   # D4 A6
+          P8: encB   # D4 A6
           P9: encA   # C6 PWM
           #P10:      # D7 A7 PWM
           #P11:      # E6
@@ -580,6 +580,10 @@ pcbs:
 
       cap1:
         what: travis/CRadialD63H11P25
+        where:
+          ref: matrix_col6_row5
+          shift: [2.5, kp - 0.75]
+          rotate: 90
         params:
           P1: VCC
           P2: GND
@@ -588,10 +592,15 @@ pcbs:
           # TODO: why is the Z offset so weird? is the 3d model in cm?
           offset3d: [0, 0, 0.12]
           value: "6.3V 1000uF"
+      cap_vcc_route:
+        what: ceoloide/utility_router
         where:
           ref: matrix_col6_row5
           shift: [2.5, kp - 0.75]
-          rotate: 90
+        params:
+          width: 1.666
+          net: "VCC"
+          route: "f(0.0, 0.0)(0.35, 6.35)"
 
       # oled mounting options
       oled1: &oled
@@ -635,8 +644,8 @@ pcbs:
         what: travis/Alps-EC10E1220501
         params:
           P1: encA
-          P2: GND
-          P3: encC
+          P2: encB
+          P3: GND
           P4: GND
         where:
           ref: matrix_col0_row0
@@ -680,22 +689,12 @@ pcbs:
           hotswap_3dmodel_xyz_rotation: [180, 0, 0]
         adjust:
           rotate: 180
-      # mx_hotswap_key:
-      #   what: travis/mx
-      #   where: meta.tags ~ /key/
-      #   params:
-      #     keycaps: true
-      #     reverse: false
-      #     hotswap: true
-      #     refpos: [3.5, -2, 0]
-      #     from: "{{column_net}}"
-      #     to: "{{name}}"
-      #     #value: "Kailh MX Switch Sockets"
-      #     #value: "HanElectricity CPG151101S11-16"
-      #     # JLC Part
-      #     value: "C41430893"
-      #   adjust:
-      #     rotate: 180
+      mx_col_via:
+        what: ceoloide/utility_router
+        where: meta.tags ~ /key/
+        params:
+          net: "{{column_net}}"
+          route: "(7.0, 2.5)v"
       diode:
         what: travis/DSMD_1206_3216Metric
         where: meta.tags ~ /key/
@@ -711,6 +710,13 @@ pcbs:
           #shift: [-(U / 2 - 1.1), -(U / 2 - 1.5 - 1.9)]
           shift: [-(U / 2 - 3.5), -(U / 2 - 1)]
           rotate: 90
+      mx_diode_route:
+        what: ceoloide/utility_router
+        where: meta.tags ~ /key/
+        params:
+          width: 0.254
+          net: "{{row_net}}"
+          route: "b(-6.0, 5.1)(-6.0, 7.26)"
 
       # leds
       led_odd: &led
@@ -754,6 +760,13 @@ pcbs:
         adjust:
           shift: [-4.75, 4.25]
           rotate: 270
+      led_cap_route_odd: &led_cap_route
+        what: ceoloide/utility_router
+        where: meta.tags ~ /row_odd/
+        params:
+          width: 0.3556
+          net: "VCC"
+          route: "b(-2.94, -5.7)(-4.75, -5.7)"
 
       led_even:
         <<: *led
@@ -776,6 +789,10 @@ pcbs:
         adjust:
           shift: [4.75, 5.65]
           rotate: 90
+      led_cap_route_even:
+        <<: *led_cap_route
+        where: meta.tags ~ /row_even/
+        params.route: "b(2.94, -4.25)(4.75, -4.27)"
 
       # stabs
       left2u: &stab2u

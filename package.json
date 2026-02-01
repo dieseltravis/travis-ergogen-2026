@@ -1,6 +1,6 @@
 {
   "name": "travis-ergogen-2026",
-  "version": "2026.01.26",
+  "version": "2026.02.01",
   "description": "Travis's Ergogen Keyboard 2026",
   "repository": "https://github.com/dieseltravis/travis-ergogen-2026",
   "author": "Travis Hardiman <dieseltravis@users.noreply.github.com>",
@@ -34,7 +34,11 @@
   },
   "keywords": [
     "ergogen",
+    "keyboard",
+    "cherrymx",
+    "hotswap",
     "rp2040",
-    "keyboard"
+    "wheel",
+    "oled"
   ]
 }
