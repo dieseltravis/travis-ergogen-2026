@@ -1,8 +1,8 @@
 meta:
   engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2026.02.01"
-  date: "2026-02-01"
+  version: &meta_version "2026.02.02"
+  date: "2026-02-02"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
   tags: [ "ergogen", "keyboard", "cherrymx", "hotswap", "rp2040", "wheel", "oled" ]
@@ -640,6 +640,22 @@ pcbs:
           rotate: 270
 
       # encoder wheel options
+      enc_a_resistor: &encr
+        what: travis/RAxialL6D25P10H
+        where:
+          ref: matrix_col6_row5
+          shift: [-7.5, kp - 4.2]
+          rotate: 90
+        params:
+          side: B
+          from: VCC
+          to: encA
+          value: "510k"
+      enc_b_resistor:
+        <<: *encr
+        where.shift: [-4.5, kp - 4.2]
+        params.to: encB
+
       wheel1: &wheel
         what: travis/Alps-EC10E1220501
         params:

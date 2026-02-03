@@ -1,8 +1,8 @@
 meta:
     engine: 4.2.1
     name: travis-ergogen-2026
-    version: 2026.02.01
-    date: '2026-02-01'
+    version: 2026.02.02
+    date: '2026-02-02'
     author: Travis Hardiman
     url: 'https://github.com/dieseltravis/travis-ergogen-2026'
     tags:
@@ -794,6 +794,32 @@ pcbs:
                         - 2.54 + 1.27
                         - kp + 11
                     rotate: 270
+            enc_a_resistor:
+                what: travis/RAxialL6D25P10H
+                where:
+                    ref: matrix_col6_row5
+                    shift:
+                        - -7.5
+                        - kp - 4.2
+                    rotate: 90
+                params:
+                    side: B
+                    from: VCC
+                    to: encA
+                    value: 510k
+            enc_b_resistor:
+                what: travis/RAxialL6D25P10H
+                where:
+                    ref: matrix_col6_row5
+                    shift:
+                        - -4.5
+                        - kp - 4.2
+                    rotate: 90
+                params:
+                    side: B
+                    from: VCC
+                    to: encB
+                    value: 510k
             wheel1:
                 what: travis/Alps-EC10E1220501
                 params:
@@ -1104,7 +1130,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: 3270 Nerd Font
-                    text: 2026.02.01
+                    text: 2026.02.02
                     height: 1
                     width: 1
                 adjust:

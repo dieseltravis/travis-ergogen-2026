@@ -132,6 +132,8 @@
 68.986164,-60.602707,-85.0,top,OLED3,,,I2C_Breakout,I2C_Breakout,tht
 106.192567,-77.62814,90.0,top,OLED4,,,I2C_Breakout,I2C_Breakout,tht
 113.812567,-57.60314,-90.0,top,OLED5,,,I2C_Breakout,I2C_Breakout,tht
+169.341466,-76.823918,87.0,bottom,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,510k,tht
+172.337355,-76.980926,87.0,bottom,R2,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,510k,tht
 60.011261,-199.475332,-176.0,bottom,S1,,,switch_mx,C41430893,smt
 67.031649,-113.803327,-178.0,bottom,S10,,,switch_mx,C41430893,smt
 66.297014,-92.76615,-178.0,bottom,S11,,,switch_mx,C41430893,smt

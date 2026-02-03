@@ -1,6 +1,6 @@
 {
   "name": "travis-ergogen-2026",
-  "version": "2026.02.01",
+  "version": "2026.02.02",
   "description": "Travis's Ergogen Keyboard 2026",
   "repository": "https://github.com/dieseltravis/travis-ergogen-2026",
   "author": "Travis Hardiman <dieseltravis@users.noreply.github.com>",
@@ -18,16 +18,12 @@
     "svg": "for f in output/outlines/*.dxf; do npx dxf-to-svg \"$f\"; done",
     "3d": "for f in output/cases/*.jscad; do npx @jscad/cli@1 \"$f\" -of stla; done",
     "all": "yarn test && yarn gen && yarn 3d",
-    "key": "cd key && ergogen . && cd ..",
-    "keytest": "cd keytest && ergogen . && cd ..",
-    "feet": "cd feet && ergogen . && cd ..",
     "qmk": "qmk clean && qmk compile -kb dieseltravis/travisergo2026 -km default",
     "qmk_config": "qmk config user.keyboard=dieseltravis/travisergo2026 user.keymap=default",
     "qmk_gendb": "qmk generate-compilation-database -kb dieseltravis/travisergo2026 -km default",
     "qmk_cp": "cp -v ~/qmk_firmware/dieseltravis_travisergo2026*.{hex,uf2,bin} ~/Projects/travis-ergogen-2026/firmware/",
     "qmk_link": "ln -s ~/Projects/travis-ergogen-2026/firmware/qmk ~/qmk_firmware/keyboards/dieseltravis/travisergo2026",
-    "qmk_all": "yarn qmk && yarn qmk_cp",
-    "ps": "ergogen . -o output && gci output/outlines -Filter *.dxf | % { npx dxf-to-svg $_.FullName } && gci output/cases -Filter *.jscad | % { npx @jscad/cli@1 $_.FullName -of stla }"
+    "qmk_all": "yarn qmk && yarn qmk_cp"
   },
   "engines": {
     "node": ">=18"
