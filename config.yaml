@@ -525,6 +525,10 @@ outlines:
         # holeBottomLeft
         ref: matrix_col0_row0
         shift: [-bp - 0.5kspr + 2.75 - 8, -bp + 2.75 - 10]
+  plate:
+    - what: rectangle
+      where: key
+      size: [ 13.95, 13.95 ]
 
 pcbs:
   travis_erg2026:
@@ -1009,3 +1013,6 @@ cases:
     - what: case
       name: wall
       operation: add
+  plate:
+    - name: plate
+      extrude: 1.41

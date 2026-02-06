@@ -667,6 +667,13 @@ outlines:
                 shift:
                     - '-bp - 0.5kspr + 2.75 - 8'
                     - '-bp + 2.75 - 10'
+    plate:
+        -
+            what: rectangle
+            where: key
+            size:
+                - 13.95
+                - 13.95
 pcbs:
     travis_erg2026:
         template: kicad8
@@ -690,12 +697,12 @@ pcbs:
                     P7: scl
                     P8: encB
                     P9: encA
-                    P13: row5
-                    P14: row4
-                    P15: row3
-                    P16: row2
-                    P17: row1
-                    P18: row0
+                    P13: row0
+                    P14: row1
+                    P15: row2
+                    P16: row3
+                    P17: row4
+                    P18: row5
                     P31: LED01
                     P29: GND
                     P26: col6
@@ -1298,3 +1305,7 @@ cases:
             what: case
             name: wall
             operation: add
+    plate:
+        -
+            name: plate
+            extrude: 1.41

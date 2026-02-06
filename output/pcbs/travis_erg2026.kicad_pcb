@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "travis_erg2026")
-    (date "2026-02-02")
+    (date "2026-02-06")
     (rev "2026.02.02")
     (company "Travis Hardiman")
   )
@@ -93,12 +93,12 @@
 (net 9 "D7")
 (net 10 "E6")
 (net 11 "B4")
-(net 12 "row5")
-(net 13 "row4")
-(net 14 "row3")
-(net 15 "row2")
-(net 16 "row1")
-(net 17 "row0")
+(net 12 "row0")
+(net 13 "row1")
+(net 14 "row2")
+(net 15 "row3")
+(net 16 "row4")
+(net 17 "row5")
 (net 18 "B6")
 (net 19 "col0")
 (net 20 "col1")
@@ -1368,7 +1368,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 12 "row5")
+        (net 12 "row0")
 		(remove_unused_layers no)
 		(uuid "fdd00882-1258-4216-bf1c-4bfed34da046")
 	)
@@ -1377,7 +1377,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 13 "row4")
+        (net 13 "row1")
 		(remove_unused_layers no)
 		(uuid "21f4a329-b257-441e-976a-507b7200a0aa")
 	)
@@ -1386,7 +1386,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 14 "row3")
+        (net 14 "row2")
 		(remove_unused_layers no)
 		(uuid "c2dc1f5c-809a-4daa-859e-f29c069ed7ba")
 	)
@@ -1395,7 +1395,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 15 "row2")
+        (net 15 "row3")
 		(remove_unused_layers no)
 		(uuid "455e3409-eccb-4483-9213-0064d5887cf9")
 	)
@@ -1404,7 +1404,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 16 "row1")
+        (net 16 "row4")
 		(remove_unused_layers no)
 		(uuid "9e9026c5-ee67-4d04-80a5-7b0b109d0a9a")
 	)
@@ -1413,7 +1413,7 @@
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
-        (net 17 "row0")
+        (net 17 "row5")
 		(remove_unused_layers no)
 		(uuid "f599ab4a-f994-4bf2-8ddd-f2a76ad79adf")
 	)
@@ -7066,7 +7066,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 94) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row0")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row0")
       )
       (pad "2" smd roundrect (at 1.4 0 94) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 30 "matrix_col0_row0")
@@ -7229,7 +7229,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row1")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row1")
       )
       (pad "2" smd roundrect (at 1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 32 "matrix_col0_row1")
@@ -7392,7 +7392,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row2")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row2")
       )
       (pad "2" smd roundrect (at 1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 33 "matrix_col0_row2")
@@ -7555,7 +7555,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row3")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row3")
       )
       (pad "2" smd roundrect (at 1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 34 "matrix_col0_row3")
@@ -7718,7 +7718,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row4")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row4")
       )
       (pad "2" smd roundrect (at 1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 35 "matrix_col0_row4")
@@ -7881,7 +7881,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row5")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row5")
       )
       (pad "2" smd roundrect (at 1.4 0 93) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 36 "matrix_col0_row5")
@@ -8044,7 +8044,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row1")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row1")
       )
       (pad "2" smd roundrect (at 1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 37 "matrix_col1_row1")
@@ -8207,7 +8207,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row2")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row2")
       )
       (pad "2" smd roundrect (at 1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 38 "matrix_col1_row2")
@@ -8370,7 +8370,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row3")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row3")
       )
       (pad "2" smd roundrect (at 1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 39 "matrix_col1_row3")
@@ -8533,7 +8533,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row4")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row4")
       )
       (pad "2" smd roundrect (at 1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 40 "matrix_col1_row4")
@@ -8696,7 +8696,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row5")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row5")
       )
       (pad "2" smd roundrect (at 1.4 0 92) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 41 "matrix_col1_row5")
@@ -8859,7 +8859,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row0")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row0")
       )
       (pad "2" smd roundrect (at 1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 42 "matrix_col2_row0")
@@ -9022,7 +9022,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row1")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row1")
       )
       (pad "2" smd roundrect (at 1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 43 "matrix_col2_row1")
@@ -9185,7 +9185,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row2")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row2")
       )
       (pad "2" smd roundrect (at 1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 44 "matrix_col2_row2")
@@ -9348,7 +9348,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row3")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row3")
       )
       (pad "2" smd roundrect (at 1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 45 "matrix_col2_row3")
@@ -9511,7 +9511,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row4")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row4")
       )
       (pad "2" smd roundrect (at 1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 46 "matrix_col2_row4")
@@ -9674,7 +9674,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row5")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row5")
       )
       (pad "2" smd roundrect (at 1.4 0 91) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 47 "matrix_col2_row5")
@@ -9837,7 +9837,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row0")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row0")
       )
       (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 48 "matrix_col3_row0")
@@ -10000,7 +10000,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row1")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row1")
       )
       (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 49 "matrix_col3_row1")
@@ -10163,7 +10163,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row2")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row2")
       )
       (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 50 "matrix_col3_row2")
@@ -10326,7 +10326,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row3")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row3")
       )
       (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 51 "matrix_col3_row3")
@@ -10489,7 +10489,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row4")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row4")
       )
       (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 52 "matrix_col3_row4")
@@ -10652,7 +10652,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row5")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row5")
       )
       (pad "2" smd roundrect (at 1.4 0 90) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 53 "matrix_col3_row5")
@@ -10815,7 +10815,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row0")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row0")
       )
       (pad "2" smd roundrect (at 1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 54 "matrix_col4_row0")
@@ -10978,7 +10978,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row1")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row1")
       )
       (pad "2" smd roundrect (at 1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 55 "matrix_col4_row1")
@@ -11141,7 +11141,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row2")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row2")
       )
       (pad "2" smd roundrect (at 1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 56 "matrix_col4_row2")
@@ -11304,7 +11304,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row3")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row3")
       )
       (pad "2" smd roundrect (at 1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 57 "matrix_col4_row3")
@@ -11467,7 +11467,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row4")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row4")
       )
       (pad "2" smd roundrect (at 1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 58 "matrix_col4_row4")
@@ -11630,7 +11630,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row5")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row5")
       )
       (pad "2" smd roundrect (at 1.4 0 89) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 59 "matrix_col4_row5")
@@ -11793,7 +11793,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row1")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row1")
       )
       (pad "2" smd roundrect (at 1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 60 "matrix_col5_row1")
@@ -11956,7 +11956,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row2")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row2")
       )
       (pad "2" smd roundrect (at 1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 61 "matrix_col5_row2")
@@ -12119,7 +12119,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row3")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row3")
       )
       (pad "2" smd roundrect (at 1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 62 "matrix_col5_row3")
@@ -12282,7 +12282,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row4")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row4")
       )
       (pad "2" smd roundrect (at 1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 63 "matrix_col5_row4")
@@ -12445,7 +12445,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row5")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row5")
       )
       (pad "2" smd roundrect (at 1.4 0 88) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 64 "matrix_col5_row5")
@@ -12608,7 +12608,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 86) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row0")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row0")
       )
       (pad "2" smd roundrect (at 1.4 0 86) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 65 "matrix_col6_row0")
@@ -12771,7 +12771,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row1")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row1")
       )
       (pad "2" smd roundrect (at 1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 66 "matrix_col6_row1")
@@ -12934,7 +12934,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row2")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row2")
       )
       (pad "2" smd roundrect (at 1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 67 "matrix_col6_row2")
@@ -13097,7 +13097,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 14 "row3")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 15 "row3")
       )
       (pad "2" smd roundrect (at 1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 68 "matrix_col6_row3")
@@ -13260,7 +13260,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 13 "row4")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 16 "row4")
       )
       (pad "2" smd roundrect (at 1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 69 "matrix_col6_row4")
@@ -13423,7 +13423,7 @@
         (effects (font (size 0.8 0.8) (thickness 0.12)))
       )
       (pad "1" smd roundrect (at -1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
-    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 12 "row5")
+    (uuid "f55b2062-702a-4421-9ce1-b716bf19bec5") (net 17 "row5")
       )
       (pad "2" smd roundrect (at 1.4 0 87) (size 1.25 1.75) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.2)
     (uuid "f6582e0a-091d-48a5-91b1-a6e76689891f") (net 70 "matrix_col6_row5")
@@ -13441,7 +13441,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 17)
+    (net 12)
   )
 
 
@@ -13451,7 +13451,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 16)
+    (net 13)
   )
 
 
@@ -13461,7 +13461,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 15)
+    (net 14)
   )
 
 
@@ -13471,7 +13471,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 14)
+    (net 15)
   )
 
 
@@ -13481,7 +13481,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 13)
+    (net 16)
   )
 
 
@@ -13491,7 +13491,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 12)
+    (net 17)
   )
 
 
@@ -13501,7 +13501,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 16)
+    (net 13)
   )
 
 
@@ -13511,7 +13511,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 15)
+    (net 14)
   )
 
 
@@ -13521,7 +13521,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 14)
+    (net 15)
   )
 
 
@@ -13531,7 +13531,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 13)
+    (net 16)
   )
 
 
@@ -13541,7 +13541,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 12)
+    (net 17)
   )
 
 
@@ -13551,7 +13551,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 17)
+    (net 12)
   )
 
 
@@ -13561,7 +13561,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 16)
+    (net 13)
   )
 
 
@@ -13571,7 +13571,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 15)
+    (net 14)
   )
 
 
@@ -13581,7 +13581,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 14)
+    (net 15)
   )
 
 
@@ -13591,7 +13591,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 13)
+    (net 16)
   )
 
 
@@ -13601,7 +13601,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 12)
+    (net 17)
   )
 
 
@@ -13611,7 +13611,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 17)
+    (net 12)
   )
 
 
@@ -13621,7 +13621,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 16)
+    (net 13)
   )
 
 
@@ -13631,7 +13631,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 15)
+    (net 14)
   )
 
 
@@ -13641,7 +13641,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 14)
+    (net 15)
   )
 
 
@@ -13651,7 +13651,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 13)
+    (net 16)
   )
 
 
@@ -13661,7 +13661,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 12)
+    (net 17)
   )
 
 
@@ -13671,7 +13671,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 17)
+    (net 12)
   )
 
 
@@ -13681,7 +13681,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 16)
+    (net 13)
   )
 
 
@@ -13691,7 +13691,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 15)
+    (net 14)
   )
 
 
@@ -13701,7 +13701,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 14)
+    (net 15)
   )
 
 
@@ -13711,7 +13711,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 13)
+    (net 16)
   )
 
 
@@ -13721,7 +13721,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 12)
+    (net 17)
   )
 
 
@@ -13731,7 +13731,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 16)
+    (net 13)
   )
 
 
@@ -13741,7 +13741,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 15)
+    (net 14)
   )
 
 
@@ -13751,7 +13751,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 14)
+    (net 15)
   )
 
 
@@ -13761,7 +13761,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 13)
+    (net 16)
   )
 
 
@@ -13771,7 +13771,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 12)
+    (net 17)
   )
 
 
@@ -13781,7 +13781,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 17)
+    (net 12)
   )
 
 
@@ -13791,7 +13791,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 16)
+    (net 13)
   )
 
 
@@ -13801,7 +13801,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 15)
+    (net 14)
   )
 
 
@@ -13811,7 +13811,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 14)
+    (net 15)
   )
 
 
@@ -13821,7 +13821,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 13)
+    (net 16)
   )
 
 
@@ -13831,7 +13831,7 @@
     (width 0.254)
     (locked no)
     (layer B.Cu)
-    (net 12)
+    (net 17)
   )
 
 
