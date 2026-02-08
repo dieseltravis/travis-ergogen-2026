@@ -361,6 +361,11 @@ outlines:
                     ref: matrix_col0_row0
                     shift:
                         - '-bp - 0.5kspr - 8'
+                        - '-kp/2'
+                -
+                    ref: matrix_col0_row0
+                    shift:
+                        - '-kp/2 - 5'
                         - '-bp - 10'
                 -
                     ref: matrix_col3_row0
@@ -375,8 +380,13 @@ outlines:
                 -
                     ref: matrix_col6_row0
                     shift:
-                        - bp + 0.5kspr + 8
+                        - kp/2 + 5
                         - '-bp - 10'
+                -
+                    ref: matrix_col6_row0
+                    shift:
+                        - bp + 0.5kspr + 8
+                        - '-kp/2'
                 -
                     ref: matrix_col6_row1
                     shift:
@@ -691,6 +701,8 @@ pcbs:
                     rotate: -90
                 params:
                     value: RP2040 Community Edition
+                    P2: TX
+                    P3: RX
                     P4: GND
                     P5: GND
                     P6: sda
@@ -705,13 +717,13 @@ pcbs:
                     P18: row5
                     P31: LED01
                     P29: GND
-                    P26: col6
-                    P25: col5
-                    P24: col4
-                    P23: col3
-                    P22: col2
-                    P21: col1
-                    P20: col0
+                    P25: col7
+                    P24: col6
+                    P23: col4
+                    P22: col3
+                    P21: col2
+                    P20: col1
+                    P19: col0
                     offset3d:
                         - 0
                         - 0
@@ -745,6 +757,19 @@ pcbs:
                     width: 1.666
                     net: VCC
                     route: 'f(0.0, 0.0)(0.35, 6.35)'
+            trrs:
+                what: ceoloide/trrs_pj320a
+                where:
+                    ref: matrix_col5_row5
+                    shift:
+                        - '-kp/2 + 4.5'
+                        - 3kp/2 + 3
+                    rotate: -1.6
+                params:
+                    TP: VCC
+                    R1: TX
+                    R2: RX
+                    SL: GND
             oled1:
                 what: travis/Keebio-I2C_Breakout
                 params:
@@ -1147,19 +1172,14 @@ pcbs:
             pcbnumber:
                 what: ceoloide/utility_text
                 where:
-                    ref:
-                        aggregate:
-                            parts:
-                                - matrix_col3_row0
-                                - matrix_col3_row1
-                params:
-                    text: JLCJLCJLCJLC
-                    reversible: true
+                    ref: matrix_col3_row0
                 adjust:
                     shift:
                         - 0
-                        - 0
-                    rotate: 0
+                        - '-kp/2 - 1'
+                params:
+                    text: JLCJLCJLCJLC
+                    reversible: true
             holeTopLeft:
                 what: travis/mountinghole
                 where:
@@ -1192,8 +1212,8 @@ pcbs:
                 where:
                     ref: matrix_col6_row0
                     shift:
-                        - bp + 0.5kspr - 2.75 + 8
-                        - '-bp + 2.75 - 10'
+                        - bp + 0.5kspr - 2.75 + 1
+                        - '-bp + 2.75 - 3'
                 params:
                     pad: 4
             holeBottomCenter:
@@ -1210,8 +1230,8 @@ pcbs:
                 where:
                     ref: matrix_col0_row0
                     shift:
-                        - '-bp - 0.5kspr + 2.75 - 8'
-                        - '-bp + 2.75 - 10'
+                        - '-bp - 0.5kspr + 2.75 - 1'
+                        - '-bp + 2.75 - 3'
                 params:
                     pad: 6
             background:

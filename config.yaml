@@ -345,13 +345,21 @@ outlines:
       points:
         # bottom
         - ref: matrix_col0_row0
-          shift: [-bp - 0.5kspr - 8, -bp - 10]
+          shift: [-bp - 0.5kspr - 8, -kp/2]
+        #- ref: matrix_col0_row0
+        #  shift: [-bp - 0.5kspr - 3, -bp - 5]
+        - ref: matrix_col0_row0
+          shift: [-kp/2 - 5, -bp - 10]
         - ref: matrix_col3_row0
           shift: [-bp/3, -bp - 12]
         - ref: matrix_col3_row0
           shift: [bp/3, -bp - 12]
         - ref: matrix_col6_row0
-          shift: [bp + 0.5kspr + 8, -bp - 10]
+          shift: [kp/2 + 5, -bp - 10]
+        #- ref: matrix_col6_row0
+        #  shift: [bp + 0.5kspr + 3, -bp - 5]
+        - ref: matrix_col6_row0
+          shift: [bp + 0.5kspr + 8, -kp/2]
         # right
         - ref: matrix_col6_row1
           shift: [bp + 8 , -bp / 2]
@@ -548,8 +556,8 @@ pcbs:
           value: "RP2040 Community Edition"
           # left
           #P1:       # GP10
-          #P2:       # GP0  D3 TXO/PD3
-          #P3:       # GP1  D2 RXI/PD2
+          P2: TX     # GP0  D3 TX0/PD3
+          P3: RX     # GP1  D2 RX0/PD2
           P4: GND
           P5: GND
           P6: sda    # D1 SDA
@@ -572,14 +580,14 @@ pcbs:
           P29: GND
           #P28:      # RESET 13
           #P27:      # VCC 3.3V
-          P26: col6  # F4 A3
-          P25: col5  # F5 A2
-          P24: col4  # F6 A1
-          P23: col3  # F7 A0
-          P22: col2  # B1 SCLK
-          P21: col1  # B3 MISO
-          P20: col0  # B2 MOSI
-          #P19:      # B6 A10 PWM
+          #P26:      # F4 A3
+          P25: col7  # F5 A2
+          P24: col6  # F6 A1
+          P23: col4  # F7 A0
+          P22: col3  # B1 SCLK
+          P21: col2  # B3 MISO
+          P20: col1  # B2 MOSI
+          P19: col0  # B6 A10 PWM
           offset3d: [0, 0, 7]
 
       cap1:
@@ -605,6 +613,18 @@ pcbs:
           width: 1.666
           net: "VCC"
           route: "f(0.0, 0.0)(0.35, 6.35)"
+
+      trrs:
+        what: ceoloide/trrs_pj320a
+        where:
+          ref: matrix_col5_row5
+          shift: [-kp/2 + 4.5, 3kp/2 + 3]
+          rotate: -1.6
+        params:
+          TP: "VCC"
+          R1: "TX"
+          R2: "RX"
+          SL: "GND"
 
       # oled mounting options
       oled1: &oled
@@ -903,14 +923,13 @@ pcbs:
       pcbnumber:
         what: ceoloide/utility_text
         where:
-          ref.aggregate.parts: [matrix_col3_row0, matrix_col3_row1]
+          ref: matrix_col3_row0
+        adjust:
+          shift: [0, -kp/2 - 1]
         params:
           text: JLCJLCJLCJLC
           #text: WayWayWay
           reversible: true
-        adjust:
-          shift: [0, 0]
-          rotate: 0
 
       # holes:
       holeTopLeft:
@@ -938,7 +957,7 @@ pcbs:
         what: travis/mountinghole
         where:
           ref: matrix_col6_row0
-          shift: [bp + 0.5kspr - 2.75 + 8, -bp + 2.75 - 10]
+          shift: [bp + 0.5kspr - 2.75 + 1, -bp + 2.75 - 3]
         params:
           pad: 4
       holeBottomCenter:
@@ -952,7 +971,7 @@ pcbs:
         what: travis/mountinghole
         where:
           ref: matrix_col0_row0
-          shift: [-bp - 0.5kspr + 2.75 - 8, -bp + 2.75 - 10]
+          shift: [-bp - 0.5kspr + 2.75 - 1, -bp + 2.75 - 3]
         params:
           pad: 6
 
