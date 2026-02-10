@@ -11,7 +11,7 @@
   (paper "A3")
   (title_block
     (title "travis_erg2026")
-    (date "2026-02-08")
+    (date "2026-02-10")
     (rev "2026.02.02")
     (company "Travis Hardiman")
   )
@@ -1586,7 +1586,7 @@
     
   (footprint "ceoloide:trrs_pj320a"
     (layer "F.Cu")
-    (at 148.94055290000003 57.30281700000004 -3.6)
+    (at 145.59957350000002 56.98602550000004 -3.6)
     (property "Reference" "TRRS1"
       (at 0 14.2 -3.6)
       (layer "F.SilkS")
@@ -1612,6 +1612,39 @@
     (pad 3 thru_hole oval (at 2.3 6.2 -3.6) (size 1.6 2.2) (drill oval 0.9 1.5) (layers "*.Cu" "*.Mask") (net 3 "RX"))
     (pad 4 thru_hole oval (at 2.3 10.2 -3.6) (size 1.6 2.2) (drill oval 0.9 1.5) (layers "*.Cu" "*.Mask") (net 26 "VCC"))
     (pad 5 thru_hole oval (at -2.3 11.3 -3.6) (size 1.6 2.2) (drill oval 0.9 1.5) (layers "*.Cu" "*.Mask") (net 2 "TX"))
+        
+  )
+    
+
+    
+  (footprint "ceoloide:trrs_pj320a"
+    (layer "F.Cu")
+    (at 152.03866440000004 57.41100540000004 -3.6)
+    (property "Reference" "TRRS2"
+      (at 0 14.2 -3.6)
+      (layer "F.SilkS")
+      hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    
+    
+    (fp_line (start 2.8 -2) (end -2.8 -2) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start -2.8 0) (end -2.8 -2) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start 2.8 0) (end 2.8 -2) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start -3.05 0) (end -3.05 12.1) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start 3.05 0) (end 3.05 12.1) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start 3.05 12.1) (end -3.05 12.1) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+    (fp_line (start 3.05 0) (end -3.05 0) (layer "Dwgs.User") (stroke (width 0.15) (type solid)))
+      
+    
+    (pad "" np_thru_hole circle (at 0 8.6 -3.6) (size 1.5 1.5) (drill 1.5) (layers "*.Cu" "*.Mask"))
+    (pad "" np_thru_hole circle (at 0 1.6 -3.6) (size 1.5 1.5) (drill 1.5) (layers "*.Cu" "*.Mask"))
+      
+    
+    (pad 2 thru_hole oval (at 2.3 3.2 -3.6) (size 1.6 2.2) (drill oval 0.9 1.5) (layers "*.Cu" "*.Mask") (net 4 "GND"))
+    (pad 3 thru_hole oval (at 2.3 6.2 -3.6) (size 1.6 2.2) (drill oval 0.9 1.5) (layers "*.Cu" "*.Mask") (net 2 "TX"))
+    (pad 4 thru_hole oval (at 2.3 10.2 -3.6) (size 1.6 2.2) (drill oval 0.9 1.5) (layers "*.Cu" "*.Mask") (net 26 "VCC"))
+    (pad 5 thru_hole oval (at -2.3 11.3 -3.6) (size 1.6 2.2) (drill oval 0.9 1.5) (layers "*.Cu" "*.Mask") (net 3 "RX"))
         
   )
     

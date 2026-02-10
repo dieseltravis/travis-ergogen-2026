@@ -757,18 +757,31 @@ pcbs:
                     width: 1.666
                     net: VCC
                     route: 'f(0.0, 0.0)(0.35, 6.35)'
-            trrs:
+            trrs_txrx:
                 what: ceoloide/trrs_pj320a
                 where:
                     ref: matrix_col5_row5
                     shift:
-                        - '-kp/2 + 4.5'
-                        - 3kp/2 + 3
+                        - '-kp/2 + 4.5 - 3.35'
+                        - 3kp/2 + 3.2
                     rotate: -1.6
                 params:
                     TP: VCC
                     R1: TX
                     R2: RX
+                    SL: GND
+            trrs_rxtx:
+                what: ceoloide/trrs_pj320a
+                where:
+                    ref: matrix_col5_row5
+                    shift:
+                        - '-kp/2 + 4.5 + 3.1'
+                        - 3kp/2 + 3
+                    rotate: -1.6
+                params:
+                    TP: VCC
+                    R1: RX
+                    R2: TX
                     SL: GND
             oled1:
                 what: travis/Keebio-I2C_Breakout
