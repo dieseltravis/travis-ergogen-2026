@@ -1,8 +1,8 @@
 meta:
     engine: 4.2.1
     name: travis-ergogen-2026
-    version: 2026.02.02
-    date: '2026-02-02'
+    version: 2026.02.12
+    date: '2026-02-12'
     author: Travis Hardiman
     url: 'https://github.com/dieseltravis/travis-ergogen-2026'
     tags:
@@ -59,7 +59,7 @@ points:
                             tags:
                                 - row_even
                                 - key
-                                - 2u_stabilizers
+                                - 2u_stabs
                             key:
                                 led_next: LED37
                                 led_this: LED36
@@ -254,7 +254,7 @@ points:
                             tags:
                                 - row_even
                                 - key
-                                - 2u_stabilizers
+                                - 2u_stabs
                             key:
                                 led_next: ''
                                 led_this: LED40
@@ -324,7 +324,7 @@ outlines:
     2u_stabilizer:
         -
             operation: stack
-            where: 2u_stabilizers
+            where: 2u_stabs
             what: rectangle
             size:
                 - stabilizer_width
@@ -335,7 +335,7 @@ outlines:
                     - stabilizer_offset
         -
             operation: stack
-            where: 2u_stabilizers
+            where: 2u_stabs
             what: rectangle
             size:
                 - stabilizer_width
@@ -351,7 +351,7 @@ outlines:
             size:
                 - kp - 2
                 - kp - 2
-    board:
+    board1:
         -
             what: polygon
             operation: stack
@@ -452,7 +452,7 @@ outlines:
                     shift:
                         - '-bp - 8'
                         - '-bp / 2'
-    xlboard:
+    xlboard1:
         -
             what: polygon
             operation: stack
@@ -543,6 +543,178 @@ outlines:
                     shift:
                         - '-bp - 8 - wall'
                         - '-bp / 2'
+    board:
+        -
+            what: path
+            segments:
+                -
+                    type: arc
+                    points:
+                        -
+                            ref: matrix_col0_row5
+                            shift:
+                                - 0
+                                - bp + 20
+                        -
+                            ref: matrix_col3_row5
+                            shift:
+                                - 0
+                                - bp + 20
+                        -
+                            ref: matrix_col6_row5
+                            shift:
+                                - 0
+                                - bp + 20
+                -
+                    type: line
+                    points:
+                        -
+                            ref: matrix_col6_row5
+                            shift:
+                                - bp
+                                - bp + 20
+                        -
+                            ref: matrix_col6_row2
+                            shift:
+                                - bp
+                                - '-bp / 2'
+                        -
+                            ref: matrix_col6_row1
+                            shift:
+                                - bp + 8
+                                - '-bp / 2'
+                        -
+                            ref: matrix_col6_row0
+                            shift:
+                                - bp + 0.5kspr + 8
+                                - '-kp/2'
+                        -
+                            ref: matrix_col6_row0
+                            shift:
+                                - kp/2 + 5
+                                - '-bp - 10'
+                -
+                    type: arc
+                    points:
+                        -
+                            ref: matrix_col3_row0
+                            shift:
+                                - 0
+                                - '-bp - 12'
+                        -
+                            ref: matrix_col0_row0
+                            shift:
+                                - '-kp/2 - 5'
+                                - '-bp - 10'
+                -
+                    type: line
+                    points:
+                        -
+                            ref: matrix_col0_row0
+                            shift:
+                                - '-bp - 0.5kspr - 8'
+                                - '-kp/2'
+                        -
+                            ref: matrix_col0_row1
+                            shift:
+                                - '-bp - 8'
+                                - '-bp / 2'
+                        -
+                            ref: matrix_col0_row2
+                            shift:
+                                - '-bp'
+                                - '-bp / 2'
+                        -
+                            ref: matrix_col0_row5
+                            shift:
+                                - '-bp'
+                                - bp + 20
+    xlboard:
+        -
+            what: path
+            segments:
+                -
+                    type: arc
+                    points:
+                        -
+                            ref: matrix_col0_row5
+                            shift:
+                                - 0
+                                - bp + 20 + wall
+                        -
+                            ref: matrix_col3_row5
+                            shift:
+                                - 0
+                                - bp + 20 + wall
+                        -
+                            ref: matrix_col6_row5
+                            shift:
+                                - 0
+                                - bp + 20 + wall
+                -
+                    type: line
+                    points:
+                        -
+                            ref: matrix_col6_row5
+                            shift:
+                                - bp + wall
+                                - bp + 20 + wall
+                        -
+                            ref: matrix_col6_row2
+                            shift:
+                                - bp + wall
+                                - '-bp / 2'
+                        -
+                            ref: matrix_col6_row1
+                            shift:
+                                - bp + 8 + wall
+                                - '-bp / 2'
+                        -
+                            ref: matrix_col6_row0
+                            shift:
+                                - bp + 0.5kspr + 8 + wall
+                                - '-kp/2'
+                        -
+                            ref: matrix_col6_row0
+                            shift:
+                                - kp/2 + 5 + wall
+                                - '-bp - 10 - wall'
+                -
+                    type: arc
+                    points:
+                        -
+                            ref: matrix_col3_row0
+                            shift:
+                                - 0
+                                - '-bp - 12 - wall'
+                        -
+                            ref: matrix_col0_row0
+                            shift:
+                                - '-kp/2 - 5 - wall'
+                                - '-bp - 10 - wall'
+                -
+                    type: line
+                    points:
+                        -
+                            ref: matrix_col0_row0
+                            shift:
+                                - '-bp - 0.5kspr - 8 - wall'
+                                - '-kp/2'
+                        -
+                            ref: matrix_col0_row1
+                            shift:
+                                - '-bp - 8 - wall'
+                                - '-bp / 2'
+                        -
+                            ref: matrix_col0_row2
+                            shift:
+                                - '-bp - wall'
+                                - '-bp / 2'
+                        -
+                            ref: matrix_col0_row5
+                            shift:
+                                - '-bp - wall'
+                                - bp + 20 + wall
     combo:
         -
             name: board
@@ -580,8 +752,8 @@ outlines:
             where:
                 ref: matrix_col6_row0
                 shift:
-                    - bp + 0.5kspr - 2.75 + 8
-                    - '-bp + 2.75 - 10'
+                    - bp + 0.5kspr - 2.75 + 1
+                    - '-bp + 2.75 - 3'
         -
             what: circle
             radius: screwSize
@@ -596,8 +768,8 @@ outlines:
             where:
                 ref: matrix_col0_row0
                 shift:
-                    - '-bp - 0.5kspr + 2.75 - 8'
-                    - '-bp + 2.75 - 10'
+                    - '-bp - 0.5kspr + 2.75 - 1'
+                    - '-bp + 2.75 - 3'
     standoff:
         -
             what: circle
@@ -649,8 +821,8 @@ outlines:
             where:
                 ref: matrix_col6_row0
                 shift:
-                    - bp + 0.5kspr - 2.75 + 8
-                    - '-bp + 2.75 - 10'
+                    - bp + 0.5kspr - 2.75 + 1
+                    - '-bp + 2.75 - 3'
         -
             what: circle
             radius: standoffSize
@@ -675,8 +847,8 @@ outlines:
             where:
                 ref: matrix_col0_row0
                 shift:
-                    - '-bp - 0.5kspr + 2.75 - 8'
-                    - '-bp + 2.75 - 10'
+                    - '-bp - 0.5kspr + 2.75 - 1'
+                    - '-bp + 2.75 - 3'
     plate:
         -
             what: rectangle
@@ -762,9 +934,9 @@ pcbs:
                 where:
                     ref: matrix_col5_row5
                     shift:
-                        - '-kp/2 + 4.5 - 3.35'
-                        - 3kp/2 + 3.2
-                    rotate: -1.6
+                        - '-kp/2 + 4.5 - 3.75'
+                        - 3kp/2 + 4
+                    rotate: -2.5
                 params:
                     TP: VCC
                     R1: TX
@@ -776,8 +948,8 @@ pcbs:
                     ref: matrix_col5_row5
                     shift:
                         - '-kp/2 + 4.5 + 3.1'
-                        - 3kp/2 + 3
-                    rotate: -1.6
+                        - 3kp/2 + 3.7
+                    rotate: -2.5
                 params:
                     TP: VCC
                     R1: RX
@@ -1175,7 +1347,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: 3270 Nerd Font
-                    text: 2026.02.02
+                    text: 2026.02.12
                     height: 1
                     width: 1
                 adjust:

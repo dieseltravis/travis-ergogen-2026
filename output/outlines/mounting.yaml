@@ -63,8 +63,8 @@ models:
                                     circle:
                                         type: circle
                                         origin:
-                                            - 188.2821475
-                                            - -222.22806680000002
+                                            - 181.7874944
+                                            - -214.75682310000002
                                         radius: 1.5
                                 origin:
                                     - 0
@@ -91,8 +91,8 @@ models:
                     circle:
                         type: circle
                         origin:
-                            - 31.8027996
-                            - -223.2760321
+                            - 38.297452699999994
+                            - -215.8047884
                         radius: 1.5
                 origin:
                     - 0

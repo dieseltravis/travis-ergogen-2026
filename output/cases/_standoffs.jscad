@@ -1,15 +1,15 @@
 function standoff_extrude_4_outline_fn(){
-    return CAG.circle({"center":[31.8027996,-223.2760321],"radius":2.85})
+    return CAG.circle({"center":[38.2974527,-215.8047884],"radius":2.85,"resolution":18})
 .union(
-    CAG.circle({"center":[188.2821475,-222.2280668],"radius":2.85})
+    CAG.circle({"center":[181.7874944,-214.7568231],"radius":2.85,"resolution":18})
 ).union(
-    CAG.circle({"center":[30.7137823,-63.9761129],"radius":2.85})
+    CAG.circle({"center":[30.7137823,-63.9761129],"radius":2.85,"resolution":18})
 ).union(
-    new CSG.Path2D.arc({"center":[188.5850638,-73.1510164],"radius":2.85,"startangle":446.9999995,"endangle":627.0000015}).appendPoint([192.4304245,-76.2064544]).appendPoint([192.7287394,-70.514266]).appendPoint([188.7342213,-70.3049222]).close().innerToCAG()
+    new CSG.Path2D.arc({"center":[188.5850638,-73.1510164],"radius":2.85,"startangle":446.9999995,"endangle":627.0000015,"resolution":18}).appendPoint([192.4304245,-76.2064544]).appendPoint([192.7287394,-70.514266]).appendPoint([188.7342213,-70.3049222]).close().innerToCAG()
 ).union(
-    new CSG.Path2D.arc({"center":[110.0025666,-64.6281403],"radius":2.85,"startangle":100.1041826,"endangle":439.8958174}).appendPoint([110.5025666,-53.6281403]).appendPoint([109.5025666,-53.6281403]).appendPoint([109.5025666,-61.8223427]).close().innerToCAG()
+    new CSG.Path2D.arc({"center":[110.0025666,-64.6281403],"radius":2.85,"startangle":100.1041826,"endangle":439.8958174,"resolution":18}).appendPoint([110.5025666,-53.6281403]).appendPoint([109.5025666,-53.6281403]).appendPoint([109.5025666,-61.8223427]).close().innerToCAG()
 ).union(
-    new CSG.Path2D.arc({"center":[110.0025666,-213.0593903],"radius":2.85,"startangle":0,"endangle":180}).appendPoint([107.1525666,-223.0593903]).appendPoint([112.8525666,-223.0593903]).appendPoint([112.8525666,-213.0593903]).close().innerToCAG()
+    new CSG.Path2D.arc({"center":[110.0025666,-213.0593903],"radius":2.85,"startangle":0,"endangle":180,"resolution":18}).appendPoint([107.1525666,-223.0593903]).appendPoint([112.8525666,-223.0593903]).appendPoint([112.8525666,-213.0593903]).close().innerToCAG()
 ).extrude({ offset: [0, 0, 4] });
 }
 
