@@ -563,8 +563,21 @@ outlines:
                         -
                             ref: matrix_col6_row5
                             shift:
-                                - 0
+                                - 5
                                 - bp + 20
+                -
+                    type: arc
+                    points:
+                        -
+                            ref: matrix_col6_row5
+                            shift:
+                                - bp
+                                - bp + 15
+                        -
+                            ref: matrix_col6_row5
+                            shift:
+                                - bp
+                                - bp + 10
                 -
                     type: line
                     points:
@@ -572,7 +585,7 @@ outlines:
                             ref: matrix_col6_row5
                             shift:
                                 - bp
-                                - bp + 20
+                                - bp
                         -
                             ref: matrix_col6_row2
                             shift:
@@ -652,13 +665,26 @@ outlines:
                                 - 0
                                 - bp + 20 + wall
                 -
+                    type: arc
+                    points:
+                        -
+                            ref: matrix_col6_row5
+                            shift:
+                                - bp + wall
+                                - bp + 5 + wall
+                        -
+                            ref: matrix_col6_row5
+                            shift:
+                                - bp + wall
+                                - bp + 0 + wall
+                -
                     type: line
                     points:
                         -
                             ref: matrix_col6_row5
                             shift:
                                 - bp + wall
-                                - bp + 20 + wall
+                                - 0
                         -
                             ref: matrix_col6_row2
                             shift:
@@ -677,7 +703,7 @@ outlines:
                         -
                             ref: matrix_col6_row0
                             shift:
-                                - kp/2 + 5 + wall
+                                - kp/2 + 5
                                 - '-bp - 10 - wall'
                 -
                     type: arc
@@ -690,7 +716,7 @@ outlines:
                         -
                             ref: matrix_col0_row0
                             shift:
-                                - '-kp/2 - 5 - wall'
+                                - '-kp/2 - 5'
                                 - '-bp - 10 - wall'
                 -
                     type: line

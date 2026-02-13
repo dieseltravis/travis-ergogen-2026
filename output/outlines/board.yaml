@@ -8,24 +8,16 @@ models:
                     - 0
             b:
                 models:
-                    path1:
+                    path2:
                         paths:
                             ShapeLine1:
                                 type: line
                                 origin:
-                                    - 177.75622590000006
-                                    - -59.565660500000035
-                                end:
-                                    - 192.26131990000007
-                                    - -60.32584030000003
-                            ShapeLine2:
-                                type: line
-                                origin:
-                                    - 192.26131990000007
-                                    - -60.32584030000003
-                                end:
                                     - 186.76931540000004
                                     - -165.11952710000003
+                                end:
+                                    - 191.73796030000005
+                                    - -70.31213560000003
                             ShapeLine3:
                                 type: line
                                 origin:
@@ -53,7 +45,7 @@ models:
                         origin:
                             - 0
                             - 0
-                    path3:
+                    path4:
                         paths:
                             ShapeLine1:
                                 type: line
@@ -94,12 +86,20 @@ models:
                     path0:
                         type: arc
                         origin:
-                            - 113.59888216110777
-                            - -519.680714234968
-                        radius: 464.56649419386775
-                        startAngle: 82.06199515553985
-                        endAngle: 98.82471979166446
-                    path2:
+                            - 115.22406374241281
+                            - -539.7304044720847
+                        radius: 484.63039377394716
+                        startAngle: 81.99071211812547
+                        endAngle: 98.65093673723031
+                    path1:
+                        type: arc
+                        origin:
+                            - 184.49175224723047
+                            - -67.4289470656647
+                        radius: 7.798737639523675
+                        startAngle: 338.3029207425241
+                        endAngle: 102.90987041796897
+                    path3:
                         type: arc
                         origin:
                             - 115.47239150787549

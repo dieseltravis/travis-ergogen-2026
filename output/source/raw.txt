@@ -451,11 +451,17 @@ outlines:
         - ref: matrix_col3_row5
           shift: [0, bp + 20]
         - ref: matrix_col6_row5
-          shift: [0, bp + 20]
+          shift: [5, bp + 20]
+      - type: arc
+        points:
+        - ref: matrix_col6_row5
+          shift: [bp, bp + 15]
+        - ref: matrix_col6_row5
+          shift: [bp, bp + 10]
       - type: line
         points:
         - ref: matrix_col6_row5
-          shift: [bp, bp + 20]
+          shift: [bp, bp]
         - ref: matrix_col6_row2
           shift: [bp , -bp / 2]
         - ref: matrix_col6_row1
@@ -495,10 +501,16 @@ outlines:
           shift: [0, bp + 20 + wall]
         - ref: matrix_col6_row5
           shift: [0, bp + 20 + wall]
+      - type: arc
+        points:
+        - ref: matrix_col6_row5
+          shift: [bp + wall, bp + 5 + wall]
+        - ref: matrix_col6_row5
+          shift: [bp + wall, bp + 0 + wall]
       - type: line
         points:
         - ref: matrix_col6_row5
-          shift: [bp + wall, bp + 20 + wall]
+          shift: [bp + wall, 0]
         - ref: matrix_col6_row2
           shift: [bp + wall , -bp / 2]
         - ref: matrix_col6_row1
@@ -506,7 +518,7 @@ outlines:
         - ref: matrix_col6_row0
           shift: [bp + 0.5kspr + 8 + wall, -kp/2]
         - ref: matrix_col6_row0
-          shift: [kp/2 + 5 + wall, -bp - 10 - wall]
+          shift: [kp/2 + 5, -bp - 10 - wall]
       - type: arc
         points:
         #- ref: matrix_col3_row0
@@ -516,7 +528,7 @@ outlines:
         #- ref: matrix_col3_row0
         #  shift: [-bp/3, -bp - 12]
         - ref: matrix_col0_row0
-          shift: [-kp/2 - 5 - wall, -bp - 10 - wall]
+          shift: [-kp/2 - 5, -bp - 10 - wall]
       - type: line
         points:
         - ref: matrix_col0_row0

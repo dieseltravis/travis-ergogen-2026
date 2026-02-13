@@ -1,15 +1,15 @@
 function mounting_extrude_4_outline_fn(){
-    return CAG.circle({"center":[38.2974527,-215.8047884],"radius":1.5,"resolution":10})
+    return CAG.circle({"center":[38.2974527,-215.8047884],"radius":1.5})
 .union(
-    CAG.circle({"center":[110.0025666,-213.0593903],"radius":1.5,"resolution":10})
+    CAG.circle({"center":[110.0025666,-213.0593903],"radius":1.5})
 ).union(
-    CAG.circle({"center":[181.7874944,-214.7568231],"radius":1.5,"resolution":10})
+    CAG.circle({"center":[181.7874944,-214.7568231],"radius":1.5})
 ).union(
-    CAG.circle({"center":[188.5850638,-73.1510164],"radius":1.5,"resolution":10})
+    CAG.circle({"center":[188.5850638,-73.1510164],"radius":1.5})
 ).union(
-    CAG.circle({"center":[110.0025666,-64.6281403],"radius":1.5,"resolution":10})
+    CAG.circle({"center":[110.0025666,-64.6281403],"radius":1.5})
 ).union(
-    CAG.circle({"center":[30.7137823,-63.9761129],"radius":1.5,"resolution":10})
+    CAG.circle({"center":[30.7137823,-63.9761129],"radius":1.5})
 ).extrude({ offset: [0, 0, 4] });
 }
 
