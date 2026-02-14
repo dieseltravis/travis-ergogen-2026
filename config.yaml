@@ -1,11 +1,12 @@
 meta:
   engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2026.02.12"
-  date: "2026-02-12"
+  version: &meta_version "2026.02.13"
+  date: "2026-02-13"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
   tags: [ "ergogen", "keyboard", "cherrymx", "hotswap", "rp2040", "wheel", "oled" ]
+  # https://www.nerdfonts.com/font-downloads
   cool_font: &cool_font "3270 Nerd Font"
 units:
   kp: U + 2
@@ -19,15 +20,18 @@ units:
   stabilizer_offset: 0 # This means south stabs, use `orient` to rotate them for north facing scenarios
   stabilizer_spacing_3u: U * ((3 - 1) / 2)
   stabilizer_spacing_2u: 23.86 / 2 # 0.94in / 2
-  # case
-  board: 1.6
-  height: 4.0
-  wall: 2.0
   # Defaults to M2 Screws
   #screwSize: 1
   # M2 Screw Inserts
   screwSize: 1.5
   standoffSize: 2.85
+  # case
+  board: 1.6
+  height: 4.0
+  wall: 2.0
+  casethick: 1
+  platehole: 13.95
+  platethick: 1.41
 points:
   zones:
     matrix:
@@ -317,132 +321,18 @@ points:
             - row_odd
           row_net: row5
 outlines:
-  raw:
-    - what: rectangle
-      where: true
-      size: [kp + 2, kp + 2]
-  2u_stabilizer:
-  # This creates the stabilizer, you just need to use its name in a `where` clause of another outline
-    - operation: stack
-      where: 2u_stabs # Set this tag on the keys you want
-      what: rectangle
-      size: [stabilizer_width, stabilizer_height]
-      adjust:
-        shift: [stabilizer_spacing_2u, stabilizer_offset]
-    - operation: stack
-      where: 2u_stabs
-      what: rectangle
-      size: [stabilizer_width, stabilizer_height]
-      adjust:
-        shift: [-stabilizer_spacing_2u, stabilizer_offset]
+  #raw:
+  #  - what: rectangle
+  #    where: true
+  #    size: [kp, kp]
   keys:
     - what: rectangle
       where: key
       size: [kp - 2, kp - 2]
-  board1:
-    - what: polygon
-      operation: stack
-      fillet: 2.75
-      points:
-        # bottom
-        - ref: matrix_col0_row0
-          shift: [-bp - 0.5kspr - 8, -kp/2]
-        #- ref: matrix_col0_row0
-        #  shift: [-bp - 0.5kspr - 3, -bp - 5]
-        - ref: matrix_col0_row0
-          shift: [-kp/2 - 5, -bp - 10]
-        - ref: matrix_col3_row0
-          shift: [-bp/3, -bp - 12]
-        - ref: matrix_col3_row0
-          shift: [bp/3, -bp - 12]
-        - ref: matrix_col6_row0
-          shift: [kp/2 + 5, -bp - 10]
-        #- ref: matrix_col6_row0
-        #  shift: [bp + 0.5kspr + 3, -bp - 5]
-        - ref: matrix_col6_row0
-          shift: [bp + 0.5kspr + 8, -kp/2]
-        # right
-        - ref: matrix_col6_row1
-          shift: [bp + 8 , -bp / 2]
-        - ref: matrix_col6_row2
-          shift: [bp , -bp / 2]
-        # top
-        - ref: matrix_col6_row5
-          shift: [bp, bp + 20]
-        #- ref: matrix_col3_row5
-        #  shift: [bp/3, bp + 20]
-        - ref: matrix_col6_row5
-          shift: [0, bp + 20]
-        - ref: matrix_col5_row5
-          shift: [0, bp + 20]
-        - ref: matrix_col4_row5
-          shift: [0, bp + 20]
-        - ref: matrix_col3_row5
-          shift: [0, bp + 20]
-        - ref: matrix_col2_row5
-          shift: [0, bp + 20]
-        - ref: matrix_col1_row5
-          shift: [0, bp + 20]
-        - ref: matrix_col0_row5
-          shift: [0, bp + 20]
-        #- ref: matrix_col3_row5
-        #  shift: [-bp/3, bp + 20]
-        - ref: matrix_col0_row5
-          shift: [-bp, bp + 20]
-        # left
-        - ref: matrix_col0_row2
-          shift: [-bp, -bp / 2]
-        - ref: matrix_col0_row1
-          shift: [-bp - 8, -bp / 2]
-  xlboard1:
-    - what: polygon
-      operation: stack
-      fillet: 2.75
-      points:
-        # bottom
-        - ref: matrix_col0_row0
-          shift: [-bp - 0.5kspr - 8 - wall, -bp - 10 - wall]
-        - ref: matrix_col3_row0
-          shift: [-bp/3 - wall, -bp - 12 - wall]
-        - ref: matrix_col3_row0
-          shift: [bp/3 + wall, -bp - 12 - wall]
-        - ref: matrix_col6_row0
-          shift: [bp + 0.5kspr + 8 + wall, -bp - 10 - wall]
-        # right
-        - ref: matrix_col6_row1
-          shift: [bp + 8 + wall, -bp / 2]
-        - ref: matrix_col6_row2
-          shift: [bp + wall, -bp / 2 ]
-        # top
-        - ref: matrix_col6_row5
-          shift: [bp + wall, bp + 20 + wall]
-        #- ref: matrix_col3_row5
-        #  shift: [bp/3, bp + 20]
-        - ref: matrix_col6_row5
-          shift: [0, bp + 20 + wall]
-        - ref: matrix_col5_row5
-          shift: [0, bp + 20 + wall]
-        - ref: matrix_col4_row5
-          shift: [0, bp + 20 + wall]
-        - ref: matrix_col3_row5
-          shift: [0, bp + 20 + wall]
-        - ref: matrix_col2_row5
-          shift: [0, bp + 20 + wall]
-        - ref: matrix_col1_row5
-          shift: [0, bp + 20 + wall]
-        - ref: matrix_col0_row5
-          shift: [0, bp + 20 + wall]
-        #- ref: matrix_col3_row5
-        #  shift: [-bp/3, bp + 20]
-        - ref: matrix_col0_row5
-          shift: [-bp - wall, bp + 20 + wall]
-        # left
-        - ref: matrix_col0_row2
-          shift: [-bp - wall, -bp / 2]
-        - ref: matrix_col0_row1
-          shift: [-bp - 8 - wall, -bp / 2]
   board:
     - what: path
+      operation: stack
+      fillet: 5
       segments:
       - type: arc
         points:
@@ -451,17 +341,11 @@ outlines:
         - ref: matrix_col3_row5
           shift: [0, bp + 20]
         - ref: matrix_col6_row5
-          shift: [5, bp + 20]
-      - type: arc
-        points:
-        - ref: matrix_col6_row5
-          shift: [bp, bp + 15]
-        - ref: matrix_col6_row5
-          shift: [bp, bp + 10]
+          shift: [0, bp + 20]
       - type: line
         points:
         - ref: matrix_col6_row5
-          shift: [bp, bp]
+          shift: [bp, bp + 20]
         - ref: matrix_col6_row2
           shift: [bp , -bp / 2]
         - ref: matrix_col6_row1
@@ -492,6 +376,8 @@ outlines:
           shift: [-bp, bp + 20]
   xlboard:
     - what: path
+      operation: stack
+      fillet: 6
       segments:
       - type: arc
         points:
@@ -501,16 +387,10 @@ outlines:
           shift: [0, bp + 20 + wall]
         - ref: matrix_col6_row5
           shift: [0, bp + 20 + wall]
-      - type: arc
-        points:
-        - ref: matrix_col6_row5
-          shift: [bp + wall, bp + 5 + wall]
-        - ref: matrix_col6_row5
-          shift: [bp + wall, bp + 0 + wall]
       - type: line
         points:
         - ref: matrix_col6_row5
-          shift: [bp + wall, 0]
+          shift: [bp + wall, bp + 20 + wall]
         - ref: matrix_col6_row2
           shift: [bp + wall , -bp / 2]
         - ref: matrix_col6_row1
@@ -548,7 +428,7 @@ outlines:
       radius: screwSize
       where: &holeTopLeft
         ref: matrix_col0_row5
-        shift: [-bp + 2.75, bp + 20 - 2.75]
+        shift: [-bp + 3.25, bp + 20 - 3.25]
     - what: circle
       radius: screwSize
       where: &holeTopCenter
@@ -614,10 +494,51 @@ outlines:
       radius: standoffSize
       where:
         <<: *holeBottomLeft
-  plate:
+  2u_stabilizer:
+  # This creates the stabilizer, you just need to use its name in a `where` clause of another outline
+    - operation: stack
+      where: 2u_stabs # Set this tag on the keys you want
+      what: rectangle
+      size: [stabilizer_width, stabilizer_height]
+      adjust:
+        shift: [stabilizer_spacing_2u, stabilizer_offset]
+    - operation: stack
+      where: 2u_stabs
+      what: rectangle
+      size: [stabilizer_width, stabilizer_height]
+      adjust:
+        shift: [-stabilizer_spacing_2u, stabilizer_offset]
+  keyholes:
     - what: rectangle
       where: key
-      size: [ 13.95, 13.95 ]
+      size: [ platehole, platehole ]
+  pb:
+    - what: rectangle
+      where: key
+      fillet: 1.0
+      size: [kp + 2, kp + 1.75]
+    - where: 2u_stabs
+      what: rectangle
+      fillet: 5.0
+      size: [stabilizer_width + 10, stabilizer_height + 5]
+      adjust:
+        shift: [stabilizer_spacing_2u, stabilizer_offset]
+    - where: 2u_stabs
+      what: rectangle
+      fillet: 5.0
+      size: [stabilizer_width + 10, stabilizer_height + 5]
+      adjust:
+        shift: [-stabilizer_spacing_2u, stabilizer_offset]
+  plateholes:
+    - name: pb
+    - operation: subtract
+      name: 2u_stabilizer
+    - operation: subtract
+      name: keyholes
+  flat:
+    - name: board
+    - operation: subtract
+      name: mounting
 
 pcbs:
   travis_erg2026:
@@ -669,7 +590,7 @@ pcbs:
           P21: col2  # B3 MISO
           P20: col1  # B2 MOSI
           P19: col0  # B6 A10 PWM
-          offset3d: [0, 0, 7]
+          offset3d: [0, 1.27, 7]
 
       cap1:
         what: travis/CRadialD63H11P25
@@ -1067,12 +988,9 @@ pcbs:
           points: [[20, 50], [210, 50], [210, 235], [20, 235]]
 
 cases:
-  bottom:
-    - name: board
-      extrude: 1
-  xlbottom:
+  _xlbottom:
     - name: xlboard
-      extrude: 1
+      extrude: casethick
   _outerwall:
     - name: xlboard
       extrude: height + board
@@ -1085,7 +1003,7 @@ cases:
   _standoffs:
     - name: standoff
       extrude: height
-  wall:
+  _wall:
     - what: case
       name: _outerwall
       operation: add
@@ -1100,11 +1018,14 @@ cases:
       name: _holes
       operation: subtract
     - what: case
-      name: xlbottom
+      name: _xlbottom
       operation: add
     - what: case
-      name: wall
+      name: _wall
       operation: add
+  flatcase:
+    - name: flat
+      extrude: casethick
   plate:
-    - name: plate
-      extrude: 1.41
+    - name: plateholes
+      extrude: platethick

@@ -1,8 +1,8 @@
 meta:
     engine: 4.2.1
     name: travis-ergogen-2026
-    version: 2026.02.12
-    date: '2026-02-12'
+    version: 2026.02.13
+    date: '2026-02-13'
     author: Travis Hardiman
     url: 'https://github.com/dieseltravis/travis-ergogen-2026'
     tags:
@@ -25,11 +25,14 @@ units:
     stabilizer_offset: 0
     stabilizer_spacing_3u: U * ((3 - 1) / 2)
     stabilizer_spacing_2u: 23.86 / 2
+    screwSize: 1.5
+    standoffSize: 2.85
     board: 1.6
     height: 4
     wall: 2
-    screwSize: 1.5
-    standoffSize: 2.85
+    casethick: 1
+    platehole: 13.95
+    platethick: 1.41
 points:
     zones:
         matrix:
@@ -314,36 +317,6 @@ points:
                         - row_odd
                     row_net: row5
 outlines:
-    raw:
-        -
-            what: rectangle
-            where: true
-            size:
-                - kp + 2
-                - kp + 2
-    2u_stabilizer:
-        -
-            operation: stack
-            where: 2u_stabs
-            what: rectangle
-            size:
-                - stabilizer_width
-                - stabilizer_height
-            adjust:
-                shift:
-                    - stabilizer_spacing_2u
-                    - stabilizer_offset
-        -
-            operation: stack
-            where: 2u_stabs
-            what: rectangle
-            size:
-                - stabilizer_width
-                - stabilizer_height
-            adjust:
-                shift:
-                    - '-stabilizer_spacing_2u'
-                    - stabilizer_offset
     keys:
         -
             what: rectangle
@@ -351,201 +324,11 @@ outlines:
             size:
                 - kp - 2
                 - kp - 2
-    board1:
-        -
-            what: polygon
-            operation: stack
-            fillet: 2.75
-            points:
-                -
-                    ref: matrix_col0_row0
-                    shift:
-                        - '-bp - 0.5kspr - 8'
-                        - '-kp/2'
-                -
-                    ref: matrix_col0_row0
-                    shift:
-                        - '-kp/2 - 5'
-                        - '-bp - 10'
-                -
-                    ref: matrix_col3_row0
-                    shift:
-                        - '-bp/3'
-                        - '-bp - 12'
-                -
-                    ref: matrix_col3_row0
-                    shift:
-                        - bp/3
-                        - '-bp - 12'
-                -
-                    ref: matrix_col6_row0
-                    shift:
-                        - kp/2 + 5
-                        - '-bp - 10'
-                -
-                    ref: matrix_col6_row0
-                    shift:
-                        - bp + 0.5kspr + 8
-                        - '-kp/2'
-                -
-                    ref: matrix_col6_row1
-                    shift:
-                        - bp + 8
-                        - '-bp / 2'
-                -
-                    ref: matrix_col6_row2
-                    shift:
-                        - bp
-                        - '-bp / 2'
-                -
-                    ref: matrix_col6_row5
-                    shift:
-                        - bp
-                        - bp + 20
-                -
-                    ref: matrix_col6_row5
-                    shift:
-                        - 0
-                        - bp + 20
-                -
-                    ref: matrix_col5_row5
-                    shift:
-                        - 0
-                        - bp + 20
-                -
-                    ref: matrix_col4_row5
-                    shift:
-                        - 0
-                        - bp + 20
-                -
-                    ref: matrix_col3_row5
-                    shift:
-                        - 0
-                        - bp + 20
-                -
-                    ref: matrix_col2_row5
-                    shift:
-                        - 0
-                        - bp + 20
-                -
-                    ref: matrix_col1_row5
-                    shift:
-                        - 0
-                        - bp + 20
-                -
-                    ref: matrix_col0_row5
-                    shift:
-                        - 0
-                        - bp + 20
-                -
-                    ref: matrix_col0_row5
-                    shift:
-                        - '-bp'
-                        - bp + 20
-                -
-                    ref: matrix_col0_row2
-                    shift:
-                        - '-bp'
-                        - '-bp / 2'
-                -
-                    ref: matrix_col0_row1
-                    shift:
-                        - '-bp - 8'
-                        - '-bp / 2'
-    xlboard1:
-        -
-            what: polygon
-            operation: stack
-            fillet: 2.75
-            points:
-                -
-                    ref: matrix_col0_row0
-                    shift:
-                        - '-bp - 0.5kspr - 8 - wall'
-                        - '-bp - 10 - wall'
-                -
-                    ref: matrix_col3_row0
-                    shift:
-                        - '-bp/3 - wall'
-                        - '-bp - 12 - wall'
-                -
-                    ref: matrix_col3_row0
-                    shift:
-                        - bp/3 + wall
-                        - '-bp - 12 - wall'
-                -
-                    ref: matrix_col6_row0
-                    shift:
-                        - bp + 0.5kspr + 8 + wall
-                        - '-bp - 10 - wall'
-                -
-                    ref: matrix_col6_row1
-                    shift:
-                        - bp + 8 + wall
-                        - '-bp / 2'
-                -
-                    ref: matrix_col6_row2
-                    shift:
-                        - bp + wall
-                        - '-bp / 2'
-                -
-                    ref: matrix_col6_row5
-                    shift:
-                        - bp + wall
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col6_row5
-                    shift:
-                        - 0
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col5_row5
-                    shift:
-                        - 0
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col4_row5
-                    shift:
-                        - 0
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col3_row5
-                    shift:
-                        - 0
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col2_row5
-                    shift:
-                        - 0
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col1_row5
-                    shift:
-                        - 0
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col0_row5
-                    shift:
-                        - 0
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col0_row5
-                    shift:
-                        - '-bp - wall'
-                        - bp + 20 + wall
-                -
-                    ref: matrix_col0_row2
-                    shift:
-                        - '-bp - wall'
-                        - '-bp / 2'
-                -
-                    ref: matrix_col0_row1
-                    shift:
-                        - '-bp - 8 - wall'
-                        - '-bp / 2'
     board:
         -
             what: path
+            operation: stack
+            fillet: 5
             segments:
                 -
                     type: arc
@@ -563,21 +346,8 @@ outlines:
                         -
                             ref: matrix_col6_row5
                             shift:
-                                - 5
+                                - 0
                                 - bp + 20
-                -
-                    type: arc
-                    points:
-                        -
-                            ref: matrix_col6_row5
-                            shift:
-                                - bp
-                                - bp + 15
-                        -
-                            ref: matrix_col6_row5
-                            shift:
-                                - bp
-                                - bp + 10
                 -
                     type: line
                     points:
@@ -585,7 +355,7 @@ outlines:
                             ref: matrix_col6_row5
                             shift:
                                 - bp
-                                - bp
+                                - bp + 20
                         -
                             ref: matrix_col6_row2
                             shift:
@@ -645,6 +415,8 @@ outlines:
     xlboard:
         -
             what: path
+            operation: stack
+            fillet: 6
             segments:
                 -
                     type: arc
@@ -665,26 +437,13 @@ outlines:
                                 - 0
                                 - bp + 20 + wall
                 -
-                    type: arc
-                    points:
-                        -
-                            ref: matrix_col6_row5
-                            shift:
-                                - bp + wall
-                                - bp + 5 + wall
-                        -
-                            ref: matrix_col6_row5
-                            shift:
-                                - bp + wall
-                                - bp + 0 + wall
-                -
                     type: line
                     points:
                         -
                             ref: matrix_col6_row5
                             shift:
                                 - bp + wall
-                                - 0
+                                - bp + 20 + wall
                         -
                             ref: matrix_col6_row2
                             shift:
@@ -754,8 +513,8 @@ outlines:
             where:
                 ref: matrix_col0_row5
                 shift:
-                    - '-bp + 2.75'
-                    - bp + 20 - 2.75
+                    - '-bp + 3.25'
+                    - bp + 20 - 3.25
         -
             what: circle
             radius: screwSize
@@ -803,8 +562,8 @@ outlines:
             where:
                 ref: matrix_col0_row5
                 shift:
-                    - '-bp + 2.75'
-                    - bp + 20 - 2.75
+                    - '-bp + 3.25'
+                    - bp + 20 - 3.25
         -
             what: circle
             radius: standoffSize
@@ -875,13 +634,81 @@ outlines:
                 shift:
                     - '-bp - 0.5kspr + 2.75 - 1'
                     - '-bp + 2.75 - 3'
-    plate:
+    2u_stabilizer:
+        -
+            operation: stack
+            where: 2u_stabs
+            what: rectangle
+            size:
+                - stabilizer_width
+                - stabilizer_height
+            adjust:
+                shift:
+                    - stabilizer_spacing_2u
+                    - stabilizer_offset
+        -
+            operation: stack
+            where: 2u_stabs
+            what: rectangle
+            size:
+                - stabilizer_width
+                - stabilizer_height
+            adjust:
+                shift:
+                    - '-stabilizer_spacing_2u'
+                    - stabilizer_offset
+    keyholes:
         -
             what: rectangle
             where: key
             size:
-                - 13.95
-                - 13.95
+                - platehole
+                - platehole
+    pb:
+        -
+            what: rectangle
+            where: key
+            fillet: 1
+            size:
+                - kp + 2
+                - kp + 1.75
+        -
+            where: 2u_stabs
+            what: rectangle
+            fillet: 5
+            size:
+                - stabilizer_width + 10
+                - stabilizer_height + 5
+            adjust:
+                shift:
+                    - stabilizer_spacing_2u
+                    - stabilizer_offset
+        -
+            where: 2u_stabs
+            what: rectangle
+            fillet: 5
+            size:
+                - stabilizer_width + 10
+                - stabilizer_height + 5
+            adjust:
+                shift:
+                    - '-stabilizer_spacing_2u'
+                    - stabilizer_offset
+    plateholes:
+        -
+            name: pb
+        -
+            operation: subtract
+            name: 2u_stabilizer
+        -
+            operation: subtract
+            name: keyholes
+    flat:
+        -
+            name: board
+        -
+            operation: subtract
+            name: mounting
 pcbs:
     travis_erg2026:
         template: kicad8
@@ -924,7 +751,7 @@ pcbs:
                     P19: col0
                     offset3d:
                         - 0
-                        - 0
+                        - 1.27
                         - 7
             cap1:
                 what: travis/CRadialD63H11P25
@@ -1373,7 +1200,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: 3270 Nerd Font
-                    text: 2026.02.12
+                    text: 2026.02.13
                     height: 1
                     width: 1
                 adjust:
@@ -1396,8 +1223,8 @@ pcbs:
                 where:
                     ref: matrix_col0_row5
                     shift:
-                        - '-bp + 2.75'
-                        - bp + 20 - 2.75
+                        - '-bp + 3.25'
+                        - bp + 20 - 3.25
                 params:
                     pad: 1
             holeTopCenter:
@@ -1486,14 +1313,10 @@ pcbs:
                             - 20
                             - 235
 cases:
-    bottom:
-        -
-            name: board
-            extrude: 1
-    xlbottom:
+    _xlbottom:
         -
             name: xlboard
-            extrude: 1
+            extrude: casethick
     _outerwall:
         -
             name: xlboard
@@ -1510,7 +1333,7 @@ cases:
         -
             name: standoff
             extrude: height
-    wall:
+    _wall:
         -
             what: case
             name: _outerwall
@@ -1530,13 +1353,17 @@ cases:
             operation: subtract
         -
             what: case
-            name: xlbottom
+            name: _xlbottom
             operation: add
         -
             what: case
-            name: wall
+            name: _wall
             operation: add
+    flatcase:
+        -
+            name: flat
+            extrude: casethick
     plate:
         -
-            name: plate
-            extrude: 1.41
+            name: plateholes
+            extrude: platethick
