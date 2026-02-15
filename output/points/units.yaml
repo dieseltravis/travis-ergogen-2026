@@ -17,7 +17,6 @@ st: 1
 stabilizer_width: 7
 stabilizer_height: 16
 stabilizer_offset: 0
-stabilizer_spacing_3u: 19.05
 stabilizer_spacing_2u: 11.93
 screwSize: 1.5
 standoffSize: 2.85
@@ -27,3 +26,4 @@ wall: 2
 casethick: 1
 platehole: 13.95
 platethick: 1.41
+plate2uw: 15.43

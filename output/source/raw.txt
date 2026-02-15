@@ -1,8 +1,8 @@
 meta:
   engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2026.02.13"
-  date: "2026-02-13"
+  version: &meta_version "2026.02.14"
+  date: "2026-02-14"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
   tags: [ "ergogen", "keyboard", "cherrymx", "hotswap", "rp2040", "wheel", "oled" ]
@@ -18,10 +18,7 @@ units:
   stabilizer_width: 7
   stabilizer_height: 16
   stabilizer_offset: 0 # This means south stabs, use `orient` to rotate them for north facing scenarios
-  stabilizer_spacing_3u: U * ((3 - 1) / 2)
   stabilizer_spacing_2u: 23.86 / 2 # 0.94in / 2
-  # Defaults to M2 Screws
-  #screwSize: 1
   # M2 Screw Inserts
   screwSize: 1.5
   standoffSize: 2.85
@@ -32,6 +29,7 @@ units:
   casethick: 1
   platehole: 13.95
   platethick: 1.41
+  plate2uw: stabilizer_spacing_2u + stabilizer_width/2
 points:
   zones:
     matrix:
@@ -321,10 +319,6 @@ points:
             - row_odd
           row_net: row5
 outlines:
-  #raw:
-  #  - what: rectangle
-  #    where: true
-  #    size: [kp, kp]
   keys:
     - what: rectangle
       where: key
@@ -513,22 +507,76 @@ outlines:
       where: key
       size: [ platehole, platehole ]
   pb:
-    - what: rectangle
-      where: key
+    - what: polygon
+      operation: stack
       fillet: 1.0
-      size: [kp + 2, kp + 1.75]
-    - where: 2u_stabs
-      what: rectangle
-      fillet: 5.0
-      size: [stabilizer_width + 10, stabilizer_height + 5]
-      adjust:
-        shift: [stabilizer_spacing_2u, stabilizer_offset]
-    - where: 2u_stabs
-      what: rectangle
-      fillet: 5.0
-      size: [stabilizer_width + 10, stabilizer_height + 5]
-      adjust:
-        shift: [-stabilizer_spacing_2u, stabilizer_offset]
+      points:
+        # top-left
+        - ref: matrix_col0_row5
+          shift: [-platehole/2 - 2, platehole/2 + 2]
+        # top
+        - ref: matrix_col0_row5
+          shift: [platehole/2, platehole/2 + 2]
+        - ref: matrix_col1_row5
+          shift: [-platehole/2, platehole/2 + 2]
+        - ref: matrix_col1_row5
+          shift: [platehole/2, platehole/2 + 2]
+        - ref: matrix_col2_row5
+          shift: [-platehole/2, platehole/2 + 2]
+        - ref: matrix_col2_row5
+          shift: [platehole/2, platehole/2 + 2]
+        - ref: matrix_col3_row5
+          shift: [-platehole/2, platehole/2 + 2]
+        - ref: matrix_col3_row5
+          shift: [platehole/2, platehole/2 + 2]
+        - ref: matrix_col4_row5
+          shift: [-platehole/2, platehole/2 + 2]
+        - ref: matrix_col4_row5
+          shift: [platehole/2, platehole/2 + 2]
+        - ref: matrix_col5_row5
+          shift: [-platehole/2, platehole/2 + 2]
+        - ref: matrix_col5_row5
+          shift: [platehole/2, platehole/2 + 2]
+        - ref: matrix_col6_row5
+          shift: [-platehole/2, platehole/2 + 2]
+        # top-right
+        - ref: matrix_col6_row5
+          shift: [platehole/2 + 2, platehole/2 + 2]
+        # right
+        - ref: matrix_col6_row1
+          shift: [platehole/2 + 2, -platehole/2]
+        - ref: matrix_col6_row0
+          shift: [plate2uw + 2, stabilizer_height/2]
+        # bottom-right
+        - ref: matrix_col6_row0
+          shift: [plate2uw + 2, -stabilizer_height/2 - 2]
+        # bottom
+        - ref: matrix_col6_row0
+          shift: [-plate2uw, -stabilizer_height/2 - 2]
+        # 2u-^
+        - ref: matrix_col4_row0
+          shift: [platehole/2, -platehole/2 - 2]
+        - ref: matrix_col4_row0
+          shift: [-platehole/2, -platehole/2 - 2]
+        - ref: matrix_col3_row0
+          shift: [platehole/2, -platehole/2 - 2]
+        - ref: matrix_col3_row0
+          shift: [-platehole/2, -platehole/2 - 2]
+        - ref: matrix_col2_row0
+          shift: [platehole/2, -platehole/2 - 2]
+        - ref: matrix_col2_row0
+          shift: [-platehole/2, -platehole/2 - 2]
+        # 2u-v
+        - ref: matrix_col0_row0
+          shift: [plate2uw, -stabilizer_height/2 - 2]
+        # bottom-left
+        - ref: matrix_col0_row0
+          shift: [-plate2uw - 2, -stabilizer_height/2 - 2]
+        # left
+        - ref: matrix_col0_row0
+          shift: [-plate2uw - 2, stabilizer_height/2]
+        - ref: matrix_col0_row1
+          shift: [-platehole/2 - 2, -platehole/2]
   plateholes:
     - name: pb
     - operation: subtract

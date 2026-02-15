@@ -11,8 +11,8 @@
   (paper "A3")
   (title_block
     (title "travis_erg2026")
-    (date "2026-02-14")
-    (rev "2026.02.13")
+    (date "2026-02-15")
+    (rev "2026.02.14")
     (company "Travis Hardiman")
   )
 
@@ -22276,7 +22276,7 @@
   )
       
 
-  (gr_text "2026.02.13"
+  (gr_text "2026.02.14"
     (at 110.0025666 70.60314029999996 0)
     (layer "F.SilkS" )
     (effects
