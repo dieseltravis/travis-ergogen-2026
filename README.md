@@ -39,6 +39,7 @@ find ./node_modules/ -type f -print0 | xargs -0 dos2unix --
 ## TODO:
 * board: make those weird bottom shapes nicer
 * plate: print a 2u stab test key
+    * print a top key testto measure for interference with i2c
 * case: just use flat one, arcs get too glitchy
 * i2c: if plate doesn't interfere with bottom ones remove top ones
     * trrs: if top ones are removed, move left trrs to left side
@@ -46,4 +47,3 @@ find ./node_modules/ -type f -print0 | xargs -0 dos2unix --
 * bom: use plugin
 * qmk firmware
 * via support
-* see why the labels are weird on the one instance of the i2c header oled3
