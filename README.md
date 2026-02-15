@@ -27,6 +27,7 @@ For STL arcs, set toJscadScript's maxArcFacet in Ergogen's cases.js, example loc
 ./node_modules/ergogen/src/cases.js
 ~/.local/share/mise/installs/node/24.13.0/lib/node_modules/ergogen/src/cases.js
 ```
+Note: the arcs are super glitchy in STLs
 
 
 For weird `node\r:` error:
@@ -36,8 +37,13 @@ find ./node_modules/ -type f -print0 | xargs -0 dos2unix --
 
 
 ## TODO:
-* case
-* plate
+* board: make those weird bottom shapes nicer
+* plate: print a 2u stab test key
+* case: just use flat one, arcs get too glitchy
+* i2c: if plate doesn't interfere with bottom ones remove top ones
+    * trrs: if top ones are removed, move left trrs to left side
 * routing
-* bom
+* bom: use plugin
+* qmk firmware
+* via support
 * see why the labels are weird on the one instance of the i2c header oled3

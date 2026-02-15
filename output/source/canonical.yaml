@@ -1,8 +1,8 @@
 meta:
     engine: 4.2.1
     name: travis-ergogen-2026
-    version: 2026.02.14
-    date: '2026-02-14'
+    version: 2026.02.15
+    date: '2026-02-15'
     author: Travis Hardiman
     url: 'https://github.com/dieseltravis/travis-ergogen-2026'
     tags:
@@ -33,6 +33,7 @@ units:
     platehole: 13.95
     platethick: 1.41
     plate2uw: stabilizer_spacing_2u + stabilizer_width/2
+    platew: 1.2
 points:
     zones:
         matrix:
@@ -673,142 +674,142 @@ outlines:
                 -
                     ref: matrix_col0_row5
                     shift:
-                        - '-platehole/2 - 2'
-                        - platehole/2 + 2
+                        - '-platehole/2 - platew'
+                        - platehole/2 + platew
                 -
                     ref: matrix_col0_row5
                     shift:
                         - platehole/2
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col1_row5
                     shift:
                         - '-platehole/2'
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col1_row5
                     shift:
                         - platehole/2
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col2_row5
                     shift:
                         - '-platehole/2'
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col2_row5
                     shift:
                         - platehole/2
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col3_row5
                     shift:
                         - '-platehole/2'
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col3_row5
                     shift:
                         - platehole/2
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col4_row5
                     shift:
                         - '-platehole/2'
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col4_row5
                     shift:
                         - platehole/2
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col5_row5
                     shift:
                         - '-platehole/2'
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col5_row5
                     shift:
                         - platehole/2
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col6_row5
                     shift:
                         - '-platehole/2'
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                 -
                     ref: matrix_col6_row5
                     shift:
-                        - platehole/2 + 2
-                        - platehole/2 + 2
+                        - platehole/2 + platew
+                        - platehole/2 + platew
                 -
                     ref: matrix_col6_row1
                     shift:
-                        - platehole/2 + 2
+                        - platehole/2 + platew
                         - '-platehole/2'
                 -
                     ref: matrix_col6_row0
                     shift:
-                        - plate2uw + 2
+                        - plate2uw + platew
                         - stabilizer_height/2
                 -
                     ref: matrix_col6_row0
                     shift:
-                        - plate2uw + 2
-                        - '-stabilizer_height/2 - 2'
+                        - plate2uw + platew
+                        - '-stabilizer_height/2 - platew'
                 -
                     ref: matrix_col6_row0
                     shift:
                         - '-plate2uw'
-                        - '-stabilizer_height/2 - 2'
+                        - '-stabilizer_height/2 - platew'
                 -
                     ref: matrix_col4_row0
                     shift:
                         - platehole/2
-                        - '-platehole/2 - 2'
+                        - '-platehole/2 - platew'
                 -
                     ref: matrix_col4_row0
                     shift:
                         - '-platehole/2'
-                        - '-platehole/2 - 2'
+                        - '-platehole/2 - platew'
                 -
                     ref: matrix_col3_row0
                     shift:
                         - platehole/2
-                        - '-platehole/2 - 2'
+                        - '-platehole/2 - platew'
                 -
                     ref: matrix_col3_row0
                     shift:
                         - '-platehole/2'
-                        - '-platehole/2 - 2'
+                        - '-platehole/2 - platew'
                 -
                     ref: matrix_col2_row0
                     shift:
                         - platehole/2
-                        - '-platehole/2 - 2'
+                        - '-platehole/2 - platew'
                 -
                     ref: matrix_col2_row0
                     shift:
                         - '-platehole/2'
-                        - '-platehole/2 - 2'
+                        - '-platehole/2 - platew'
                 -
                     ref: matrix_col0_row0
                     shift:
                         - plate2uw
-                        - '-stabilizer_height/2 - 2'
+                        - '-stabilizer_height/2 - platew'
                 -
                     ref: matrix_col0_row0
                     shift:
-                        - '-plate2uw - 2'
-                        - '-stabilizer_height/2 - 2'
+                        - '-plate2uw - platew'
+                        - '-stabilizer_height/2 - platew'
                 -
                     ref: matrix_col0_row0
                     shift:
-                        - '-plate2uw - 2'
+                        - '-plate2uw - platew'
                         - stabilizer_height/2
                 -
                     ref: matrix_col0_row1
                     shift:
-                        - '-platehole/2 - 2'
+                        - '-platehole/2 - platew'
                         - '-platehole/2'
     plateholes:
         -
@@ -1316,7 +1317,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: 3270 Nerd Font
-                    text: 2026.02.14
+                    text: 2026.02.15
                     height: 1
                     width: 1
                 adjust:
