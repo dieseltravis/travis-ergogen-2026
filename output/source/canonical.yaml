@@ -11,6 +11,7 @@ meta:
         - cherrymx
         - hotswap
         - rp2040
+        - rp2040ce
         - wheel
         - oled
     cool_font: 3270 Nerd Font
@@ -318,7 +319,7 @@ points:
                         - row_odd
                     row_net: row5
 outlines:
-    keys:
+    _keys:
         -
             what: rectangle
             where: key
@@ -361,21 +362,36 @@ outlines:
                             ref: matrix_col6_row2
                             shift:
                                 - bp
-                                - '-bp / 2'
+                                - kp/2
+                        -
+                            ref: matrix_col6_row2
+                            shift:
+                                - bp + 7.3
+                                - '-kp/4'
                         -
                             ref: matrix_col6_row1
                             shift:
-                                - bp + 8
-                                - '-bp / 2'
+                                - bp + 7.3
+                                - kp/4
                         -
-                            ref: matrix_col6_row0
+                            ref: matrix_col6_row1
                             shift:
-                                - bp + 0.5kspr + 8
+                                - bp
                                 - '-kp/2'
                         -
                             ref: matrix_col6_row0
                             shift:
-                                - kp/2 + 5
+                                - kspr/2 + bp - 3
+                                - '-kp/2 - 4'
+                        -
+                            ref: matrix_col6_row0
+                            shift:
+                                - kp/2 + 6
+                                - '-bp - 10'
+                        -
+                            ref: matrix_col6_row0
+                            shift:
+                                - kp/2 - 5
                                 - '-bp - 10'
                 -
                     type: arc
@@ -384,11 +400,11 @@ outlines:
                             ref: matrix_col3_row0
                             shift:
                                 - 0
-                                - '-bp - 12'
+                                - '-bp - 10'
                         -
                             ref: matrix_col0_row0
                             shift:
-                                - '-kp/2 - 5'
+                                - '-kp/2 + 5'
                                 - '-bp - 10'
                 -
                     type: line
@@ -396,24 +412,39 @@ outlines:
                         -
                             ref: matrix_col0_row0
                             shift:
-                                - '-bp - 0.5kspr - 8'
+                                - '-kp/2 - 6'
+                                - '-bp - 10'
+                        -
+                            ref: matrix_col0_row0
+                            shift:
+                                - '-bp - kspr/2 + 3'
+                                - '-kp/2 - 4'
+                        -
+                            ref: matrix_col0_row1
+                            shift:
+                                - '-bp'
                                 - '-kp/2'
                         -
                             ref: matrix_col0_row1
                             shift:
-                                - '-bp - 8'
-                                - '-bp / 2'
+                                - '-bp - 7.3'
+                                - kp/4
+                        -
+                            ref: matrix_col0_row2
+                            shift:
+                                - '-bp - 7.3'
+                                - '-kp/4'
                         -
                             ref: matrix_col0_row2
                             shift:
                                 - '-bp'
-                                - '-bp / 2'
+                                - kp/2
                         -
                             ref: matrix_col0_row5
                             shift:
                                 - '-bp'
                                 - bp + 20
-    xlboard:
+    _xlboard:
         -
             what: path
             operation: stack
@@ -449,21 +480,36 @@ outlines:
                             ref: matrix_col6_row2
                             shift:
                                 - bp + wall
-                                - '-bp / 2'
+                                - kp/2
+                        -
+                            ref: matrix_col6_row2
+                            shift:
+                                - bp + 7.3 + wall
+                                - '-kp/4'
                         -
                             ref: matrix_col6_row1
                             shift:
-                                - bp + 8 + wall
-                                - '-bp / 2'
+                                - bp + 7.3 + wall
+                                - kp/4
                         -
-                            ref: matrix_col6_row0
+                            ref: matrix_col6_row1
                             shift:
-                                - bp + 0.5kspr + 8 + wall
+                                - bp + wall
                                 - '-kp/2'
                         -
                             ref: matrix_col6_row0
                             shift:
-                                - kp/2 + 5
+                                - kspr/2 + bp - 3 + wall
+                                - '-kp/2 - 4'
+                        -
+                            ref: matrix_col6_row0
+                            shift:
+                                - kp/2 + 6
+                                - '-bp - 10 - wall'
+                        -
+                            ref: matrix_col6_row0
+                            shift:
+                                - kp/2 - 5
                                 - '-bp - 10 - wall'
                 -
                     type: arc
@@ -472,7 +518,7 @@ outlines:
                             ref: matrix_col3_row0
                             shift:
                                 - 0
-                                - '-bp - 12 - wall'
+                                - '-bp - 10 - wall'
                         -
                             ref: matrix_col0_row0
                             shift:
@@ -484,30 +530,45 @@ outlines:
                         -
                             ref: matrix_col0_row0
                             shift:
-                                - '-bp - 0.5kspr - 8 - wall'
+                                - '-kp/2 - 6'
+                                - '-bp - 10 - wall'
+                        -
+                            ref: matrix_col0_row0
+                            shift:
+                                - '-bp - kspr/2 + 3 - wall'
+                                - '-kp/2 - 4'
+                        -
+                            ref: matrix_col0_row1
+                            shift:
+                                - '-bp - wall'
                                 - '-kp/2'
                         -
                             ref: matrix_col0_row1
                             shift:
-                                - '-bp - 8 - wall'
-                                - '-bp / 2'
+                                - '-bp - 7.3 - wall'
+                                - kp/4
+                        -
+                            ref: matrix_col0_row2
+                            shift:
+                                - '-bp - 7.3 - wall'
+                                - '-kp/4'
                         -
                             ref: matrix_col0_row2
                             shift:
                                 - '-bp - wall'
-                                - '-bp / 2'
+                                - kp/2
                         -
                             ref: matrix_col0_row5
                             shift:
                                 - '-bp - wall'
                                 - bp + 20 + wall
-    combo:
+    _combo:
         -
             name: board
         -
             operation: subtract
-            name: keys
-    mounting:
+            name: _keys
+    _mounting:
         -
             what: circle
             radius: screwSize
@@ -538,8 +599,8 @@ outlines:
             where:
                 ref: matrix_col6_row0
                 shift:
-                    - bp + 0.5kspr - 2.75 + 1
-                    - '-bp + 2.75 - 3'
+                    - kp - 5
+                    - '-kp/2 - 2.75'
         -
             what: circle
             radius: screwSize
@@ -554,9 +615,9 @@ outlines:
             where:
                 ref: matrix_col0_row0
                 shift:
-                    - '-bp - 0.5kspr + 2.75 - 1'
-                    - '-bp + 2.75 - 3'
-    standoff:
+                    - 5 - kp
+                    - '-kp/2 - 2.75'
+    _standoff:
         -
             what: circle
             radius: standoffSize
@@ -607,8 +668,8 @@ outlines:
             where:
                 ref: matrix_col6_row0
                 shift:
-                    - bp + 0.5kspr - 2.75 + 1
-                    - '-bp + 2.75 - 3'
+                    - kp - 5
+                    - '-kp/2 - 2.75'
         -
             what: circle
             radius: standoffSize
@@ -621,21 +682,21 @@ outlines:
             what: rectangle
             size:
                 - standoffSize * 2
-                - 10
+                - 8
             where:
                 ref: matrix_col3_row0
                 shift:
                     - 0
-                    - '-5bp / 4 - 5'
+                    - '-5bp / 4 - 4'
         -
             what: circle
             radius: standoffSize
             where:
                 ref: matrix_col0_row0
                 shift:
-                    - '-bp - 0.5kspr + 2.75 - 1'
-                    - '-bp + 2.75 - 3'
-    2u_stabilizer:
+                    - 5 - kp
+                    - '-kp/2 - 2.75'
+    _2u_stabilizer:
         -
             operation: stack
             where: 2u_stabs
@@ -658,14 +719,14 @@ outlines:
                 shift:
                     - '-stabilizer_spacing_2u'
                     - stabilizer_offset
-    keyholes:
+    _keyholes:
         -
             what: rectangle
             where: key
             size:
                 - platehole
                 - platehole
-    pb:
+    _pb:
         -
             what: polygon
             operation: stack
@@ -811,21 +872,21 @@ outlines:
                     shift:
                         - '-platehole/2 - platew'
                         - '-platehole/2'
-    plateholes:
+    _plateholes:
         -
-            name: pb
-        -
-            operation: subtract
-            name: 2u_stabilizer
+            name: _pb
         -
             operation: subtract
-            name: keyholes
+            name: _2u_stabilizer
+        -
+            operation: subtract
+            name: _keyholes
     flat:
         -
             name: board
         -
             operation: subtract
-            name: mounting
+            name: _mounting
 pcbs:
     travis_erg2026:
         template: kicad8
@@ -1015,9 +1076,13 @@ pcbs:
                     P3: GND
                     P4: GND
                 where:
-                    ref: matrix_col0_row0
+                    ref:
+                        aggregate:
+                            parts:
+                                - matrix_col0_row1
+                                - matrix_col0_row2
                     shift:
-                        - '-3kp / 2 + 1.75'
+                        - '-kp + 1.75'
                         - 0
                     rotate: -90
             wheel2:
@@ -1054,9 +1119,13 @@ pcbs:
                     P3: GND
                     P4: GND
                 where:
-                    ref: matrix_col6_row0
+                    ref:
+                        aggregate:
+                            parts:
+                                - matrix_col6_row1
+                                - matrix_col6_row2
                     shift:
-                        - 3kp / 2 - 1.75
+                        - kp - 1.75
                         - 0
                     rotate: 90
             mx_hotswap_key:
@@ -1367,8 +1436,8 @@ pcbs:
                 where:
                     ref: matrix_col6_row0
                     shift:
-                        - bp + 0.5kspr - 2.75 + 1
-                        - '-bp + 2.75 - 3'
+                        - kp - 5
+                        - '-kp/2 - 2.75'
                 params:
                     pad: 4
             holeBottomCenter:
@@ -1385,8 +1454,8 @@ pcbs:
                 where:
                     ref: matrix_col0_row0
                     shift:
-                        - '-bp - 0.5kspr + 2.75 - 1'
-                        - '-bp + 2.75 - 3'
+                        - 5 - kp
+                        - '-kp/2 - 2.75'
                 params:
                     pad: 6
             background:
@@ -1432,11 +1501,11 @@ pcbs:
 cases:
     _xlbottom:
         -
-            name: xlboard
+            name: _xlboard
             extrude: casethick
     _outerwall:
         -
-            name: xlboard
+            name: _xlboard
             extrude: height + board
     _innerwall:
         -
@@ -1444,11 +1513,11 @@ cases:
             extrude: height + board
     _holes:
         -
-            name: mounting
+            name: _mounting
             extrude: height
     _standoffs:
         -
-            name: standoff
+            name: _standoff
             extrude: height
     _wall:
         -
@@ -1482,5 +1551,5 @@ cases:
             extrude: casethick
     plate:
         -
-            name: plateholes
+            name: _plateholes
             extrude: platethick

@@ -5,7 +5,7 @@ meta:
   date: "2026-02-15"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
-  tags: [ "ergogen", "keyboard", "cherrymx", "hotswap", "rp2040", "wheel", "oled" ]
+  tags: [ "ergogen", "keyboard", "cherrymx", "hotswap", "rp2040", "rp2040ce", "wheel", "oled" ]
   # https://www.nerdfonts.com/font-downloads
   cool_font: &cool_font "3270 Nerd Font"
 units:
@@ -320,7 +320,7 @@ points:
             - row_odd
           row_net: row5
 outlines:
-  keys:
+  _keys:
     - what: rectangle
       where: key
       size: [kp - 2, kp - 2]
@@ -329,6 +329,7 @@ outlines:
       operation: stack
       fillet: 5
       segments:
+      # top
       - type: arc
         points:
         - ref: matrix_col0_row5
@@ -337,43 +338,55 @@ outlines:
           shift: [0, bp + 20]
         - ref: matrix_col6_row5
           shift: [0, bp + 20]
+      # right
       - type: line
         points:
         - ref: matrix_col6_row5
           shift: [bp, bp + 20]
         - ref: matrix_col6_row2
-          shift: [bp , -bp / 2]
+          shift: [bp, kp/2]
+        - ref: matrix_col6_row2
+          shift: [bp + 7.3 , -kp/4]
         - ref: matrix_col6_row1
-          shift: [bp + 8 , -bp / 2]
+          shift: [bp + 7.3 , kp/4]
+        - ref: matrix_col6_row1
+          shift: [bp, -kp/2]
         - ref: matrix_col6_row0
-          shift: [bp + 0.5kspr + 8, -kp/2]
+          shift: [kspr/2 + bp - 3, -kp/2 - 4]
+      # bottom
         - ref: matrix_col6_row0
-          shift: [kp/2 + 5, -bp - 10]
+          shift: [kp/2 + 6, -bp - 10]
+        - ref: matrix_col6_row0
+          shift: [kp/2 - 5, -bp - 10]
       - type: arc
         points:
-        #- ref: matrix_col3_row0
-        #  shift: [bp/3, -bp - 12]
         - ref: matrix_col3_row0
-          shift: [0, -bp - 12]
-        #- ref: matrix_col3_row0
-        #  shift: [-bp/3, -bp - 12]
+          shift: [0, -bp - 10]
         - ref: matrix_col0_row0
-          shift: [-kp/2 - 5, -bp - 10]
+          shift: [-kp/2 + 5, -bp - 10]
+      # left
       - type: line
         points:
         - ref: matrix_col0_row0
-          shift: [-bp - 0.5kspr - 8, -kp/2]
+          shift: [-kp/2 - 6, -bp - 10]
+        - ref: matrix_col0_row0
+          shift: [-bp - kspr/2 + 3, -kp/2 - 4]
         - ref: matrix_col0_row1
-          shift: [-bp - 8, -bp / 2]
+          shift: [-bp, -kp/2]
+        - ref: matrix_col0_row1
+          shift: [-bp - 7.3, kp/4]
         - ref: matrix_col0_row2
-          shift: [-bp, -bp / 2]
+          shift: [-bp - 7.3, -kp/4]
+        - ref: matrix_col0_row2
+          shift: [-bp, kp/2]
         - ref: matrix_col0_row5
           shift: [-bp, bp + 20]
-  xlboard:
+  _xlboard:
     - what: path
       operation: stack
       fillet: 6
       segments:
+      # top
       - type: arc
         points:
         - ref: matrix_col0_row5
@@ -382,43 +395,54 @@ outlines:
           shift: [0, bp + 20 + wall]
         - ref: matrix_col6_row5
           shift: [0, bp + 20 + wall]
+      # right
       - type: line
         points:
         - ref: matrix_col6_row5
           shift: [bp + wall, bp + 20 + wall]
         - ref: matrix_col6_row2
-          shift: [bp + wall , -bp / 2]
+          shift: [bp + wall, kp/2]
+        - ref: matrix_col6_row2
+          shift: [bp + 7.3 + wall , -kp/4]
         - ref: matrix_col6_row1
-          shift: [bp + 8 + wall , -bp / 2]
+          shift: [bp + 7.3 + wall, kp/4]
+        - ref: matrix_col6_row1
+          shift: [bp + wall, -kp/2]
         - ref: matrix_col6_row0
-          shift: [bp + 0.5kspr + 8 + wall, -kp/2]
+          shift: [kspr/2 + bp - 3 + wall, -kp/2 - 4]
+      # bottom
         - ref: matrix_col6_row0
-          shift: [kp/2 + 5, -bp - 10 - wall]
+          shift: [kp/2 + 6, -bp - 10 - wall]
+        - ref: matrix_col6_row0
+          shift: [kp/2 - 5, -bp - 10 - wall]
       - type: arc
         points:
-        #- ref: matrix_col3_row0
-        #  shift: [bp/3, -bp - 12]
         - ref: matrix_col3_row0
-          shift: [0, -bp - 12 - wall]
-        #- ref: matrix_col3_row0
-        #  shift: [-bp/3, -bp - 12]
+          shift: [0, -bp - 10 - wall]
         - ref: matrix_col0_row0
           shift: [-kp/2 - 5, -bp - 10 - wall]
+      # left
       - type: line
         points:
         - ref: matrix_col0_row0
-          shift: [-bp - 0.5kspr - 8 - wall, -kp/2]
+          shift: [-kp/2 - 6, -bp - 10 - wall]
+        - ref: matrix_col0_row0
+          shift: [-bp - kspr/2 + 3 - wall, -kp/2 - 4]
         - ref: matrix_col0_row1
-          shift: [-bp - 8 - wall, -bp / 2]
+          shift: [-bp - wall, -kp/2]
+        - ref: matrix_col0_row1
+          shift: [-bp - 7.3 - wall, kp/4]
         - ref: matrix_col0_row2
-          shift: [-bp - wall, -bp / 2]
+          shift: [-bp - 7.3 - wall, -kp/4]
+        - ref: matrix_col0_row2
+          shift: [-bp - wall, kp/2]
         - ref: matrix_col0_row5
           shift: [-bp - wall, bp + 20 + wall]
-  combo:
+  _combo:
     - name: board
     - operation: subtract
-      name: keys
-  mounting:
+      name: _keys
+  _mounting:
     - what: circle
       radius: screwSize
       where: &holeTopLeft
@@ -438,7 +462,7 @@ outlines:
       radius: screwSize
       where: &holeBottomRight
         ref: matrix_col6_row0
-        shift: [bp + 0.5kspr - 2.75 + 1, -bp + 2.75 - 3]
+        shift: [kp - 5, -kp/2 - 2.75]
     - what: circle
       radius: screwSize
       where: &holeBottomCenter
@@ -448,8 +472,8 @@ outlines:
       radius: screwSize
       where: &holeBottomLeft
         ref: matrix_col0_row0
-        shift: [-bp - 0.5kspr + 2.75 - 1, -bp + 2.75 - 3]
-  standoff:
+        shift: [5 - kp, -kp/2 - 2.75]
+  _standoff:
     - what: circle
       radius: standoffSize
       where:
@@ -481,15 +505,15 @@ outlines:
       where:
         <<: *holeBottomCenter
     - what: rectangle
-      size: [standoffSize * 2, 10]
+      size: [standoffSize * 2, 8]
       where:
         ref: matrix_col3_row0
-        shift: [0, -5bp / 4 - 5]
+        shift: [0, -5bp / 4 - 4]
     - what: circle
       radius: standoffSize
       where:
         <<: *holeBottomLeft
-  2u_stabilizer: # This creates the stabilizer, you just need to use its name in a `where` clause of another outline
+  _2u_stabilizer: # This creates the stabilizer, you just need to use its name in a `where` clause of another outline
     - operation: stack
       where: 2u_stabs # Set this tag on the keys you want
       what: rectangle
@@ -502,11 +526,11 @@ outlines:
       size: [stabilizer_width, stabilizer_height]
       adjust:
         shift: [-stabilizer_spacing_2u, stabilizer_offset]
-  keyholes:
+  _keyholes:
     - what: rectangle
       where: key
       size: [ platehole, platehole ]
-  pb:
+  _pb:
     - what: polygon
       operation: stack
       fillet: 1.0
@@ -577,16 +601,16 @@ outlines:
           shift: [-plate2uw - platew, stabilizer_height/2]
         - ref: matrix_col0_row1
           shift: [-platehole/2 - platew, -platehole/2]
-  plateholes:
-    - name: pb
+  _plateholes:
+    - name: _pb
     - operation: subtract
-      name: 2u_stabilizer
+      name: _2u_stabilizer
     - operation: subtract
-      name: keyholes
+      name: _keyholes
   flat:
     - name: board
     - operation: subtract
-      name: mounting
+      name: _mounting
 
 pcbs:
   travis_erg2026:
@@ -610,14 +634,14 @@ pcbs:
           P3: RX     # GP1  D2 RX0/PD2
           P4: GND
           P5: GND
-          P6: sda    # D1 SDA
-          P7: scl    # D0 SCL PWM
-          P8: encB   # D4 A6
-          P9: encA   # C6 PWM
-          #P10:      # D7 A7 PWM
-          #P11:      # E6
-          #P12:      # B4 A8
-          P13: row0  # B5 A9 PWM
+          P6: sda    # GP2 D1 SDA
+          P7: scl    # GP3 D0 SCL PWM
+          P8: encB   # GP4 D4 A6
+          P9: encA   # GP5 C6 PWM
+          #P10:      # GP6 D7 A7 PWM
+          #P11:      # GP7 E6
+          #P12:      # GP8 B4 A8
+          P13: row0  # GP9 B5 A9 PWM
           # bottom
           P14: row1
           P15: row2
@@ -630,14 +654,14 @@ pcbs:
           P29: GND
           #P28:      # RESET 13
           #P27:      # VCC 3.3V
-          #P26:      # F4 A3
-          P25: col7  # F5 A2
-          P24: col6  # F6 A1
-          P23: col4  # F7 A0
-          P22: col3  # B1 SCLK
-          P21: col2  # B3 MISO
-          P20: col1  # B2 MOSI
-          P19: col0  # B6 A10 PWM
+          #P26:      # GP29 F4 A3
+          P25: col7  # GP28 F5 A2
+          P24: col6  # GP27 F6 A1
+          P23: col4  # GP26 F7 A0
+          P22: col3  # GP22 B1 SCLK
+          P21: col2  # GP20 B3 MISO
+          P20: col1  # GP23 B2 MOSI
+          P19: col0  # GP21 B6 A10 PWM
           offset3d: [0, 1.27, 7]
 
       cap1:
@@ -743,8 +767,8 @@ pcbs:
           P3: GND
           P4: GND
         where:
-          ref: matrix_col0_row0
-          shift: [-3kp / 2 + 1.75, 0]
+          ref.aggregate.parts: [matrix_col0_row1, matrix_col0_row2]
+          shift: [-kp + 1.75, 0]
           rotate: -90
       wheel2:
         <<: *wheel
@@ -761,8 +785,8 @@ pcbs:
       wheel4:
         <<: *wheel
         where:
-          ref: matrix_col6_row0
-          shift: [3kp / 2 - 1.75, 0]
+          ref.aggregate.parts: [matrix_col6_row1, matrix_col6_row2]
+          shift: [kp - 1.75, 0]
           rotate: 90
 
       # keys
@@ -1037,19 +1061,19 @@ pcbs:
 
 cases:
   _xlbottom:
-    - name: xlboard
+    - name: _xlboard
       extrude: casethick
   _outerwall:
-    - name: xlboard
+    - name: _xlboard
       extrude: height + board
   _innerwall:
     - name: board
       extrude: height + board
   _holes:
-    - name: mounting
+    - name: _mounting
       extrude: height
   _standoffs:
-    - name: standoff
+    - name: _standoff
       extrude: height
   _wall:
     - what: case
@@ -1059,6 +1083,7 @@ cases:
       name: _innerwall
       operation: subtract
   case:
+    # this doesn't work well due to the arcs
     - what: case
       name: _standoffs
       operation: add
@@ -1075,5 +1100,5 @@ cases:
     - name: flat
       extrude: casethick
   plate:
-    - name: plateholes
+    - name: _plateholes
       extrude: platethick

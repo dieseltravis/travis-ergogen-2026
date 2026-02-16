@@ -18,11 +18,11 @@
     "svg": "for f in output/outlines/*.dxf; do npx dxf-to-svg \"$f\"; done",
     "3d": "for f in `ls ./output/cases/*.jscad | grep -v '/_'`; do npx @jscad/cli@1 \"$f\" -of stla; done",
     "all": "yarn test && yarn gen && yarn 3d",
-    "qmk": "qmk clean && qmk compile -kb dieseltravis/travisergo2026 -km default",
-    "qmk_config": "qmk config user.keyboard=dieseltravis/travisergo2026 user.keymap=default",
-    "qmk_gendb": "qmk generate-compilation-database -kb dieseltravis/travisergo2026 -km default",
-    "qmk_cp": "cp -v ~/qmk_firmware/dieseltravis_travisergo2026*.{hex,uf2,bin} ~/Projects/travis-ergogen-2026/firmware/",
-    "qmk_link": "ln -s ~/Projects/travis-ergogen-2026/firmware/qmk ~/qmk_firmware/keyboards/dieseltravis/travisergo2026",
+    "qmk": "qmk clean && qmk compile -kb dieseltravis/travisergogen2026 -km default",
+    "qmk_config": "qmk config user.keyboard=dieseltravis/travisergogen2026 user.keymap=default",
+    "qmk_gendb": "qmk generate-compilation-database -kb dieseltravis/travisergogen2026 -km default",
+    "qmk_cp": "cp -v ~/qmk_firmware/dieseltravis_travisergogen2026*.{hex,uf2,bin} ~/Projects/travis-ergogen-2026/firmware/",
+    "qmk_link": "ln -s ~/Projects/travis-ergogen-2026/firmware/qmk ~/qmk_firmware/keyboards/dieseltravis/travisergogen2026",
     "qmk_all": "yarn qmk && yarn qmk_cp"
   },
   "engines": {
