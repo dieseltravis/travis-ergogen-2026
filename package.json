@@ -1,6 +1,6 @@
 {
   "name": "travis-ergogen-2026",
-  "version": "2026.02.15",
+  "version": "2026.02.16",
   "description": "Travis's Ergogen Keyboard 2026",
   "repository": "https://github.com/dieseltravis/travis-ergogen-2026",
   "author": "Travis Hardiman <dieseltravis@users.noreply.github.com>",
@@ -18,7 +18,7 @@
     "svg": "for f in output/outlines/*.dxf; do npx dxf-to-svg \"$f\"; done",
     "3d": "for f in `ls ./output/cases/*.jscad | grep -v '/_'`; do npx @jscad/cli@1 \"$f\" -of stla; done",
     "all": "yarn test && yarn gen && yarn 3d",
-    "qmk": "qmk clean && qmk compile -kb dieseltravis/travisergogen2026 -km default",
+    "qmk": "qmk lint -kb dieseltravis/travisergogen2026 && qmk clean && qmk compile -kb dieseltravis/travisergogen2026 -km default",
     "qmk_config": "qmk config user.keyboard=dieseltravis/travisergogen2026 user.keymap=default",
     "qmk_gendb": "qmk generate-compilation-database -kb dieseltravis/travisergogen2026 -km default",
     "qmk_cp": "cp -v ~/qmk_firmware/dieseltravis_travisergogen2026*.{hex,uf2,bin} ~/Projects/travis-ergogen-2026/firmware/",

@@ -6,7 +6,4 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGB_MATRIX_ENABLE = yes
 AUDIO_ENABLE = no           # Audio output
 ENCODER_ENABLE = yes        # Use rotary encoder
-ENCODER_MAP_ENABLE = yes
 OLED_DRIVER = ssd1306
-
-DEFAULT_FOLDER = dieseltravis/travisergogen2026

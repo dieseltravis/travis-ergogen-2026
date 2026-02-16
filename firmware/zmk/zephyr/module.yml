@@ -1,4 +1,0 @@
-name: zmk-keyboard-travis-erg2026
-build:
-  settings:
-    board_root: .

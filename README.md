@@ -6,6 +6,10 @@ My previous ergogen abominations:
 * [travis-ergogen-numpad](https://github.com/dieseltravis/travis-ergogen-numpad)
 * [travis-ergogen-2024](https://github.com/dieseltravis/travis-ergogen-2024)
 
+### Footprints:
+* https://github.com/ceoloide/ergogen-footprints
+* https://github.com/dieseltravis/ergogen-footprints-travis
+
 ## Tips:
 
 ### Font used:
@@ -43,7 +47,7 @@ find ./node_modules/ -type f -print0 | xargs -0 dos2unix --
 
 
 ## TODO:
-* board: make those weird bottom shapes nicer
+* ~board: make those weird bottom shapes nicer~
 * plate: print a 2u stab test key
     * print a top key test to measure for interference with i2c
 * case: just use flat one, arcs get too glitchy
@@ -51,7 +55,7 @@ find ./node_modules/ -type f -print0 | xargs -0 dos2unix --
     * trrs: if top ones are removed, move left trrs to left side
 * routing
 * bom: use kicad-jlcpcb-tools plugin
-* leds: generate positions
+* ~leds: generate positions~
 * qmk firmware
 * via support
 * arrowpad

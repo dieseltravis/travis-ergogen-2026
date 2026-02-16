@@ -1,2 +1,0 @@
-config SHIELD_TRAVIS_ERG2026
-    def_bool $(shields_list_contains,travis_erg2026)

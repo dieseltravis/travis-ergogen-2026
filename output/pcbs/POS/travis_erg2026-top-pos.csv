@@ -1,0 +1,16 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","6.3V 1000uF","C_Radial_D6.3mm_H11.0mm_P2.50mm",179.508321,-73.902006,87.000000,top
+"HOLE1","","MountingHole_2.2mm_M2_Pad_Via",31.239265,-64.449260,3.000000,top
+"HOLE2","","MountingHole_2.2mm_M2_Pad_Via",110.002567,-64.628140,0.000000,top
+"HOLE3","","MountingHole_2.2mm_M2_Pad_Via",188.585064,-73.151016,-3.000000,top
+"HOLE4","","MountingHole_2.2mm_M2_Pad_Via",175.158572,-212.789621,-4.000000,top
+"HOLE5","","MountingHole_2.2mm_M2_Pad_Via",110.002567,-213.059390,0.000000,top
+"HOLE6","","MountingHole_2.2mm_M2_Pad_Via",44.926375,-213.837586,4.000000,top
+"MCU1","RP2040 Community Edition","RP2040_Pro_Micro",173.581964,-72.339703,-93.000000,top
+"OLED1","I2C_Breakout","I2C_Breakout",31.236895,-69.180868,3.000000,top
+"OLED2","I2C_Breakout","I2C_Breakout",62.069669,-80.881442,92.000000,top
+"OLED3","I2C_Breakout","I2C_Breakout",68.986164,-60.602707,-85.000000,top
+"OLED4","I2C_Breakout","I2C_Breakout",106.192567,-77.628140,90.000000,top
+"OLED5","I2C_Breakout","I2C_Breakout",113.812567,-57.603140,-90.000000,top
+"TRRS1","","trrs_pj320a",145.227737,-56.172553,-4.500000,top
+"TRRS2","","trrs_pj320a",152.063094,-56.711432,-4.500000,top
