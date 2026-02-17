@@ -50,12 +50,12 @@ find ./node_modules/ -type f -print0 | xargs -0 dos2unix --
 * ~board: make those weird bottom shapes nicer~
 * plate: print a 2u stab test key
     * print a top key test to measure for interference with i2c
-* case: just use flat one, arcs get too glitchy
 * i2c: if plate doesn't interfere with bottom ones remove top ones
     * trrs: if top ones are removed, move left trrs to left side
+* case: just use flat one, arcs get too glitchy
 * routing
-* bom: use kicad-jlcpcb-tools plugin
+* bom: use [kicad-jlcpcb-tools plugin](https://github.com/Bouni/kicad-jlcpcb-tools)
 * ~leds: generate positions~
 * qmk firmware
-* via support
+    * via support
 * arrowpad

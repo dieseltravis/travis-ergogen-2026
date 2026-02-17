@@ -8,10 +8,13 @@
     "keymap": "dieseltravis_travisergogen2026_layout_base_default",
     "url": "https://github.com/dieseltravis/travis-ergogen-2026",
     "development_board": "elite_pi",
-    "processor": "RP2040",
-    "bootloader": "rp2040",
+    "//processor": "RP2040?",
+    "//bootloader": "caterina",
     "debounce": 10,
     "diode_direction": "COL2ROW",
+    "build": {
+        "firmware_format": "uf2"
+    },
     "features": {
         "bootmagic": true,
         "extrakey": true,
@@ -35,6 +38,7 @@
         ]
     },
     "ws2812": {
+        "driver": "vendor",
         "pin": "GP11"
     },
     "rgb_matrix": {

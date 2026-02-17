@@ -1,6 +1,8 @@
 # MCU name
-MCU = atmega32u4
-CONVERT_TO = rp2040_ce
+#BOARD = GENERIC_RP_RP2040
+#MCU = rp2040_ce
+#CONVERT_TO = rp2040_ce
+#WS2812_DRIVER_REQUIRED = yes
 
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGB_MATRIX_ENABLE = yes
