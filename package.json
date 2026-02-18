@@ -1,6 +1,6 @@
 {
   "name": "travis-ergogen-2026",
-  "version": "2026.02.16",
+  "version": "2026.02.17",
   "description": "Travis's Ergogen Keyboard 2026",
   "repository": "https://github.com/dieseltravis/travis-ergogen-2026",
   "author": "Travis Hardiman <dieseltravis@users.noreply.github.com>",
@@ -21,7 +21,7 @@
     "qmk": "qmk lint -kb dieseltravis/travisergogen2026 && qmk clean && qmk compile -kb dieseltravis/travisergogen2026 -km default",
     "qmk_config": "qmk config user.keyboard=dieseltravis/travisergogen2026 user.keymap=default",
     "qmk_config2": "qmk config compile.keyboard=dieseltravis/travisergogen2026 compile.keymap=default",
-    "qmk_cp": "cp -v ~/qmk_firmware/dieseltravis_travisergogen2026*.{hex,uf2,bin} ~/Projects/travis-ergogen-2026/firmware/",
+    "qmk_cp": "cp -v ~/qmk_firmware/dieseltravis_travisergogen2026*.uf2 ~/Projects/travis-ergogen-2026/firmware/",
     "qmk_link": "ln -s ~/Projects/travis-ergogen-2026/firmware/qmk ~/qmk_firmware/keyboards/dieseltravis/travisergogen2026",
     "qmk_all": "yarn qmk && yarn qmk_cp"
   },

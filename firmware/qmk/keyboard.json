@@ -7,9 +7,8 @@
     "keyboard": "dieseltravis/travisergogen2026",
     "keymap": "dieseltravis_travisergogen2026_layout_base_default",
     "url": "https://github.com/dieseltravis/travis-ergogen-2026",
-    "development_board": "elite_pi",
-    "//processor": "RP2040?",
-    "//bootloader": "caterina",
+    "bootloader": "rp2040",
+    "processor": "RP2040",
     "debounce": 10,
     "diode_direction": "COL2ROW",
     "build": {
