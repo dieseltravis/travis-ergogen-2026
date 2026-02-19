@@ -1,8 +1,8 @@
 meta:
   engine: 4.2.1
   name: &name "travis-ergogen-2026"
-  version: &meta_version "2026.02.15"
-  date: "2026-02-15"
+  version: &meta_version "2026.02.16"
+  date: "2026-02-16"
   author: 'Travis Hardiman'
   url: &url https://github.com/dieseltravis/travis-ergogen-2026
   tags: [ "ergogen", "keyboard", "cherrymx", "hotswap", "rp2040", "rp2040ce", "wheel", "oled" ]
@@ -655,8 +655,8 @@ pcbs:
           #P28:      # RESET 13
           #P27:      # VCC 3.3V
           #P26:      # GP29 F4 A3
-          P25: col7  # GP28 F5 A2
-          P24: col6  # GP27 F6 A1
+          P25: col6  # GP28 F5 A2
+          P24: col5  # GP27 F6 A1
           P23: col4  # GP26 F7 A0
           P22: col3  # GP22 B1 SCLK
           P21: col2  # GP20 B3 MISO

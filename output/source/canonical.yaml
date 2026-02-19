@@ -1,8 +1,8 @@
 meta:
     engine: 4.2.1
     name: travis-ergogen-2026
-    version: 2026.02.15
-    date: '2026-02-15'
+    version: 2026.02.16
+    date: '2026-02-16'
     author: Travis Hardiman
     url: 'https://github.com/dieseltravis/travis-ergogen-2026'
     tags:
@@ -920,8 +920,8 @@ pcbs:
                     P18: row5
                     P31: LED01
                     P29: GND
-                    P25: col7
-                    P24: col6
+                    P25: col6
+                    P24: col5
                     P23: col4
                     P22: col3
                     P21: col2
@@ -1386,7 +1386,7 @@ pcbs:
                     ref: matrix_col3_row5
                 params:
                     face: 3270 Nerd Font
-                    text: 2026.02.15
+                    text: 2026.02.16
                     height: 1
                     width: 1
                 adjust:

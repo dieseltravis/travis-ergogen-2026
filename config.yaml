@@ -634,14 +634,14 @@ pcbs:
           P3: RX     # GP1  D2 RX0/PD2
           P4: GND
           P5: GND
-          P6: sda    # GP2 D1 SDA
-          P7: scl    # GP3 D0 SCL PWM
-          P8: encB   # GP4 D4 A6
-          P9: encA   # GP5 C6 PWM
-          #P10:      # GP6 D7 A7 PWM
-          #P11:      # GP7 E6
-          #P12:      # GP8 B4 A8
-          P13: row0  # GP9 B5 A9 PWM
+          P6: sda    # GP2  D1 SDA
+          P7: scl    # GP3  D0 SCL PWM
+          P8: encB   # GP4  D4 A6
+          P9: encA   # GP5  C6 PWM
+          #P10:      # GP6  D7 A7 PWM
+          #P11:      # GP7  E6
+          #P12:      # GP8  B4 A8
+          P13: row0  # GP9  B5 A9 PWM
           # bottom
           P14: row1
           P15: row2
@@ -653,10 +653,10 @@ pcbs:
           #P30:      # RAW 5V
           P29: GND
           #P28:      # RESET 13
-          #P27:      # VCC 3.3V
+          #P27:      # VCC  3.3V
           #P26:      # GP29 F4 A3
-          P25: col7  # GP28 F5 A2
-          P24: col6  # GP27 F6 A1
+          P25: col6  # GP28 F5 A2
+          P24: col5  # GP27 F6 A1
           P23: col4  # GP26 F7 A0
           P22: col3  # GP22 B1 SCLK
           P21: col2  # GP20 B3 MISO
@@ -814,6 +814,7 @@ pcbs:
         params:
           net: "{{column_net}}"
           route: "(7.0, 2.5)v"
+      # add via once for each row?
       diode:
         what: travis/DSMD_1206_3216Metric
         where: meta.tags ~ /key/

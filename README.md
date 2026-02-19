@@ -56,6 +56,6 @@ find ./node_modules/ -type f -print0 | xargs -0 dos2unix --
 * routing
 * bom: use [kicad-jlcpcb-tools plugin](https://github.com/Bouni/kicad-jlcpcb-tools)
 * ~leds: generate positions~
-* qmk firmware
-    * via support
-* arrowpad
+* ~qmk firmware~
+    * ~via support~
+* then arrowpad
