@@ -12,9 +12,9 @@ enum layers {
 
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [_BASE] = { ENCODER_CCW_CW(KC_MS_WH_LEFT, KC_MS_WH_RIGHT) },
-    [_BASE] = { ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN) },
-    [_FUNC] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI) }
+    [0] = { ENCODER_CCW_CW(KC_MS_WH_LEFT, KC_MS_WH_RIGHT) },
+    [1] = { ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN) },
+    [2] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI) }
 };
 #endif
 
