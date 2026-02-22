@@ -1,5 +1,29 @@
 # Travis's Ergogen v2026
-This is a split keyboard with 2 ortholinear symmetrical 40-key halfs. Multiple positions for an i2c OLED and mousewheel encoder.
+This is a split keyboard with 2 ortholinear symmetrical 40-key halfs made with Ergogen v4. Multiple positions for an i2c OLED and mousewheel encoder. TRRS for connecting halfs, firmware not updated for that yet though.
+
+![matrix mock up](./matrix-mock-up.png)
+
+![PCB front](./travis_erg2026_front.png)
+
+## Parts:
+
+JLCPCB SMD components (40 each per board):
+* capacitor C710467
+* diode C7420318
+* RGB LED C5378731
+* MX C41430893
+
+Other parts:
+* MCU: RP2040 Community Edition
+* capacitor 6.3V 1000uF
+* resistors 510k ohm (2 per board)
+* 2u stabilizers (2 per board)
+* TRRS PJ-320A jacks (2 per board if connecting)
+* mousewheel encoder (like Alps-EC10E1220501)
+* OLED i2c
+* MX switches (40 per board)
+* low-profile sockets/pins for MCU & OLED
+
 
 ## References:
 My previous ergogen abominations:
@@ -49,12 +73,12 @@ find ./node_modules/ -type f -print0 | xargs -0 dos2unix --
 ## TODO:
 * ~board: make those weird bottom shapes nicer~
 * plate: print a 2u stab test key
-    * print a top key test to measure for interference with i2c
-* i2c: if plate doesn't interfere with bottom ones remove top ones
-    * trrs: if top ones are removed, move left trrs to left side
+    * ~print a top key test to measure for interference with i2c~
+* ~i2c: if plate doesn't interfere with bottom ones remove top ones~
+    * ~trrs: if top ones are removed, move left trrs to left side~
 * case: just use flat one, arcs get too glitchy
-* routing
-* bom: use [kicad-jlcpcb-tools plugin](https://github.com/Bouni/kicad-jlcpcb-tools)
+* ~routing~
+* ~bom: use [kicad-jlcpcb-tools plugin](https://github.com/Bouni/kicad-jlcpcb-tools)~
 * ~leds: generate positions~
 * ~qmk firmware~
     * ~via support~
